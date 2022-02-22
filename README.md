@@ -4,9 +4,9 @@ Thank you for checking-out my Mobile Legends Attribute Database.
 ## About the Data
 <br>
 We have 3 datasets for you to browse:<br>
-<a href="https://github.com/p3hndrx/MLBB-EquipmentPlanner/blob/master/final%20data/hero-meta-final.json">Hero Data</a><br>
-<a href="https://github.com/p3hndrx/MLBB-EquipmentPlanner/blob/master/final%20data/item-meta-final.json">Item Data</a><br>
-<a href="https://github.com/p3hndrx/MLBB-EquipmentPlanner/blob/master/final%20data/emblem-meta-final.json">Emblem Data</a>
+<a href="https://github.com/p3hndrx/MLBB-API/tree/main/final%20data/hero-meta-final.json">Hero Data</a><br>
+<a href="https://github.com/p3hndrx/MLBB-API/tree/main/final%20data/item-meta-final.json">Item Data</a><br>
+<a href="https://github.com/p3hndrx/MLBB-API/tree/main/final%20data/emblem-meta-final.json">Emblem Data</a>
 
 ## How you can Help
 The data changes all the time. We constantly need to be on-top of making sure that the item, hero, and emblem stats, names, and modifiers are updated to match the data in-game. Since this data was mostly derived MANUALLY, it requires us to go in and make those changes in the datasets to match.
