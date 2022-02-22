@@ -1,0 +1,111 @@
+{
+   "title":"emblem-schema",
+   "revdate":"02-25-2020",
+   "data":[
+      {
+         "emblem_name":"null",
+         "icon":"URL",
+         "emblem_role":"null",
+         "id":"null",
+         "modifiers":[
+            {
+               
+            }
+         ],
+         "data":[
+            {
+               "tier1":[
+                  {
+                     "name":"null",
+                     "icon":"URL",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  },
+                  {
+                     "name":"null",
+                     "icon":"URL",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  },
+                  {
+                     "name":"null",
+                     "icon":"URL",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  }
+               ],
+               "tier2":[
+                  {
+                     "name":"null",
+                     "icon":"URL",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  },
+                  {
+                     "name":"null",
+                     "icon":"URL",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  },
+                  {
+                     "name":"null",
+                     "icon":"URL",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  }
+               ],
+               "tier3":[
+                  {
+                     "name":"null",
+                     "icon":"URL",
+                     "modifiers":[
+                        {
+
+                        }
+                     ],
+                     "passive_ability":"null"
+                  },
+                  {
+                     "name":"null",
+                     "icon":"URL",
+                     "modifiers":[
+                        {
+
+                        }
+                     ],
+                     "passive_ability":"null"
+                  },
+                  {
+                     "name":"null",
+                     "icon":"URL",
+                     "modifiers":[
+                        {
+
+                        }
+                     ],
+                     "passive_ability":"null"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

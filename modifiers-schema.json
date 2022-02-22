@@ -1,0 +1,34 @@
+{
+   "title":"modifiers-schema",
+   "revdate":"02-25-2020",
+   "data":[
+      {
+         "modifiers":[
+            {
+               "movement_speed":"null",
+               "physical_attack":"null",
+               "physical_defense":"null",
+               "physical_lifesteal":"null",
+               "physical_penetration":"null",
+               "magic_power":"null",
+               "magic_penetration":"null",
+               "magic_lifesteal":"null",
+               "spell_vamp":"null",
+               "magic_resistance":"null",
+               "hp":"null",
+               "mana":"null",
+               "attack_speed":"null",
+               "hp_regen_rate":"null",
+               "mana_regen_rate":"null",
+               "critical_strike_chance":"null",
+               "critical_damage":"null",
+               "cd_reduction":"null",
+               "bs_cd_reduction":"null",
+               "healing_effect":"null",
+               "monster_damage_reduction":"null",
+               "monster_damage":"null"
+            }
+         ]
+      }
+   ]
+}

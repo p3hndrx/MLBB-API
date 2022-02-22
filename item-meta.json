@@ -1,0 +1,80 @@
+{
+   "title":"item-schema",
+   "revdate":"02-28-2020",
+   "data":[
+      {
+         "item_name":"null",
+         "id":"null",
+         "icon":"URL",
+         "item_tier":"null",
+         "item_category":"null",
+         "data":[
+            {
+               "cost":"null",
+               "summary":"null",
+               "modifiers":[
+                  {
+
+                  }
+               ],
+               "active":[
+                  {
+                     "active_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+			   "passive":[
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  },
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+               "unique_passive":[
+                  {
+                     "unique_passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  },
+                  {
+                     "unique_passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  }
+               ],
+               "build_path":[
+                  {
+                     "item_name":"null"
+                  },
+                  {
+                     "item_name":"null"
+                  },
+                  {
+                     "item_name":"null"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
