@@ -1,4 +1,4 @@
-# MLBB-EquipmentPlanner
+# MLBB-API
 Thank you for checking-out my Mobile Legends Attribute Database.
 
 ## About the Data
