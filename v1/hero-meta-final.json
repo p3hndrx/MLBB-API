@@ -7,7 +7,7 @@
       {
          "hero_name":"Akai",
          "id":"h009",
-         "hero_icon":"/heroes/akai.png",
+         "hero_icon":"akai.png",
          "release_year":"2016",
          "class":"Fighter",
          "skills":[
@@ -75,7 +75,7 @@
       {
          "hero_name":"Aldous",
          "id":"h064",
-         "hero_icon":"/heroes/aldous.png",
+         "hero_icon":"aldous.png",
          "release_year":"2018",
          "class":"Fighter",
          "skills":[
@@ -143,7 +143,7 @@
       {
          "hero_name":"Alice",
          "id":"h004",
-         "hero_icon":"/heroes/alice.png",
+         "hero_icon":"alice.png",
          "release_year":"2016",
          "class":"Mage",
          "skills":[
@@ -211,7 +211,7 @@
       {
          "hero_name":"Alpha",
          "id":"h028",
-         "hero_icon":"/heroes/alpha.png",
+         "hero_icon":"alpha.png",
          "release_year":"2017",
          "class":"Fighter",
          "skills":[
@@ -279,7 +279,7 @@
       {
          "hero_name":"Alucard",
          "id":"h007",
-         "hero_icon":"/heroes/alucard.png",
+         "hero_icon":"alucard.png",
          "release_year":"2016",
          "class":"Fighter",
          "skills":[
@@ -347,7 +347,7 @@
       {
          "hero_name":"Angela",
          "id":"h055",
-         "hero_icon":"/heroes/angela.png",
+         "hero_icon":"angela.png",
          "release_year":"2018",
          "class":"Support",
          "skills":[
@@ -415,7 +415,7 @@
       {
          "hero_name":"Argus",
          "id":"h045",
-         "hero_icon":"/heroes/argus.png",
+         "hero_icon":"argus.png",
          "release_year":"2017",
          "class":"Fighter",
          "skills":[
@@ -483,7 +483,7 @@
       {
          "hero_name":"Atlas",
          "id":"h093",
-         "hero_icon":"/heroes/atlas.png",
+         "hero_icon":"atlas.png",
          "release_year":"2020",
          "class":"Tank",
          "skills":[
@@ -551,7 +551,7 @@
       {
          "hero_name":"Aurora",
          "id":"h036",
-         "hero_icon":"/heroes/aurora.png",
+         "hero_icon":"aurora.png",
          "release_year":"2017",
          "class":"Mage",
          "skills":[
@@ -619,7 +619,7 @@
       {
          "hero_name":"Badang",
          "id":"h077",
-         "hero_icon":"/heroes/badang.png",
+         "hero_icon":"badang.png",
          "release_year":"2019",
          "class":"Fighter",
          "skills":[
@@ -687,7 +687,7 @@
       {
          "hero_name":"Balmond",
          "id":"h002",
-         "hero_icon":"/heroes/balmond.png",
+         "hero_icon":"balmond.png",
          "release_year":"2016",
          "class":"Fighter",
          "skills":[
@@ -755,7 +755,7 @@
       {
          "hero_name":"Bane",
          "id":"h011",
-         "hero_icon":"/heroes/bane.png",
+         "hero_icon":"bane.png",
          "release_year":"2016",
          "class":"Fighter",
          "skills":[
@@ -823,7 +823,7 @@
       {
          "hero_name":"Baxia",
          "id":"h087",
-         "hero_icon":"/heroes/baxia.png",
+         "hero_icon":"baxia.png",
          "release_year":"2019",
          "class":"Tank",
          "skills":[
@@ -891,7 +891,7 @@
       {
          "hero_name":"Beleric",
          "id":"h070",
-         "hero_icon":"/heroes/belerick.png",
+         "hero_icon":"belerick.png",
          "release_year":"2018",
          "class":"Tank",
          "skills":[
@@ -959,7 +959,7 @@
       {
          "hero_name":"Bruno",
          "id":"h012",
-         "hero_icon":"/heroes/bruno.png",
+         "hero_icon":"bruno.png",
          "release_year":"2016",
          "class":"Marksman",
          "skills":[
@@ -1027,7 +1027,7 @@
       {
          "hero_name":"Carmilla",
          "id":"h092",
-         "hero_icon":"/heroes/carmilla.png",
+         "hero_icon":"carmilla.png",
          "release_year":"2020",
          "class":"Support",
          "skills":[
@@ -1095,7 +1095,7 @@
       {
          "hero_name":"Cecilion",
          "id":"h091",
-         "hero_icon":"/heroes/cecilion.png",
+         "hero_icon":"cecilion.png",
          "release_year":"2020",
          "class":"Mage",
          "skills":[
@@ -1171,7 +1171,7 @@
       {
          "hero_name":"Chang-e",
          "id":"h061",
-         "hero_icon":"/heroes/chang-e.png",
+         "hero_icon":"chang-e.png",
          "release_year":"2018",
          "class":"Mage",
          "skills":[
@@ -1239,7 +1239,7 @@
       {
          "hero_name":"Chou",
          "id":"h026",
-         "hero_icon":"/heroes/chou.png",
+         "hero_icon":"chou.png",
          "release_year":"2016",
          "class":"Fighter",
          "skills":[
@@ -1307,7 +1307,7 @@
       {
          "hero_name":"Claude",
          "id":"h065",
-         "hero_icon":"/heroes/claude.png",
+         "hero_icon":"claude.png",
          "release_year":"2018",
          "class":"Marksman",
          "skills":[
@@ -1375,7 +1375,7 @@
       {
          "hero_name":"Clint",
          "id":"h013",
-         "hero_icon":"/heroes/clint.png",
+         "hero_icon":"clint.png",
          "release_year":"2016",
          "class":"Marksman",
          "skills":[
@@ -1443,7 +1443,7 @@
       {
          "hero_name":"Cyclops",
          "id":"h033",
-         "hero_icon":"/heroes/cyclops.png",
+         "hero_icon":"cyclops.png",
          "release_year":"2017",
          "class":"Mage",
          "skills":[
@@ -1511,7 +1511,7 @@
       {
          "hero_name":"Diggie",
          "id":"h048",
-         "hero_icon":"/heroes/diggie.png",
+         "hero_icon":"diggie.png",
          "release_year":"2017",
          "class":"Support",
          "skills":[
@@ -1579,7 +1579,7 @@
       {
          "hero_name":"Dyrroth",
          "id":"h085",
-         "hero_icon":"/heroes/dyrroth.png",
+         "hero_icon":"dyrroth.png",
          "release_year":"2019",
          "class":"Fighter",
          "skills":[
@@ -1647,7 +1647,7 @@
       {
          "hero_name":"Esmeralda",
          "id":"h081",
-         "hero_icon":"/heroes/esmeralda.png",
+         "hero_icon":"esmeralda.png",
          "release_year":"2019",
          "class":"Mage",
          "skills":[
@@ -1715,7 +1715,7 @@
       {
          "hero_name":"Estes",
          "id":"h034",
-         "hero_icon":"/heroes/estes.png",
+         "hero_icon":"estes.png",
          "release_year":"2017",
          "class":"Support",
          "skills":[
@@ -1783,7 +1783,7 @@
       {
          "hero_name":"Eudora",
          "id":"h015",
-         "hero_icon":"/heroes/eudora.png",
+         "hero_icon":"eudora.png",
          "release_year":"2016",
          "class":"Mage",
          "skills":[
@@ -1851,7 +1851,7 @@
       {
          "hero_name":"Fanny",
          "id":"h017",
-         "hero_icon":"/heroes/fanny.png",
+         "hero_icon":"fanny.png",
          "release_year":"2016",
          "class":"Assassin",
          "skills":[
@@ -1919,7 +1919,7 @@
       {
          "hero_name":"Faramis",
          "id":"h076",
-         "hero_icon":"/heroes/faramis.png",
+         "hero_icon":"faramis.png",
          "release_year":"2019",
          "class":"Support",
          "skills":[
@@ -1987,7 +1987,7 @@
       {
          "hero_name":"Franco",
          "id":"h010",
-         "hero_icon":"/heroes/franco.png",
+         "hero_icon":"franco.png",
          "release_year":"2016",
          "class":"Fighter",
          "skills":[
@@ -2055,7 +2055,7 @@
       {
          "hero_name":"Freya",
          "id":"h022",
-         "hero_icon":"/heroes/freya.png",
+         "hero_icon":"freya.png",
          "release_year":"2016",
          "class":"Fighter",
          "skills":[
@@ -2123,7 +2123,7 @@
       {
          "hero_name":"Gatotkaca",
          "id":"h041",
-         "hero_icon":"/heroes/gatotkaca.png",
+         "hero_icon":"gatotkaca.png",
          "release_year":"2017",
          "class":"Tank",
          "skills":[
@@ -2191,7 +2191,7 @@
       {
          "hero_name":"Gord",
          "id":"h023",
-         "hero_icon":"/heroes/gord.png",
+         "hero_icon":"gord.png",
          "release_year":"2016",
          "class":"Mage",
          "skills":[
@@ -2259,7 +2259,7 @@
       {
          "hero_name":"Granger",
          "id":"h079",
-         "hero_icon":"/heroes/granger.png",
+         "hero_icon":"granger.png",
          "release_year":"2019",
          "class":"Marksman",
          "skills":[
@@ -2327,7 +2327,7 @@
       {
          "hero_name":"Grock",
          "id":"h044",
-         "hero_icon":"/heroes/grock.png",
+         "hero_icon":"grock.png",
          "release_year":"2017",
          "class":"Tank",
          "skills":[
@@ -2395,7 +2395,7 @@
       {
          "hero_name":"Guinevere",
          "id":"h080",
-         "hero_icon":"/heroes/guinevere.png",
+         "hero_icon":"guinevere.png",
          "release_year":"2019",
          "class":"Fighter",
          "skills":[
@@ -2471,7 +2471,7 @@
       {
          "hero_name":"Gusion",
          "id":"h056",
-         "hero_icon":"/heroes/gusion.png",
+         "hero_icon":"gusion.png",
          "release_year":"2018",
          "class":"Assassin",
          "skills":[
@@ -2539,7 +2539,7 @@
       {
          "hero_name":"Hanabi",
          "id":"h060",
-         "hero_icon":"/heroes/hanabi.png",
+         "hero_icon":"hanabi.png",
          "release_year":"2018",
          "class":"Marksman",
          "skills":[
@@ -2607,7 +2607,7 @@
       {
          "hero_name":"Hanzo",
          "id":"h069",
-         "hero_icon":"/heroes/hanzo.png",
+         "hero_icon":"hanzo.png",
          "release_year":"2018",
          "class":"Assassin",
          "skills":[
@@ -2675,7 +2675,7 @@
       {
          "hero_name":"Harith",
          "id":"h073",
-         "hero_icon":"/heroes/harith.png",
+         "hero_icon":"harith.png",
          "release_year":"2018",
          "class":"Mage",
          "skills":[
@@ -2743,7 +2743,7 @@
       {
          "hero_name":"Harley",
          "id":"h042",
-         "hero_icon":"/heroes/harley.png",
+         "hero_icon":"harley.png",
          "release_year":"2017",
          "class":"Mage",
          "skills":[
@@ -2811,7 +2811,7 @@
       {
          "hero_name":"Hayabusa",
          "id":"h021",
-         "hero_icon":"/heroes/hayabusa.png",
+         "hero_icon":"hayabusa.png",
          "release_year":"2016",
          "class":"Assassin",
          "skills":[
@@ -2879,7 +2879,7 @@
       {
          "hero_name":"Helcurt",
          "id":"h051",
-         "hero_icon":"/heroes/helcurt.png",
+         "hero_icon":"helcurt.png",
          "release_year":"2017",
          "class":"Assassin",
          "skills":[
@@ -2947,7 +2947,7 @@
       {
          "hero_name":"Hilda",
          "id":"h035",
-         "hero_icon":"/heroes/hilda.png",
+         "hero_icon":"hilda.png",
          "release_year":"2017",
          "class":"Tank",
          "skills":[
@@ -3015,7 +3015,7 @@
       {
          "hero_name":"Hylos",
          "id":"h049",
-         "hero_icon":"/heroes/hylos.png",
+         "hero_icon":"hylos.png",
          "release_year":"2017",
          "class":"Tank",
          "skills":[
@@ -3083,7 +3083,7 @@
       {
          "hero_name":"Irithel",
          "id":"h043",
-         "hero_icon":"/heroes/irithel.png",
+         "hero_icon":"irithel.png",
          "release_year":"2017",
          "class":"Marksman",
          "skills":[
@@ -3151,7 +3151,7 @@
       {
          "hero_name":"Jawhead",
          "id":"h054",
-         "hero_icon":"/heroes/jawhead.png",
+         "hero_icon":"jawhead.png",
          "release_year":"2018",
          "class":"Fighter",
          "skills":[
@@ -3219,7 +3219,7 @@
       {
          "hero_name":"Johnson",
          "id":"h032",
-         "hero_icon":"/heroes/johnson.png",
+         "hero_icon":"johnson.png",
          "release_year":"2017",
          "class":"Tank",
          "skills":[
@@ -3287,7 +3287,7 @@
       {
          "hero_name":"Kadita",
          "id":"h075",
-         "hero_icon":"/heroes/kadita.png",
+         "hero_icon":"kadita.png",
          "release_year":"2018",
          "class":"Mage",
          "skills":[
@@ -3355,7 +3355,7 @@
       {
          "hero_name":"Kagura",
          "id":"h025",
-         "hero_icon":"/heroes/kagura.png",
+         "hero_icon":"kagura.png",
          "release_year":"2016",
          "class":"Mage",
          "skills":[
@@ -3423,7 +3423,7 @@
       {
          "hero_name":"Kaja",
          "id":"h062",
-         "hero_icon":"/heroes/kaja.png",
+         "hero_icon":"kaja.png",
          "release_year":"2018",
          "class":"Support",
          "skills":[
@@ -3491,7 +3491,7 @@
       {
          "hero_name":"Karina",
          "id":"h008",
-         "hero_icon":"/heroes/karina.png",
+         "hero_icon":"karina.png",
          "release_year":"2016",
          "class":"Assassin",
          "skills":[
@@ -3559,7 +3559,7 @@
       {
          "hero_name":"Karrie",
          "id":"h040",
-         "hero_icon":"/heroes/karrie.png",
+         "hero_icon":"karrie.png",
          "release_year":"2017",
          "class":"Marksman",
          "skills":[
@@ -3627,7 +3627,7 @@
       {
          "hero_name":"Khufra",
          "id":"h078",
-         "hero_icon":"/heroes/khufra.png",
+         "hero_icon":"khufra.png",
          "release_year":"2019",
          "class":"Tank",
          "skills":[
@@ -3695,7 +3695,7 @@
       {
          "hero_name":"Kimmy",
          "id":"h071",
-         "hero_icon":"/heroes/kimmy.png",
+         "hero_icon":"kimmy.png",
          "release_year":"2018",
          "class":"Marksman",
          "skills":[
@@ -3763,7 +3763,7 @@
       {
          "hero_name":"Lancelot",
          "id":"h047",
-         "hero_icon":"/heroes/lancelot.png",
+         "hero_icon":"lancelot.png",
          "release_year":"2017",
          "class":"Assassin",
          "skills":[
@@ -3831,7 +3831,7 @@
       {
          "hero_name":"Lapu-Lapu",
          "id":"h037",
-         "hero_icon":"/heroes/lapu-lapu.png",
+         "hero_icon":"lapu-lapu.png",
          "release_year":"2017",
          "class":"Fighter",
          "skills":[
@@ -3899,7 +3899,7 @@
       {
          "hero_name":"Layla",
          "id":"h018",
-         "hero_icon":"/heroes/layla.png",
+         "hero_icon":"layla.png",
          "release_year":"2016",
          "class":"Marksman",
          "skills":[
@@ -3967,7 +3967,7 @@
       {
          "hero_name":"Leomord",
          "id":"h067",
-         "hero_icon":"/heroes/leomord.png",
+         "hero_icon":"leomord.png",
          "release_year":"2018",
          "class":"Fighter",
          "skills":[
@@ -4051,7 +4051,7 @@
       {
          "hero_name":"Lesley",
          "id":"h053",
-         "hero_icon":"/heroes/lesley.png",
+         "hero_icon":"lesley.png",
          "release_year":"2018",
          "class":"Marksman",
          "skills":[
@@ -4119,7 +4119,7 @@
       {
          "hero_name":"Ling",
          "id":"h084",
-         "hero_icon":"/heroes/ling.png",
+         "hero_icon":"ling.png",
          "release_year":"2019",
          "class":"Assassin",
          "skills":[
@@ -4187,7 +4187,7 @@
       {
          "hero_name":"Lolita",
          "id":"h020",
-         "hero_icon":"/heroes/lolita.png",
+         "hero_icon":"lolita.png",
          "release_year":"2016",
          "class":"Tank",
          "skills":[
@@ -4255,7 +4255,7 @@
       {
          "hero_name":"Lunox",
          "id":"h068",
-         "hero_icon":"/heroes/lunox.png",
+         "hero_icon":"lunox.png",
          "release_year":"2018",
          "class":"Mage",
          "skills":[
@@ -4339,7 +4339,7 @@
       {
          "hero_name":"Lylia",
          "id":"h086",
-         "hero_icon":"/heroes/lylia.png",
+         "hero_icon":"lylia.png",
          "release_year":"2019",
          "class":"Mage",
          "skills":[
@@ -4407,7 +4407,7 @@
       {
          "hero_name":"Martis",
          "id":"h058",
-         "hero_icon":"/heroes/martis.png",
+         "hero_icon":"martis.png",
          "release_year":"2018",
          "class":"Fighter",
          "skills":[
@@ -4475,7 +4475,7 @@
       {
          "hero_name":"Masha",
          "id":"h088",
-         "hero_icon":"/heroes/masha.png",
+         "hero_icon":"masha.png",
          "release_year":"2019",
          "class":"Fighter",
          "skills":[
@@ -4551,7 +4551,7 @@
       {
          "hero_name":"Minotaur",
          "id":"h019",
-         "hero_icon":"/heroes/minotaur.png",
+         "hero_icon":"minotaur.png",
          "release_year":"2016",
          "class":"Tank",
          "skills":[
@@ -4619,7 +4619,7 @@
       {
          "hero_name":"Minsitthar",
          "id":"h074",
-         "hero_icon":"/heroes/minsitthar.png",
+         "hero_icon":"minsitthar.png",
          "release_year":"2018",
          "class":"Fighter",
          "skills":[
@@ -4687,7 +4687,7 @@
       {
          "hero_name":"Miya",
          "id":"h001",
-         "hero_icon":"/heroes/miya.png",
+         "hero_icon":"miya.png",
          "release_year":"2016",
          "class":"Marksman",
          "skills":[
@@ -4755,7 +4755,7 @@
       {
          "hero_name":"Moskov",
          "id":"h031",
-         "hero_icon":"/heroes/moskov.png",
+         "hero_icon":"moskov.png",
          "release_year":"2017",
          "class":"Marksman",
          "skills":[
@@ -4823,7 +4823,7 @@
       {
          "hero_name":"Nana",
          "id":"h005",
-         "hero_icon":"/heroes/nana.png",
+         "hero_icon":"nana.png",
          "release_year":"2016",
          "class":"Mage",
          "skills":[
@@ -4891,7 +4891,7 @@
       {
          "hero_name":"Natalia",
          "id":"h024",
-         "hero_icon":"/heroes/natalia.png",
+         "hero_icon":"natalia.png",
          "release_year":"2016",
          "class":"Assassin",
          "skills":[
@@ -4959,7 +4959,7 @@
       {
          "hero_name":"Odette",
          "id":"h046",
-         "hero_icon":"/heroes/odette.png",
+         "hero_icon":"odette.png",
          "release_year":"2017",
          "class":"Mage",
          "skills":[
@@ -5027,7 +5027,7 @@
       {
          "hero_name":"Pharsa",
          "id":"h052",
-         "hero_icon":"/heroes/pharsa.png",
+         "hero_icon":"pharsa.png",
          "release_year":"2017",
          "class":"Mage",
          "skills":[
@@ -5095,7 +5095,7 @@
       {
          "hero_name":"Popol and Kupa",
          "id":"h094",
-         "hero_icon":"/heroes/popol-and-kupa.png",
+         "hero_icon":"popol-and-kupa.png",
          "release_year":"2020",
          "class":"Marksman",
          "skills":[
@@ -5171,7 +5171,7 @@
       {
          "hero_name":"Rafaela",
          "id":"h014",
-         "hero_icon":"/heroes/rafaela.png",
+         "hero_icon":"rafaela.png",
          "release_year":"2016",
          "class":"Support",
          "skills":[
@@ -5239,7 +5239,7 @@
       {
          "hero_name":"Roger",
          "id":"h039",
-         "hero_icon":"/heroes/roger.png",
+         "hero_icon":"roger.png",
          "release_year":"2017",
          "class":"Fighter",
          "skills":[
@@ -5307,7 +5307,7 @@
       {
          "hero_name":"Ruby",
          "id":"h029",
-         "hero_icon":"/heroes/ruby.png",
+         "hero_icon":"ruby.png",
          "release_year":"2017",
          "class":"Fighter",
          "skills":[
@@ -5375,7 +5375,7 @@
       {
          "hero_name":"Saber",
          "id":"h003",
-         "hero_icon":"/heroes/saber.png",
+         "hero_icon":"saber.png",
          "release_year":"2016",
          "class":"Assassin",
          "skills":[
@@ -5443,7 +5443,7 @@
       {
          "hero_name":"Selena",
          "id":"h063",
-         "hero_icon":"/heroes/selena.png",
+         "hero_icon":"selena.png",
          "release_year":"2018",
          "class":"Assassin",
          "skills":[
@@ -5511,7 +5511,7 @@
       {
          "hero_name":"Silvanna",
          "id":"h090",
-         "hero_icon":"/heroes/silvanna.png",
+         "hero_icon":"silvanna.png",
          "release_year":"2019",
          "class":"Fighter",
          "skills":[
@@ -5579,7 +5579,7 @@
       {
          "hero_name":"Sun",
          "id":"h027",
-         "hero_icon":"/heroes/sun.png",
+         "hero_icon":"sun.png",
          "release_year":"2016",
          "class":"Fighter",
          "skills":[
@@ -5647,7 +5647,7 @@
       {
          "hero_name":"Terizla",
          "id":"h082",
-         "hero_icon":"/heroes/terizla.png",
+         "hero_icon":"terizla.png",
          "release_year":"2019",
          "class":"Fighter",
          "skills":[
@@ -5715,7 +5715,7 @@
       {
          "hero_name":"Thamuz",
          "id":"h072",
-         "hero_icon":"/heroes/thamuz.png",
+         "hero_icon":"thamuz.png",
          "release_year":"2018",
          "class":"Fighter",
          "skills":[
@@ -5783,7 +5783,7 @@
       {
          "hero_name":"Tigreal",
          "id":"h006",
-         "hero_icon":"/heroes/tigreal.png",
+         "hero_icon":"tigreal.png",
          "release_year":"2016",
          "class":"Tank",
          "skills":[
@@ -5851,7 +5851,7 @@
       {
          "hero_name":"Uranus",
          "id":"h059",
-         "hero_icon":"/heroes/uranus.png",
+         "hero_icon":"uranus.png",
          "release_year":"2018",
          "class":"Tank",
          "skills":[
@@ -5919,7 +5919,7 @@
       {
          "hero_name":"Vale",
          "id":"h066",
-         "hero_icon":"/heroes/vale.png",
+         "hero_icon":"vale.png",
          "release_year":"2019",
          "class":"Mage",
          "skills":[
@@ -5987,7 +5987,7 @@
       {
          "hero_name":"Valir",
          "id":"h057",
-         "hero_icon":"/heroes/valir.png",
+         "hero_icon":"valir.png",
          "release_year":"2018",
          "class":"Mage",
          "skills":[
@@ -6055,7 +6055,7 @@
       {
          "hero_name":"Vexana",
          "id":"h038",
-         "hero_icon":"/heroes/vexana.png",
+         "hero_icon":"vexana.png",
          "release_year":"2017",
          "class":"Mage",
          "skills":[
@@ -6123,7 +6123,7 @@
       {
          "hero_name":"Wanwan",
          "id":"h089",
-         "hero_icon":"/heroes/wanwan.png",
+         "hero_icon":"wanwan.png",
          "release_year":"2019",
          "class":"Assassin",
          "skills":[
@@ -6191,7 +6191,7 @@
       {
          "hero_name":"X-Borg",
          "id":"h083",
-         "hero_icon":"/heroes/x-borg.png",
+         "hero_icon":"x-borg.png",
          "release_year":"2019",
          "class":"Fighter",
          "skills":[
@@ -6259,7 +6259,7 @@
       {
          "hero_name":"Yi Sun-Shin",
          "id":"h030",
-         "hero_icon":"/heroes/yi-sun-shin.png",
+         "hero_icon":"yi-sun-shin.png",
          "release_year":"2017",
          "class":"Marksman",
          "skills":[
@@ -6327,7 +6327,7 @@
       {
          "hero_name":"Zhask",
          "id":"h050",
-         "hero_icon":"/heroes/zhask.png",
+         "hero_icon":"zhask.png",
          "release_year":"2017",
          "class":"Mage",
          "skills":[
@@ -6403,7 +6403,7 @@
       {
          "hero_name":"Zilong",
          "id":"h016",
-         "hero_icon":"/heroes/zilong.png",
+         "hero_icon":"zilong.png",
          "release_year":"2016",
          "class":"Fighter",
          "skills":[
