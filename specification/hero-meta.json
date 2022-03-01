@@ -3,9 +3,15 @@
    "revdate":"02-21-2020",
    "data":[
       {
-         "hero_name":"null",
-         "id":"null",
-         "hero_icon":"URL",
+         "hero_name": "null",
+         "mlid": "null",
+         "uid": "null",
+         "id": "null",
+         "hero_icon": "null",
+         "discordmoji": "",
+         "portrait": "",
+         "release_year": "",
+         "laning": "",
          "class":"null",
          "skills":[
             {
