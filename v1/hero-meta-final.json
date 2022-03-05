@@ -6,7 +6,7 @@
    "data": [{
          "hero_name": "Akai",
          "mlid": "9",
-         "uid": "",
+         "uid": "akai",
          "id": "h009",
          "hero_icon": "akai.png",
          "discordmoji": "<:akai:852658054038159360>",
@@ -76,7 +76,7 @@
       {
          "hero_name": "Aldous",
          "mlid": "64",
-         "uid": "",
+         "uid": "aldous",
          "id": "h064",
          "hero_icon": "aldous.png",
          "discordmoji": "<:aldous:852658054108545041>",
@@ -146,7 +146,7 @@
       {
          "hero_name": "Alice",
          "mlid": "4",
-         "uid": "",
+         "uid": "alice",
          "id": "h004",
          "hero_icon": "alice.png",
          "discordmoji": "<:alice:852658053483593769>",
@@ -216,7 +216,7 @@
       {
          "hero_name": "Alpha",
          "mlid": "28",
-         "uid": "",
+         "uid": "alpha",
          "id": "h028",
          "hero_icon": "alpha.png",
          "discordmoji": "<:alpha:852658054078922852>",
@@ -286,7 +286,7 @@
       {
          "hero_name": "Alucard",
          "mlid": "7",
-         "uid": "",
+         "uid": "alucard",
          "id": "h007",
          "hero_icon": "alucard.png",
          "discordmoji": "<:alucard:852658054058999869>",
@@ -356,7 +356,7 @@
       {
          "hero_name": "Angela",
          "mlid": "55",
-         "uid": "",
+         "uid": "angela",
          "id": "h055",
          "hero_icon": "angela.png",
          "discordmoji": "<:angela:852658053589368843>",
@@ -426,7 +426,7 @@
       {
          "hero_name": "Argus",
          "mlid": "45",
-         "uid": "",
+         "uid": "argus",
          "id": "h045",
          "hero_icon": "argus.png",
          "discordmoji": "<:argus:852658054222839829>",
@@ -496,7 +496,7 @@
       {
          "hero_name": "Atlas",
          "mlid": "93",
-         "uid": "",
+         "uid": "atlas",
          "id": "h093",
          "hero_icon": "atlas.png",
          "discordmoji": "<:atlas:852658054376849458>",
@@ -566,7 +566,7 @@
       {
          "hero_name": "Aurora",
          "mlid": "36",
-         "uid": "",
+         "uid": "aurora",
          "id": "h036",
          "hero_icon": "aurora.png",
          "discordmoji": "<:aurora:852658055179141120>",
@@ -636,7 +636,7 @@
       {
          "hero_name": "Badang",
          "mlid": "77",
-         "uid": "",
+         "uid": "badang",
          "id": "h077",
          "hero_icon": "badang.png",
          "discordmoji": "<:badang:852658055089881178>",
@@ -706,7 +706,7 @@
       {
          "hero_name": "Balmond",
          "mlid": "2",
-         "uid": "",
+         "uid": "balmond",
          "id": "h002",
          "hero_icon": "balmond.png",
          "discordmoji": "<:balmond:852658055060652072>",
@@ -776,7 +776,7 @@
       {
          "hero_name": "Bane",
          "mlid": "11",
-         "uid": "",
+         "uid": "bane",
          "id": "h011",
          "hero_icon": "bane.png",
          "discordmoji": "<:bane:852658055182024755>",
@@ -846,7 +846,7 @@
       {
          "hero_name": "Baxia",
          "mlid": "87",
-         "uid": "",
+         "uid": "baxia",
          "id": "h087",
          "hero_icon": "baxia.png",
          "discordmoji": "<:baxia:852658055249133608>",
@@ -916,7 +916,7 @@
       {
          "hero_name": "Belerick",
          "mlid": "70",
-         "uid": "",
+         "uid": "belerick",
          "id": "h070",
          "hero_icon": "belerick.png",
          "discordmoji": "<:belerick:852658055123566623>",
@@ -986,7 +986,7 @@
       {
          "hero_name": "Bruno",
          "mlid": "12",
-         "uid": "",
+         "uid": "bruno",
          "id": "h012",
          "hero_icon": "bruno.png",
          "discordmoji": "<:bruno:852658054586695690>",
@@ -1056,7 +1056,7 @@
       {
          "hero_name": "Carmilla",
          "mlid": "92",
-         "uid": "",
+         "uid": "carmilla",
          "id": "h092",
          "hero_icon": "carmilla.png",
          "discordmoji": "<:carmilla:852658054608322600>",
@@ -1126,7 +1126,7 @@
       {
          "hero_name": "Cecilion",
          "mlid": "91",
-         "uid": "",
+         "uid": "cecilion",
          "id": "h091",
          "hero_icon": "cecilion.png",
          "discordmoji": "<:cecilion:852658054713311312>",
@@ -1204,7 +1204,7 @@
       {
          "hero_name": "Chang-e",
          "mlid": "61",
-         "uid": "",
+         "uid": "change",
          "id": "h061",
          "hero_icon": "change.png",
          "discordmoji": "<:change:852658054235422721>",
@@ -1274,7 +1274,7 @@
       {
          "hero_name": "Chou",
          "mlid": "26",
-         "uid": "",
+         "uid": "chou",
          "id": "h026",
          "hero_icon": "chou.png",
          "discordmoji": "<:chou:852658054519455765>",
@@ -1344,7 +1344,7 @@
       {
          "hero_name": "Claude",
          "mlid": "65",
-         "uid": "",
+         "uid": "claude",
          "id": "h065",
          "hero_icon": "claude.png",
          "discordmoji": "<:claude:852658054470434837>",
@@ -1414,7 +1414,7 @@
       {
          "hero_name": "Clint",
          "mlid": "13",
-         "uid": "",
+         "uid": "clint",
          "id": "h013",
          "hero_icon": "clint.png",
          "discordmoji": "<:clint:852658054830882837>",
@@ -1484,7 +1484,7 @@
       {
          "hero_name": "Cyclops",
          "mlid": "33",
-         "uid": "",
+         "uid": "cyclops",
          "id": "h033",
          "hero_icon": "cyclops.png",
          "discordmoji": "<:cyclops:852658054595870813>",
@@ -1554,7 +1554,7 @@
       {
          "hero_name": "Diggie",
          "mlid": "48",
-         "uid": "",
+         "uid": "diggie",
          "id": "h048",
          "hero_icon": "diggie.png",
          "discordmoji": "<:diggie:852658501850497114>",
@@ -1624,7 +1624,7 @@
       {
          "hero_name": "Dyrroth",
          "mlid": "85",
-         "uid": "",
+         "uid": "dyrroth",
          "id": "h085",
          "hero_icon": "dyrroth.png",
          "discordmoji": "<:dyrroth:852658501817729084>",
@@ -1694,7 +1694,7 @@
       {
          "hero_name": "Esmeralda",
          "mlid": "81",
-         "uid": "",
+         "uid": "esmeralda",
          "id": "h081",
          "hero_icon": "esmeralda.png",
          "discordmoji": "<:esmeralda:852658501460688945>",
@@ -1764,7 +1764,7 @@
       {
          "hero_name": "Estes",
          "mlid": "34",
-         "uid": "",
+         "uid": "estes",
          "id": "h034",
          "hero_icon": "estes.png",
          "discordmoji": "<:estes:852658500588929070>",
@@ -1834,7 +1834,7 @@
       {
          "hero_name": "Eudora",
          "mlid": "15",
-         "uid": "",
+         "uid": "eudora",
          "id": "h015",
          "hero_icon": "eudora.png",
          "discordmoji": "<:eudora:852658501662801945>",
@@ -1904,7 +1904,7 @@
       {
          "hero_name": "Fanny",
          "mlid": "17",
-         "uid": "",
+         "uid": "fanny",
          "id": "h017",
          "hero_icon": "fanny.png",
          "discordmoji": "<:fanny:852658501243240479>",
@@ -1974,7 +1974,7 @@
       {
          "hero_name": "Faramis",
          "mlid": "76",
-         "uid": "",
+         "uid": "faramis",
          "id": "h076",
          "hero_icon": "faramis.png",
          "discordmoji": "<:faramis:852658501859278888>",
@@ -2044,7 +2044,7 @@
       {
          "hero_name": "Franco",
          "mlid": "10",
-         "uid": "",
+         "uid": "franco",
          "id": "h010",
          "hero_icon": "franco.png",
          "discordmoji": "<:franco:852658500441997353>",
@@ -2114,7 +2114,7 @@
       {
          "hero_name": "Freya",
          "mlid": "22",
-         "uid": "",
+         "uid": "freya",
          "id": "h022",
          "hero_icon": "freya.png",
          "discordmoji": "<:freya:852658500731273246>",
@@ -2184,7 +2184,7 @@
       {
          "hero_name": "Gatotkaca",
          "mlid": "41",
-         "uid": "",
+         "uid": "gatotkaca",
          "id": "h041",
          "hero_icon": "gatotkaca.png",
          "discordmoji": "<:gatotkaca:852658500160454737>",
@@ -2254,7 +2254,7 @@
       {
          "hero_name": "Gord",
          "mlid": "23",
-         "uid": "",
+         "uid": "gord",
          "id": "h023",
          "hero_icon": "gord.png",
          "discordmoji": "<:gord:852658500245258271>",
@@ -2324,7 +2324,7 @@
       {
          "hero_name": "Granger",
          "mlid": "79",
-         "uid": "",
+         "uid": "granger",
          "id": "h079",
          "hero_icon": "granger.png",
          "discordmoji": "<:granger:852658500001595442>",
@@ -2394,7 +2394,7 @@
       {
          "hero_name": "Grock",
          "mlid": "44",
-         "uid": "",
+         "uid": "grock",
          "id": "h044",
          "hero_icon": "grock.png",
          "discordmoji": "<:grock:852658501624397834>",
@@ -2464,7 +2464,7 @@
       {
          "hero_name": "Guinevere",
          "mlid": "80",
-         "uid": "",
+         "uid": "guinevere",
          "id": "h080",
          "hero_icon": "guinevere.png",
          "discordmoji": "<:guinevere:852658501360156752>",
@@ -2542,7 +2542,7 @@
       {
          "hero_name": "Gusion",
          "mlid": "56",
-         "uid": "",
+         "uid": "gusion",
          "id": "h056",
          "hero_icon": "gusion.png",
          "discordmoji": "<:gusion:852658501914329088>",
@@ -2612,7 +2612,7 @@
       {
          "hero_name": "Hanabi",
          "mlid": "60",
-         "uid": "",
+         "uid": "hanabi",
          "id": "h060",
          "hero_icon": "hanabi.png",
          "discordmoji": "<:hanabi:852658500567171082>",
@@ -2682,7 +2682,7 @@
       {
          "hero_name": "Hanzo",
          "mlid": "69",
-         "uid": "",
+         "uid": "hanzo",
          "id": "h069",
          "hero_icon": "hanzo.png",
          "discordmoji": "<:hanzo:852658501142446091>",
@@ -2752,7 +2752,7 @@
       {
          "hero_name": "Harith",
          "mlid": "73",
-         "uid": "",
+         "uid": "harith",
          "id": "h073",
          "hero_icon": "harith.png",
          "discordmoji": "<:harith:852658501200511006>",
@@ -2822,7 +2822,7 @@
       {
          "hero_name": "Harley",
          "mlid": "42",
-         "uid": "",
+         "uid": "harley",
          "id": "h042",
          "hero_icon": "harley.png",
          "discordmoji": "<:harley:852658500311973898>",
@@ -2892,7 +2892,7 @@
       {
          "hero_name": "Hayabusa",
          "mlid": "21",
-         "uid": "",
+         "uid": "hayabusa",
          "id": "h021",
          "hero_icon": "hayabusa.png",
          "discordmoji": "<:hayabusa:852658500693393469>",
@@ -2962,7 +2962,7 @@
       {
          "hero_name": "Helcurt",
          "mlid": "51",
-         "uid": "",
+         "uid": "helcurt",
          "id": "h051",
          "hero_icon": "helcurt.png",
          "discordmoji": "<:helcurt:852658501637767238>",
@@ -3032,7 +3032,7 @@
       {
          "hero_name": "Hilda",
          "mlid": "35",
-         "uid": "",
+         "uid": "hilda",
          "id": "h035",
          "hero_icon": "hilda.png",
          "discordmoji": "<:hilda:852658501063016500>",
@@ -3102,7 +3102,7 @@
       {
          "hero_name": "Hylos",
          "mlid": "49",
-         "uid": "",
+         "uid": "hylos",
          "id": "h049",
          "hero_icon": "hylos.png",
          "discordmoji": "<:hylos:852658501171675186>",
@@ -3172,7 +3172,7 @@
       {
          "hero_name": "Irithel",
          "mlid": "43",
-         "uid": "",
+         "uid": "irithel",
          "id": "h043",
          "hero_icon": "irithel.png",
          "discordmoji": "<:irithel:852658500429283359>",
@@ -3242,7 +3242,7 @@
       {
          "hero_name": "Jawhead",
          "mlid": "54",
-         "uid": "",
+         "uid": "jawhead",
          "id": "h054",
          "hero_icon": "jawhead.png",
          "discordmoji": "<:jawhead:852658501268668417>",
@@ -3312,7 +3312,7 @@
       {
          "hero_name": "Johnson",
          "mlid": "32",
-         "uid": "",
+         "uid": "johnson",
          "id": "h032",
          "hero_icon": "johnson.png",
          "discordmoji": "<:johnson:852658501436047392>",
@@ -3382,7 +3382,7 @@
       {
          "hero_name": "Kadita",
          "mlid": "75",
-         "uid": "",
+         "uid": "kadita",
          "id": "h075",
          "hero_icon": "kadita.png",
          "discordmoji": "<:kadita:852658501863342110>",
@@ -3452,7 +3452,7 @@
       {
          "hero_name": "Kagura",
          "mlid": "25",
-         "uid": "",
+         "uid": "kagura",
          "id": "h025",
          "hero_icon": "kagura.png",
          "discordmoji": "<:kagura:852658499979837441>",
@@ -3522,7 +3522,7 @@
       {
          "hero_name": "Kaja",
          "mlid": "62",
-         "uid": "",
+         "uid": "kaja",
          "id": "h062",
          "hero_icon": "kaja.png",
          "discordmoji": "<:kaja:852658501855739954>",
@@ -3592,7 +3592,7 @@
       {
          "hero_name": "Karina",
          "mlid": "8",
-         "uid": "",
+         "uid": "karina",
          "id": "h008",
          "hero_icon": "karina.png",
          "discordmoji": "<:karina:852658501717327874>",
@@ -3662,7 +3662,7 @@
       {
          "hero_name": "Karrie",
          "mlid": "40",
-         "uid": "",
+         "uid": "karrie",
          "id": "h040",
          "hero_icon": "karrie.png",
          "discordmoji": "<:karrie:852658501053448222>",
@@ -3732,7 +3732,7 @@
       {
          "hero_name": "Khufra",
          "mlid": "78",
-         "uid": "",
+         "uid": "khufra",
          "id": "h078",
          "hero_icon": "khufra.png",
          "discordmoji": "<:khufra:852658500245258300>",
@@ -3802,7 +3802,7 @@
       {
          "hero_name": "Kimmy",
          "mlid": "71",
-         "uid": "",
+         "uid": "kimmy",
          "id": "h071",
          "hero_icon": "kimmy.png",
          "discordmoji": "<:kimmy:852658500932993044>",
@@ -3872,7 +3872,7 @@
       {
          "hero_name": "Lancelot",
          "mlid": "47",
-         "uid": "",
+         "uid": "lancelot",
          "id": "h047",
          "hero_icon": "lancelot.png",
          "discordmoji": "<:lancelot:852659014554615819>",
@@ -3942,7 +3942,7 @@
       {
          "hero_name": "Lapu-Lapu",
          "mlid": "37",
-         "uid": "",
+         "uid": "lapulapu",
          "id": "h037",
          "hero_icon": "lapulapu.png",
          "discordmoji": "<:lapulapu:852659014516736001>",
@@ -4012,7 +4012,7 @@
       {
          "hero_name": "Layla",
          "mlid": "18",
-         "uid": "",
+         "uid": "layla",
          "id": "h018",
          "hero_icon": "layla.png",
          "discordmoji": "<:layla:852659014671401030>",
@@ -4082,7 +4082,7 @@
       {
          "hero_name": "Leomord",
          "mlid": "67",
-         "uid": "",
+         "uid": "leomord",
          "id": "h067",
          "hero_icon": "leomord.png",
          "discordmoji": "<:leomord:852659014667993088>",
@@ -4168,7 +4168,7 @@
       {
          "hero_name": "Lesley",
          "mlid": "53",
-         "uid": "",
+         "uid": "lesley",
          "id": "h053",
          "hero_icon": "lesley.png",
          "discordmoji": "<:lesley:852659014663143474>",
@@ -4238,7 +4238,7 @@
       {
          "hero_name": "Ling",
          "mlid": "84",
-         "uid": "",
+         "uid": "ling",
          "id": "h084",
          "hero_icon": "ling.png",
          "discordmoji": "<:ling:852659014583320627>",
@@ -4308,7 +4308,7 @@
       {
          "hero_name": "Lolita",
          "mlid": "20",
-         "uid": "",
+         "uid": "lolita",
          "id": "h020",
          "hero_icon": "lolita.png",
          "discordmoji": "<:lolita:852659014939967608>",
@@ -4378,7 +4378,7 @@
       {
          "hero_name": "Lunox",
          "mlid": "68",
-         "uid": "",
+         "uid": "lunox",
          "id": "h068",
          "hero_icon": "lunox.png",
          "discordmoji": "<:lunox:852659015049412629>",
@@ -4464,7 +4464,7 @@
       {
          "hero_name": "Lylia",
          "mlid": "86",
-         "uid": "",
+         "uid": "lylia",
          "id": "h086",
          "hero_icon": "lylia.png",
          "discordmoji": "<:lylia:852659014902874133>",
@@ -4534,7 +4534,7 @@
       {
          "hero_name": "Martis",
          "mlid": "58",
-         "uid": "",
+         "uid": "martis",
          "id": "h058",
          "hero_icon": "martis.png",
          "discordmoji": "<:martis:852659015174717450>",
@@ -4604,7 +4604,7 @@
       {
          "hero_name": "Masha",
          "mlid": "88",
-         "uid": "",
+         "uid": "masha",
          "id": "h088",
          "hero_icon": "masha.png",
          "discordmoji": "<:masha:852659015170261013>",
@@ -4682,7 +4682,7 @@
       {
          "hero_name": "Minotaur",
          "mlid": "19",
-         "uid": "",
+         "uid": "minotaur",
          "id": "h019",
          "hero_icon": "minotaur.png",
          "discordmoji": "<:minotaur:852659014420267099>",
@@ -4752,7 +4752,7 @@
       {
          "hero_name": "Minsitthar",
          "mlid": "74",
-         "uid": "",
+         "uid": "minsitthar",
          "id": "h074",
          "hero_icon": "minsitthar.png",
          "discordmoji": "<:minsitthar:852659015195295825>",
@@ -4822,7 +4822,7 @@
       {
          "hero_name": "Miya",
          "mlid": "1",
-         "uid": "",
+         "uid": "miya",
          "id": "h001",
          "hero_icon": "miya.png",
          "discordmoji": "<:miya:852659014965002290>",
@@ -4892,7 +4892,7 @@
       {
          "hero_name": "Moskov",
          "mlid": "31",
-         "uid": "",
+         "uid": "moskov",
          "id": "h031",
          "hero_icon": "moskov.png",
          "discordmoji": "<:moskov:852659014806667334>",
@@ -4962,7 +4962,7 @@
       {
          "hero_name": "Nana",
          "mlid": "5",
-         "uid": "",
+         "uid": "nana",
          "id": "h005",
          "hero_icon": "nana.png",
          "discordmoji": "<:nana:852659014647283753>",
@@ -5032,7 +5032,7 @@
       {
          "hero_name": "Natalia",
          "mlid": "24",
-         "uid": "",
+         "uid": "natalia",
          "id": "h024",
          "hero_icon": "natalia.png",
          "discordmoji": "<:natalia:852659015438827591>",
@@ -5102,7 +5102,7 @@
       {
          "hero_name": "Odette",
          "mlid": "46",
-         "uid": "",
+         "uid": "odette",
          "id": "h046",
          "hero_icon": "odette.png",
          "discordmoji": "<:odette:852659014830391308>",
@@ -5172,7 +5172,7 @@
       {
          "hero_name": "Pharsa",
          "mlid": "52",
-         "uid": "",
+         "uid": "pharsa",
          "id": "h052",
          "hero_icon": "pharsa.png",
          "discordmoji": "<:pharsa:852659015540670514>",
@@ -5242,7 +5242,7 @@
       {
          "hero_name": "Popol and Kupa",
          "mlid": "94",
-         "uid": "",
+         "uid": "popolandkupa",
          "id": "h094",
          "hero_icon": "popolandkupa.png",
          "discordmoji": "<:popolandkupa:852659015544602644>",
@@ -5320,7 +5320,7 @@
       {
          "hero_name": "Rafaela",
          "mlid": "14",
-         "uid": "",
+         "uid": "rafaela",
          "id": "h014",
          "hero_icon": "rafaela.png",
          "discordmoji": "<:rafaela:852659015396622386>",
@@ -5390,7 +5390,7 @@
       {
          "hero_name": "Roger",
          "mlid": "39",
-         "uid": "",
+         "uid": "roger",
          "id": "h039",
          "hero_icon": "roger.png",
          "discordmoji": "<:roger:852659015423098880>",
@@ -5460,7 +5460,7 @@
       {
          "hero_name": "Ruby",
          "mlid": "29",
-         "uid": "",
+         "uid": "ruby",
          "id": "h029",
          "hero_icon": "ruby.png",
          "discordmoji": "<:ruby:852659015289012286>",
@@ -5530,7 +5530,7 @@
       {
          "hero_name": "Saber",
          "mlid": "3",
-         "uid": "",
+         "uid": "saber",
          "id": "h003",
          "hero_icon": "saber.png",
          "discordmoji": "<:saber:852659796942258177>",
@@ -5600,7 +5600,7 @@
       {
          "hero_name": "Selena",
          "mlid": "63",
-         "uid": "",
+         "uid": "selena",
          "id": "h063",
          "hero_icon": "selena.png",
          "discordmoji": "<:selena:852659797013823569>",
@@ -5670,7 +5670,7 @@
       {
          "hero_name": "Silvanna",
          "mlid": "90",
-         "uid": "",
+         "uid": "silvanna",
          "id": "h090",
          "hero_icon": "silvanna.png",
          "discordmoji": "<:silvanna:852659797143846932>",
@@ -5740,7 +5740,7 @@
       {
          "hero_name": "Sun",
          "mlid": "27",
-         "uid": "",
+         "uid": "sun",
          "id": "h027",
          "hero_icon": "sun.png",
          "discordmoji": "<:sun:852659796996915230>",
@@ -5810,7 +5810,7 @@
       {
          "hero_name": "Terizla",
          "mlid": "82",
-         "uid": "",
+         "uid": "terizla",
          "id": "h082",
          "hero_icon": "terizla.png",
          "discordmoji": "<:terizla:852659797014741042>",
@@ -5880,7 +5880,7 @@
       {
          "hero_name": "Thamuz",
          "mlid": "72",
-         "uid": "",
+         "uid": "thamuz",
          "id": "h072",
          "hero_icon": "thamuz.png",
          "discordmoji": "<:thamuz:852659797081194566>",
@@ -5950,7 +5950,7 @@
       {
          "hero_name": "Tigreal",
          "mlid": "6",
-         "uid": "",
+         "uid": "tigreal",
          "id": "h006",
          "hero_icon": "tigreal.png",
          "discordmoji": "<:tigreal:852659797157216276>",
@@ -6020,7 +6020,7 @@
       {
          "hero_name": "Uranus",
          "mlid": "59",
-         "uid": "",
+         "uid": "uranus",
          "id": "h059",
          "hero_icon": "uranus.png",
          "discordmoji": "<:uranus:852659797232058378>",
@@ -6090,7 +6090,7 @@
       {
          "hero_name": "Vale",
          "mlid": "66",
-         "uid": "",
+         "uid": "vale",
          "id": "h066",
          "hero_icon": "vale.png",
          "discordmoji": "<:vale:852659797328527391>",
@@ -6160,7 +6160,7 @@
       {
          "hero_name": "Valir",
          "mlid": "57",
-         "uid": "",
+         "uid": "valir",
          "id": "h057",
          "hero_icon": "valir.png",
          "discordmoji": "<:valir:852659797329313822>",
@@ -6230,7 +6230,7 @@
       {
          "hero_name": "Vexana",
          "mlid": "38",
-         "uid": "",
+         "uid": "vexana",
          "id": "h038",
          "hero_icon": "vexana.png",
          "discordmoji": "<:vexana:852659797358805042>",
@@ -6300,7 +6300,7 @@
       {
          "hero_name": "Wanwan",
          "mlid": "89",
-         "uid": "",
+         "uid": "wanwan",
          "id": "h089",
          "hero_icon": "wanwan.png",
          "discordmoji": "<:wanwan:852659797396160542>",
@@ -6370,7 +6370,7 @@
       {
          "hero_name": "X-Borg",
          "mlid": "83",
-         "uid": "",
+         "uid": "xborg",
          "id": "h083",
          "hero_icon": "xborg.png",
          "discordmoji": "<:xborg:852659797513207808>",
@@ -6440,7 +6440,7 @@
       {
          "hero_name": "Yi Sun-Shin",
          "mlid": "30",
-         "uid": "",
+         "uid": "yisunshin",
          "id": "h030",
          "hero_icon": "yisunshin.png",
          "discordmoji": "<:yisunshin:852659797488828416>",
@@ -6510,7 +6510,7 @@
       {
          "hero_name": "Zhask",
          "mlid": "50",
-         "uid": "",
+         "uid": "zhask",
          "id": "h050",
          "hero_icon": "zhask.png",
          "discordmoji": "<:zhask:852659797513994240>",
@@ -6588,7 +6588,7 @@
       {
          "hero_name": "Zilong",
          "mlid": "16",
-         "uid": "",
+         "uid": "zilong",
          "id": "h016",
          "hero_icon": "zilong.png",
          "discordmoji": "<:zilong:852659797287501856>",
@@ -6658,9 +6658,9 @@
       {
          "hero_name": "Aamon",
          "mlid": "109",
-         "uid": "",
+         "uid": "aamon",
          "id": "h109",
-         "hero_icon": "",
+         "hero_icon": "aamon.png",
          "discordmoji": "<:aamon:875456959590039573>",
          "portrait": "https://akmweb.youngjoygame.com/web/madmin/image/9d9bd7e99dcaad637c0c7b3280a84a31.png?w=150-150-f6fefd",
          "release_year": "",
@@ -6671,9 +6671,9 @@
       {
          "hero_name": "Aulus",
          "mlid": "108",
-         "uid": "",
+         "uid": "aulus",
          "id": "h108",
-         "hero_icon": "",
+         "hero_icon": "aulus.png",
          "discordmoji": "<:aulus:875456984814604330>",
          "portrait": "https://akmweb.youngjoygame.com/web/madmin/image/c5d496ae30a8f83e42e70a80f07240fa.jpg?w=150-150-401a19",
          "release_year": "",
@@ -6684,9 +6684,9 @@
       {
          "hero_name": "Barats",
          "mlid": "99",
-         "uid": "",
+         "uid": "barats",
          "id": "h099",
-         "hero_icon": "",
+         "hero_icon": "barats.png",
          "discordmoji": "<:barats:852658055337738260>",
          "portrait": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_52c80b58ebb105e96295c11d9bfd9a9b.jpg",
          "release_year": "",
@@ -6697,9 +6697,9 @@
       {
          "hero_name": "Beatrix",
          "mlid": "105",
-         "uid": "",
+         "uid": "beatrix",
          "id": "h105",
-         "hero_icon": "",
+         "hero_icon": "beatrix.png",
          "discordmoji": "<:beatrix:852658055551647744>",
          "portrait": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_bc9478f69dafbf6ff27d8e19899637ca.png",
          "release_year": "",
@@ -6710,9 +6710,9 @@
       {
          "hero_name": "Benedetta",
          "mlid": "97",
-         "uid": "",
+         "uid": "benedetta",
          "id": "h097",
-         "hero_icon": "",
+         "hero_icon": "benedetta.png",
          "discordmoji": "<:benedetta:852658055489388544>",
          "portrait": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_f09a3869e4236053915d3757c1ff1f3f.jpg",
          "release_year": "",
@@ -6723,9 +6723,9 @@
       {
          "hero_name": "Brody",
          "mlid": "100",
-         "uid": "",
+         "uid": "brody",
          "id": "h100",
-         "hero_icon": "",
+         "hero_icon": "brody.png",
          "discordmoji": "<:brody:852658054537281556>",
          "portrait": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_b09c321e1766f686935775d11ad22787.jpg",
          "release_year": "",
@@ -6736,9 +6736,9 @@
       {
          "hero_name": "Edith",
          "mlid": "111",
-         "uid": "",
+         "uid": "edith",
          "id": "h111",
-         "hero_icon": "",
+         "hero_icon": "edith.png",
          "discordmoji": "<:edith:946079616785866833>",
          "portrait": "https://akmweb.youngjoygame.com/web/madmin/image/04d1a3a5e49f6a68604bab57ca96ab5c.png?w=150-150-312b1f",
          "release_year": "",
@@ -6749,9 +6749,9 @@
       {
          "hero_name": "Floryn",
          "mlid": "112",
-         "uid": "",
+         "uid": "floryn",
          "id": "h112",
-         "hero_icon": "",
+         "hero_icon": "floryn.png",
          "discordmoji": "<:floryn:875457110756962334>",
          "portrait": "https://akmweb.youngjoygame.com/web/madmin/image/ddd105d16922b8122368acb0a8f3606f.png?w=150-150-1d2234",
          "release_year": "",
@@ -6762,9 +6762,9 @@
       {
          "hero_name": "Gloo",
          "mlid": "104",
-         "uid": "",
+         "uid": "gloo",
          "id": "h104",
-         "hero_icon": "",
+         "hero_icon": "gloo.png",
          "discordmoji": "<:gloo:852658502170312724>",
          "portrait": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_2694c57fa945283d50ebf2b703fd5fc0.png",
          "release_year": "",
@@ -6775,9 +6775,9 @@
       {
          "hero_name": "Khaleed",
          "mlid": "98",
-         "uid": "",
+         "uid": "khaleed",
          "id": "h098",
-         "hero_icon": "",
+         "hero_icon": "khaleed.png",
          "discordmoji": "<:khaleed:852658500738875442>",
          "portrait": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_ac05d090c11fe4aefa6a7d004493fb65.jpg",
          "release_year": "",
@@ -6788,9 +6788,9 @@
       {
          "hero_name": "Luo Yi",
          "mlid": "96",
-         "uid": "",
+         "uid": "luoyi",
          "id": "h096",
-         "hero_icon": "",
+         "hero_icon": "luoyi.png",
          "discordmoji": "<:luoyi:852659015145226301>",
          "portrait": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_c9f30c0ebde489a34b70ba1064c6fb02.jpg",
          "release_year": "",
@@ -6801,9 +6801,9 @@
       {
          "hero_name": "Mathilda",
          "mlid": "102",
-         "uid": "",
+         "uid": "mathilda",
          "id": "h102",
-         "hero_icon": "",
+         "hero_icon": "mathilda.png",
          "discordmoji": "<:mathilda:852659015652605982>",
          "portrait": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_74d09f52db9256502ecf2c32211a8102.jpg",
          "release_year": "",
@@ -6814,9 +6814,9 @@
       {
          "hero_name": "Melissa",
          "mlid": "114",
-         "uid": "",
+         "uid": "melissa",
          "id": "h114",
-         "hero_icon": "",
+         "hero_icon": "melissa.png",
          "discordmoji": "<:melissa:946079024717910126>",
          "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/7/74/Melissa.png/revision/latest/scale-to-width-down/177?cb=20220218031300",
          "release_year": "",
@@ -6827,9 +6827,9 @@
       {
          "hero_name": "Natan",
          "mlid": "107",
-         "uid": "",
+         "uid": "natan",
          "id": "h107",
-         "hero_icon": "",
+         "hero_icon": "natan.png",
          "discordmoji": "<:natan:869286441262395452>",
          "portrait": "https://akmweb.youngjoygame.com/web/madmin/image/d48d72c81c740e59b3a67ed83a74c128.png?w=150-150-6d5846",
          "release_year": "",
@@ -6840,9 +6840,9 @@
       {
          "hero_name": "Null",
          "mlid": "",
-         "uid": "",
+         "uid": "null",
          "id": "",
-         "hero_icon": "",
+         "hero_icon": "null.png",
          "discordmoji": "<:null:852659015532150825>",
          "portrait": "",
          "release_year": "",
@@ -6853,9 +6853,9 @@
       {
          "hero_name": "Paquito",
          "mlid": "103",
-         "uid": "",
+         "uid": "paquito",
          "id": "h103",
-         "hero_icon": "",
+         "hero_icon": "paquito.png",
          "discordmoji": "<:paquito:852659015732428840>",
          "portrait": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_f3695c153689c30f8ebfd334931e0525.jpg",
          "release_year": "",
@@ -6866,9 +6866,9 @@
       {
          "hero_name": "Phoveus",
          "mlid": "106",
-         "uid": "",
+         "uid": "phoveus",
          "id": "h106",
-         "hero_icon": "",
+         "hero_icon": "phoveus.png",
          "discordmoji": "<:phoveus:852659015430570005>",
          "portrait": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_e5ed554584eba9f3bb4f77beadd8b570.png",
          "release_year": "",
@@ -6879,9 +6879,9 @@
       {
          "hero_name": "Valentina",
          "mlid": "110",
-         "uid": "",
+         "uid": "valentina",
          "id": "h110",
-         "hero_icon": "",
+         "hero_icon": "valentina.png",
          "discordmoji": "<:valentina:902296045160116304>",
          "portrait": "https://akmweb.youngjoygame.com/web/madmin/image/3fcfa9c74ac47800a3e13a5985d76e55.png?w=150-150-debef7",
          "release_year": "",
@@ -6892,9 +6892,9 @@
       {
          "hero_name": "Xavier",
          "mlid": "115",
-         "uid": "",
+         "uid": "xavier",
          "id": "h115",
-         "hero_icon": "",
+         "hero_icon": "xavier.png",
          "discordmoji": "<:xavier:946079438372745226>",
          "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/7/7d/Xavier.png/revision/latest/scale-to-width-down/177?cb=20220203075727",
          "release_year": "",
@@ -6905,9 +6905,9 @@
       {
          "hero_name": "Yin",
          "mlid": "113",
-         "uid": "",
+         "uid": "yin",
          "id": "h113",
-         "hero_icon": "",
+         "hero_icon": "yin.png",
          "discordmoji": "<:yin:933197203852390441>",
          "portrait": "https://akmweb.youngjoygame.com/web/madmin/image/64b128105615ba7902959147acfb803a.png?w=150-150-240603",
          "release_year": "",
@@ -6918,9 +6918,9 @@
       {
          "hero_name": "Yu Zhong",
          "mlid": "95",
-         "uid": "",
+         "uid": "yuzhong",
          "id": "h095",
-         "hero_icon": "",
+         "hero_icon": "yuzhong.png",
          "discordmoji": "<:yuzhong:852659797610594324>",
          "portrait": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_ce46392c8bb8714320dc51ee6c0b3e84.jpg",
          "release_year": "",
@@ -6931,9 +6931,9 @@
       {
          "hero_name": "Yve",
          "mlid": "101",
-         "uid": "",
+         "uid": "yve",
          "id": "h101",
-         "hero_icon": "",
+         "hero_icon": "yve.png",
          "discordmoji": "<:yve:852659797688844298>",
          "portrait": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_3e58a535ecbec9e1dc76b7ba74ff43c5.jpg",
          "release_year": "",
