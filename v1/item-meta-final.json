@@ -2875,7 +2875,7 @@
           "id":"m029",
           "icon":"twilight-armor.png",
           "item_tier":"3",
-          "item_category":"Magic",
+          "item_category":"Defense",
           "data":[
              {
                 "cost":"2100",
