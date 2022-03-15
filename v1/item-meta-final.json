@@ -73,7 +73,7 @@
        {
           "item_name":"Sea Halberd",
           "id":"a029",
-          "icon":"sea_halberd.png",
+          "icon":"sea-halberd.png",
           "item_tier":"3",
           "item_category":"Attack",
           "data":[
@@ -587,7 +587,7 @@
        },
        {
           "item_name":"Bloodlust Axe",
-          "id":"null",
+          "id":"a015",
           "icon":"bloodlust-axe.png",
           "item_tier":"3",
           "item_category":"attack",
@@ -2533,7 +2533,7 @@
        },
        {
           "item_name":"Thunder Belt",
-          "id":"null",
+          "id":"d036",
           "icon":"thunder-belt.png",
           "item_tier":"3",
           "item_category":"Defense",
