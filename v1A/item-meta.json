@@ -3422,6 +3422,904 @@
                 ]
              }
           ]
+       },
+       {
+         "item_name":"Shadow Twinblades",
+         "id":"m032",
+         "icon":"shadow-twinblades.png",
+         "item_tier":"2",
+         "item_category":"magic",
+         "data":[
+            {
+               "cost":"1960",
+               "summary":"null",
+               "modifiers":[
+                  {
+                     "magic_power":"75",
+                     "magic_lifesteal":"15%",
+                     "movement_speed":"5%"
+                  }
+               ],
+               "active":[
+                  {
+                     "active_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+			   "passive":[
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  },
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+               "unique_passive":[
+                  {
+                     "unique_passive_name":"Assassination",
+                     "description":" If no damage is taken or dealt within 5s, the next Basic Attack will deal extra Magic Damage equal to 200 plus 50% Magic Power, and inflict 60% slow effects upon the target for 1.5s.",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  },
+                  {
+                     "unique_passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  }
+               ],
+               "build_path":[
+                  {
+                     "item_name":"Exotic Veil"
+                  },
+                  {
+                     "item_name":"Mystic Container"
+                  },
+                  {
+                     "item_name":"null"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "item_name":"Necklace of Durance",
+         "id":"m033",
+         "icon":"necklace-of-durance.png",
+         "item_tier":"2",
+         "item_category":"magic",
+         "data":[
+            {
+               "cost":"2010",
+               "summary":"null",
+               "modifiers":[
+                  {
+                     "magic_power":"60",
+                     "magic_lifesteal":"10%",
+                     "cd_reduction":"5%"
+                  }
+               ],
+               "active":[
+                  {
+                     "active_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+			   "passive":[
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  },
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+               "unique_passive":[
+                  {
+                     "unique_passive_name":"Life Drain",
+                     "description":"Upon dealing damage to the target, reduces Shield and HP Regen of the target by 50% for 3s.",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  },
+                  {
+                     "unique_passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  }
+               ],
+               "build_path":[
+                  {
+                     "item_name":"Mystery Codex"
+                  },
+                  {
+                     "item_name":"Book of Sages"
+                  },
+                  {
+                     "item_name":"Mystic Container"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "item_name":"Feather of Heaven",
+         "id":"m034",
+         "icon":"feather-of-heaven.png",
+         "item_tier":"2",
+         "item_category":"magic",
+         "data":[
+            {
+               "cost":"2030",
+               "summary":"null",
+               "modifiers":[
+                  {
+                     "attack_speed":"30%",
+                     "magic_power":"55",
+                     "cd_reduction":"5%"
+                  }
+               ],
+               "active":[
+                  {
+                     "active_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+			   "passive":[
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  },
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+               "unique_passive":[
+                  {
+                     "unique_passive_name":"Affliction",
+                     "description":"Basic Attacks deal extra Magic Damage equal to 50 plus 30% Magic Power.",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  },
+                  {
+                     "unique_passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  }
+               ],
+               "build_path":[
+                  {
+                     "item_name":"Knife"
+                  },
+                  {
+                     "item_name":"Book of Sages"
+                  },
+                  {
+                     "item_name":"Knife"
+                  }
+               ]
+            }
+         ]
+       },
+       {
+         "item_name":"Winter Truncheon",
+         "id":"m035",
+         "icon":"winter-trucheon.png",
+         "item_tier":"2",
+         "item_category":"magic",
+         "data":[
+            {
+               "cost":"1910",
+               "summary":"null",
+               "modifiers":[
+                  {
+                     "hp":"400",
+                     "physical_defense":"25",
+                     "magic_power":"60"
+                  }
+               ],
+               "active":[
+                  {
+                     "active_name":"Frozen",
+                     "description":"Freeze upon using. The hero can't do anything but will be immune to all DMG and debuff. Last 2s, CD 100s",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+			   "passive":[
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  },
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+               "unique_passive":[
+                  {
+                     "unique_passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  },
+                  {
+                     "unique_passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  }
+               ],
+               "build_path":[
+                  {
+                     "item_name":"Vitality Crystal"
+                  },
+                  {
+                     "item_name":"Magic Wand"
+                  },
+                  {
+                     "item_name":"null"
+                  }
+               ]
+            }
+         ]
+       },
+       {
+         "item_name":"Enchanted Talisman",
+         "id":"m036",
+         "icon":"enchanted-talisman.png",
+         "item_tier":"2",
+         "item_category":"magic",
+         "data":[
+            {
+               "cost":"1870",
+               "summary":"null",
+               "modifiers":[
+                  {
+                     "hp":"250",
+                     "magic_power":"50",
+                     "cd_reduction":"20%"
+                  }
+               ],
+               "active":[
+                  {
+                     "active_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+			   "passive":[
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  },
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+               "unique_passive":[
+                  {
+                     "unique_passive_name":"Mana Spring",
+                     "description":"Regenerates 15% of Max Mana every 10s in total.",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  },
+                  {
+                     "unique_passive_name":"Magic Mastery",
+                     "description":" Max CD Reduction increased by 5%.",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  }
+               ],
+               "build_path":[
+                  {
+                     "item_name":"Magic Necklace"
+                  },
+                  {
+                     "item_name":"Book of Sages"
+                  },
+                  {
+                     "item_name":"Tome of Evil"
+                  }
+               ]
+            }
+         ]
+       },
+       {
+         "item_name":"Flame Retribution",
+         "id":"j007",
+         "icon":"flame-retribution.png",
+         "item_tier":"0",
+         "item_category":"Jungling",
+         "data":[
+            {
+               "cost":"null",
+               "summary":"null",
+               "modifiers":[
+                  {
+
+                  }
+               ],
+               "active":[
+                  {
+                     "active_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+			   "passive":[
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  },
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+               "unique_passive":[
+                  {
+                     "unique_passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  },
+                  {
+                     "unique_passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  }
+               ],
+               "build_path":[
+                  {
+                     "item_name":"null"
+                  },
+                  {
+                     "item_name":"null"
+                  },
+                  {
+                     "item_name":"null"
+                  }
+               ]
+            }
+         ]
+       },
+       {
+         "item_name":"Ice Retribution",
+         "id":"j008",
+         "icon":"ice-retribution.png",
+         "item_tier":"0",
+         "item_category":"Jungling",
+         "data":[
+            {
+               "cost":"null",
+               "summary":"null",
+               "modifiers":[
+                  {
+
+                  }
+               ],
+               "active":[
+                  {
+                     "active_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+			   "passive":[
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  },
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+               "unique_passive":[
+                  {
+                     "unique_passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  },
+                  {
+                     "unique_passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  }
+               ],
+               "build_path":[
+                  {
+                     "item_name":"null"
+                  },
+                  {
+                     "item_name":"null"
+                  },
+                  {
+                     "item_name":"null"
+                  }
+               ]
+            }
+         ]
+       },
+       {
+         "item_name":"Bloody Rretribution",
+         "id":"j009",
+         "icon":"blpngoody-retribution.",
+         "item_tier":"0",
+         "item_category":"Junjling",
+         "data":[
+            {
+               "cost":"null",
+               "summary":"null",
+               "modifiers":[
+                  {
+
+                  }
+               ],
+               "active":[
+                  {
+                     "active_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+			   "passive":[
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  },
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+               "unique_passive":[
+                  {
+                     "unique_passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  },
+                  {
+                     "unique_passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  }
+               ],
+               "build_path":[
+                  {
+                     "item_name":"null"
+                  },
+                  {
+                     "item_name":"null"
+                  },
+                  {
+                     "item_name":"null"
+                  }
+               ]
+            }
+         ]
+       },
+       {
+         "item_name":"Conceal",
+         "id":"r005",
+         "icon":"conceal.png",
+         "item_tier":"0",
+         "item_category":"Roaming",
+         "data":[
+            {
+               "cost":"null",
+               "summary":"null",
+               "modifiers":[
+                  {
+
+                  }
+               ],
+               "active":[
+                  {
+                     "active_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+			   "passive":[
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  },
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+               "unique_passive":[
+                  {
+                     "unique_passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  },
+                  {
+                     "unique_passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  }
+               ],
+               "build_path":[
+                  {
+                     "item_name":"null"
+                  },
+                  {
+                     "item_name":"null"
+                  },
+                  {
+                     "item_name":"null"
+                  }
+               ]
+            }
+         ]
+       },
+       {
+         "item_name":"Encourage",
+         "id":"r006",
+         "icon":"encourage.png",
+         "item_tier":"0",
+         "item_category":"Roaming",
+         "data":[
+            {
+               "cost":"null",
+               "summary":"null",
+               "modifiers":[
+                  {
+
+                  }
+               ],
+               "active":[
+                  {
+                     "active_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+			   "passive":[
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  },
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+               "unique_passive":[
+                  {
+                     "unique_passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  },
+                  {
+                     "unique_passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  }
+               ],
+               "build_path":[
+                  {
+                     "item_name":"null"
+                  },
+                  {
+                     "item_name":"null"
+                  },
+                  {
+                     "item_name":"null"
+                  }
+               ]
+            }
+         ]
+       },
+       {
+         "item_name":"Favor",
+         "id":"r007",
+         "icon":"favor.png",
+         "item_tier":"0",
+         "item_category":"Roaming",
+         "data":[
+            {
+               "cost":"null",
+               "summary":"null",
+               "modifiers":[
+                  {
+
+                  }
+               ],
+               "active":[
+                  {
+                     "active_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+			   "passive":[
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  },
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+               "unique_passive":[
+                  {
+                     "unique_passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  },
+                  {
+                     "unique_passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  }
+               ],
+               "build_path":[
+                  {
+                     "item_name":"null"
+                  },
+                  {
+                     "item_name":"null"
+                  },
+                  {
+                     "item_name":"null"
+                  }
+               ]
+            }
+         ]
+       },
+       {
+         "item_name":"Dire Hit",
+         "id":"r008",
+         "icon":"dire-hit.png",
+         "item_tier":"0",
+         "item_category":"Roaming",
+         "data":[
+            {
+               "cost":"null",
+               "summary":"null",
+               "modifiers":[
+                  {
+
+                  }
+               ],
+               "active":[
+                  {
+                     "active_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+			   "passive":[
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  },
+                  {
+                     "passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+
+                     ]
+                  }
+               ],
+               "unique_passive":[
+                  {
+                     "unique_passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  },
+                  {
+                     "unique_passive_name":"null",
+                     "description":"null",
+                     "modifiers":[
+                        {
+
+                        }
+                     ]
+                  }
+               ],
+               "build_path":[
+                  {
+                     "item_name":"null"
+                  },
+                  {
+                     "item_name":"null"
+                  },
+                  {
+                     "item_name":"null"
+                  }
+               ]
+            }
+         ]
        }
     ]
  }
