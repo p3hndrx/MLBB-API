@@ -2845,7 +2845,7 @@
       {
          "item_name": "Winter Truncheon",
          "id": "m035",
-         "icon": "winter-trucheon.png",
+         "icon": "winter-truncheon.png",
          "item_tier": "2",
          "item_category": "magic",
          "data": [{
@@ -3093,9 +3093,9 @@
       {
          "item_name": "Bloody Rretribution",
          "id": "j009",
-         "icon": "blpngoody-retribution.",
+         "icon": "bloody-retribution.png",
          "item_tier": "0",
-         "item_category": "Junjling",
+         "item_category": "Jungling",
          "data": [{
             "cost": "null",
             "summary": "null",
