@@ -189,128 +189,6 @@
          }]
       },
       {
-         "item_name": "Awe Mask",
-         "id": "r001",
-         "icon": "awe-mask.png",
-         "item_tier": "3",
-         "item_category": "Roaming",
-         "data": [{
-            "cost": "1750",
-            "summary": "Single Target Stun",
-            "modifiers": [{
-               "hp": "700",
-               "cd_reduction": "10%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [{
-                  "movement_speed": "25%"
-               }]
-            }],
-            "unique_passive": [{
-                  "unique_passive_name": "Deter",
-                  "description": "Basic attack will mark an enemy hero for 1.2s (Each mark will refresh the duration. A target cannot be marked twice in 0.6s) During the mark timethis hero will be stunned for 1.5s when attacked 5 times by you or your teammates. cools down every 40s.",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "Devotion",
-                  "description": "Obtain 2 XP and Gold every 4s. In the first 12 minutes of the match, this equipment makes you gain nothing from Minions or Creeps if there are teammates without Roaming Equipment, or those with but have higher EXP or Gold than yours around you. They will share the whole EXP or Gold.",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "Thriving",
-                  "description": "Gains extra 35% gold and XP with assists. When your gold ranks 5th in your team, increase Gold you gain to 20 per 4s. When your EXP ranks the 5th in your team, increase EXP you gain to 35 per 4s.",
-                  "modifiers": [{
-
-                  }]
-               }
-            ],
-            "build_path": [{
-               "item_name": "Iron Mask"
-            }]
-         }]
-      },
-      {
-         "item_name": "Beast Killer",
-         "id": "j001",
-         "icon": "beast-killer.png",
-         "item_tier": "3",
-         "item_category": "Jungling",
-         "data": [{
-            "cost": "1805",
-            "summary": "Stack DEF",
-            "modifiers": [{
-               "physical_defense": "20",
-               "magic_resistance": "20"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [{
-                  "monster_damage": "30%"
-               }]
-            }],
-            "unique_passive": [{
-                  "unique_passive_name": "Greed",
-                  "description": "Get an extra 30% Exp when jungling. Regain 4% of maximum health and 10% of mana after monster kill.",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "Impulse",
-                  "description": "Deals 100 points of Magic Damage at least to enemies nearby (increases with hero level) and slows them by 30% when taking 10% damage of Max HP. Lasts 2s. The effect activates every 2s.",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "Gorge",
-                  "description": "Laying jungle monsters increases one's physical and magic defense 3. Stacks up to 10 times.",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "null",
-                  "description": "Makes the battle spell 'Retribution' applicable to heroes, reducing the target's movement speed by 70% (effect decays over 3s) and reducing target's Magic Defense. Buying other advanced jungling equipment will disable this effect.",
-                  "modifiers": [{
-
-                  }]
-               }
-            ],
-            "build_path": [{
-                  "item_name": "Pillager Axe"
-               },
-               {
-                  "item_name": "Leather Jerkin"
-               },
-               {
-                  "item_name": "Magic Resist Cloak"
-               }
-            ]
-         }]
-      },
-      {
          "item_name": "Berserker's Fury",
          "id": "a001",
          "icon": "berserker-s-fury.png",
@@ -797,60 +675,7 @@
             ]
          }]
       },
-      {
-         "item_name": "Courage Mask",
-         "id": "r002",
-         "icon": "courage-mask.png",
-         "item_tier": "3",
-         "item_category": "Roaming",
-         "data": [{
-            "cost": "1750",
-            "summary": "Team Buff",
-            "modifiers": [{
-               "hp": "700",
-               "cd_reduction": "10%"
-            }],
-            "active": [{
-               "active_name": "Encourage",
-               "description": "Increase movement speed of the hero and neaby allied heroes by 30%. Also increases physical & magic attack by 20%. Last 3s. The CD is 80s.",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [{
-                  "movement_speed": "25%"
-               }]
-            }],
-            "unique_passive": [{
-                  "unique_passive_name": "Bravery",
-                  "description": "Increases 10% of Physical & Magic Attack, 10% of Physical and Magic Defense and 50% of HP & Mana Regen for nearby allies.",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "Devotion",
-                  "description": "Obtain 2 XP and Gold every 4s. In the first 12 minutes of the match, this equipment makes you gain nothing from Minions or Creeps if there are teammates without Roaming Equipment, or those with but have higher EXP or Gold than yours around you. They will share the whole EXP or Gold.",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "Thriving",
-                  "description": "Gains extra 35% gold and XP with assists. When your gold ranks 5th in your team, increase Gold you gain to 20 per 4s. When your EXP ranks the 5th in your team, increase EXP you gain to 35 per 4s.",
-                  "modifiers": [{
-
-                  }]
-               }
-            ],
-            "build_path": [{
-               "item_name": "Iron Mask"
-            }]
-         }]
-      },
+      
       {
          "item_name": "Cursed Helmet",
          "id": "d007",
@@ -1681,74 +1506,6 @@
          }]
       },
       {
-         "item_name": "Raptor Machete",
-         "id": "j005",
-         "icon": "raptor-machete.png",
-         "item_tier": "3",
-         "item_category": "Jungling",
-         "data": [{
-            "cost": "1650",
-            "summary": "Stack Physical ATK",
-            "modifiers": [{
-               "physical_attack": "30",
-               "physical_penetration": "15%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [{
-                  "monster_damage": "30%"
-               }]
-            }],
-            "unique_passive": [{
-                  "unique_passive_name": "Breakout",
-                  "description": "For each 10s, Hero's next Basic Attack will deal extra 50 points of True Damage at least (increases with hero level) and slow enemies by 30%. Lasts 1s. Performing Basic Attacks will reduce it's cooldown.",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "Greed",
-                  "description": "Gain an extra 30% Exp when jungling. After killing Creeps, recovers HP by 4% and Mana by 10%.",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "Gorge",
-                  "description": "Kill creeps to increase Physical Attack by 4. Up to 15 layers.",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "null",
-                  "description": "Makes the battle spell 'Retribution' applicable to heroes, reducing the target's movement speed by 70% and dealing a small amount of True Damage to the target within 3 seconds. Buying other advanced jungling equipment will disable this effect.",
-                  "modifiers": [{
-
-                  }]
-               }
-            ],
-            "build_path": [{
-                  "item_name": "Nimble Blade"
-               },
-               {
-                  "item_name": "Dagger (Physical Attack)"
-               },
-               {
-                  "item_name": "Dagger (Physical Attack)"
-               }
-            ]
-         }]
-      },
-      {
          "item_name": "Rose Gold Meteor",
          "id": "a024",
          "icon": "rose-gold-meteor.png",
@@ -1834,53 +1591,6 @@
                   "item_name": "Javelin"
                }
             ]
-         }]
-      },
-      {
-         "item_name": "Shadow Mask",
-         "id": "r004",
-         "icon": "shadow-mask.png",
-         "item_tier": "3",
-         "item_category": "Roaming",
-         "data": [{
-            "cost": "1750",
-            "summary": "Groupt Stealth",
-            "modifiers": [{
-               "hp": "700",
-               "cd_reduction": "10%"
-            }],
-            "active": [{
-               "active_name": "Conceal",
-               "description": "Conceals you and your teammates nearby increases movement speed by 15%. Lasts 5s. Dealing or taking damage will end the state. Cools down every 80s. ",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [{
-                  "movement_speed": "25%"
-               }]
-            }],
-            "unique_passive": [{
-                  "unique_passive_name": "Devotion",
-                  "description": "Obtain 2 XP and Gold every 4s. In the first 12 minutes of the match, this equipment makes you gain nothing from Minions or Creeps if there are teammates without Roaming Equipment, or those with but have higher EXP or Gold than yours around you. They will share the whole EXP or Gold.",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "Thriving",
-                  "description": "Gains extra 35% gold and XP with assists. When your gold ranks 5th in your team, increase Gold you gain to 20 per 4s. When your EXP ranks the 5th in your team, increase EXP you gain to 35 per 4s.",
-                  "modifiers": [{
-
-                  }]
-               }
-            ],
-            "build_path": [{
-               "item_name": "Iron Mask"
-            }]
          }]
       },
       {
@@ -2052,75 +1762,6 @@
                },
                {
                   "item_name": "Healing Necklace"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Star Shard",
-         "id": "j006",
-         "icon": "star-shard.png",
-         "item_tier": "3",
-         "item_category": "Jungling",
-         "data": [{
-            "cost": "1605",
-            "summary": "Stack Magic Power",
-            "modifiers": [{
-               "magic_power": "30",
-               "mana_regen_rate": "15",
-               "magic_lifesteal": "15%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [{
-                  "monster_damage": "30%"
-               }]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "unique_passive": [{
-                  "unique_passive_name": "Recharge",
-                  "description": "Kill enemy hero to recover HP by 10%.",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "Greed",
-                  "description": "Gain an extra 30% Exp when jungling. After killing Creeps, recovers HP by 4% and Mana by 10%.",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "Gorge",
-                  "description": "Kill creeps to increase DMG by 0.5%. Up to 15 layers.",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "null",
-                  "description": "Makes the battle spell 'Retribution' applicable to heroes, reducing the target's movement speed by 70% (effect decays over 3s) and reducing target's Magic Defense. Buying other advanced jungling equipment will disable this effect.",
-                  "modifiers": [{
-
-                  }]
-               }
-            ],
-            "build_path": [{
-                  "item_name": "Curse Sword"
-               },
-               {
-                  "item_name": "Mystery Codex"
-               },
-               {
-                  "item_name": "Magic Necklace"
                }
             ]
          }]
@@ -3091,7 +2732,7 @@
          }]
       },
       {
-         "item_name": "Bloody Rretribution",
+         "item_name": "Bloody Retribution",
          "id": "j009",
          "icon": "bloody-retribution.png",
          "item_tier": "0",
