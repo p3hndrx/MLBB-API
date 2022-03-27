@@ -2181,16 +2181,95 @@
          }]
       },
       {
-         "item_name": "Arcane Boots",
+         "item_name": "Warrior Boots",
          "id": "mo001",
-         "icon": "arcane-boots.png",
+         "icon": "warrior-boots.png",
          "item_tier": "2",
          "item_category": "Movement",
          "data": [{
-            "cost": "690",
-            "summary": "Magic PEN",
+            "cost": "720",
+            "summary": "Stack Physical Defense",
             "modifiers": [{
-               "magic_penetration": "10"
+               "physical_defense": "22",
+               "movement_speed": "40"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": [{
+
+               }]
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Valor",
+               "description": "For each Basic Attack received, gains 5 extra Physical Defense (up to 25) for 3s.",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Boots"
+               },
+               {
+                  "item_name": "Leather Jerkin"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Tough Boots",
+         "id": "mo002",
+         "icon": "tough-boots.png",
+         "item_tier": "2",
+         "item_category": "Movement",
+         "data": [{
+            "cost": "700",
+            "summary": "Reduce Duration of Being Controlled",
+            "modifiers": [{
+               "magic_resistance": "22",
+               "movement_speed": "40"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": [{}]
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": [{
+
+               }]
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Fortitude",
+               "description": "Duration of being controlled reduced by 30%",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Boots"
+               },
+               {
+                  "item_name": "Magic Resist Cloak"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Magic Shoes",
+         "id": "mo003",
+         "icon": "magic-shoes.png",
+         "item_tier": "2",
+         "item_category": "Movement",
+         "data": [{
+            "cost": "710",
+            "summary": "Reduce CD",
+            "modifiers": [{
+               "cd_reduction": "10%",
+               "movement_speed": "40"
             }],
             "active": [{
                "active_name": "null",
@@ -2201,7 +2280,7 @@
                "passive_name": "null",
                "description": "null",
                "modifiers": [{
-                  "movement_speed": "40"
+
                }]
             }],
             "unique_passive": [{
@@ -2215,57 +2294,17 @@
          }]
       },
       {
-         "item_name": "Demon Shoes",
-         "id": "mo003",
-         "icon": "demon-shoes.png",
-         "item_tier": "2",
-         "item_category": "Movement",
-         "data": [{
-            "cost": "720",
-            "summary": "Quick Mana Regen",
-            "modifiers": [{
-               "mana_regen_rate": "6"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": []
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [{
-                  "movement_speed": "40"
-               }]
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Mysticism",
-               "description": "Eliminations of enemy heroes and assists regenerates hero's mana by 10%, while eliminating minions regenerates 4% of the hero's mana.",
-               "modifiers": [{}]
-            }],
-            "build_path": [{
-                  "item_name": "Boots"
-               },
-               {
-                  "item_name": "Magic Necklace"
-               },
-               {
-                  "item_name": "Magic Necklace"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Magic Shoes",
+         "item_name": "Arcane Boots",
          "id": "mo004",
-         "icon": "magic-shoes.png",
+         "icon": "arcane-boots.png",
          "item_tier": "2",
          "item_category": "Movement",
          "data": [{
-            "cost": "710",
-            "summary": "Reduce CD",
+            "cost": "690",
+            "summary": "Magic Penetration",
             "modifiers": [{
-               "cd_reduction": "10%"
+               "magic_penetration": "10",
+               "movement_speed": "40"
             }],
             "active": [{
                "active_name": "null",
@@ -2276,51 +2315,12 @@
                "passive_name": "null",
                "description": "null",
                "modifiers": [{
-                  "movement_speed": "40"
+
                }]
             }],
             "unique_passive": [{
                "unique_passive_name": "null",
                "description": "null",
-               "modifiers": [{}]
-            }],
-            "build_path": [{
-                  "item_name": "Boots"
-               },
-               {
-                  "item_name": "Magic Necklace"
-               },
-               {
-                  "item_name": "Magic Necklace"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Rapid Boots",
-         "id": "mo005",
-         "icon": "rapid-boots.png",
-         "item_tier": "2",
-         "item_category": "Movement",
-         "data": [{
-            "cost": "850",
-            "summary": "null",
-            "modifiers": [{}],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": []
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [{
-                  "movement_speed": "80"
-               }]
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Side Effect",
-               "description": " Dealing or taking damage slows hero's movement speed by 40 for 5s",
                "modifiers": [{}]
             }],
             "build_path": [{
@@ -2330,15 +2330,16 @@
       },
       {
          "item_name": "Swift Boots",
-         "id": "mo006",
+         "id": "mo005",
          "icon": "swift-boots.png",
          "item_tier": "2",
          "item_category": "Movement",
          "data": [{
             "cost": "710",
-            "summary": "ATK SPD",
+            "summary": "Attack Speed",
             "modifiers": [{
-               "attack_speed": "15%"
+               "attack_speed": "15%",
+               "movement_speed": "40"
             }],
             "active": [{
                "active_name": "null",
@@ -2349,7 +2350,7 @@
                "passive_name": "null",
                "description": "null",
                "modifiers": [{
-                  "movement_speed": "40"
+
                }]
             }],
             "unique_passive": [{
@@ -2367,77 +2368,77 @@
          }]
       },
       {
-         "item_name": "Tough Boots",
-         "id": "mo007",
-         "icon": "tough-boots.png",
+         "item_name": "Rapid Boots",
+         "id": "mo006",
+         "icon": "rapid-boots.png",
          "item_tier": "2",
          "item_category": "Movement",
          "data": [{
-            "cost": "700",
-            "summary": "Control Time Reduction",
+            "cost": "850",
+            "summary": "Speed up on Leaving Combat",
             "modifiers": [{
-               "magic_resistance": "22"
+               "movement_speed": "80"
             }],
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": []
+               "modifiers": [{}]
             }],
             "passive": [{
                "passive_name": "null",
                "description": "null",
                "modifiers": [{
-                  "movement_speed": "40"
+
                }]
             }],
             "unique_passive": [{
-               "unique_passive_name": "Fortitude",
-               "description": "Reduces time controlled 30%.",
+               "unique_passive_name": "Side Effect",
+               "description": " Dealing or taking damage slows hero's movement speed by 40 for 5s",
                "modifiers": [{}]
             }],
             "build_path": [{
-                  "item_name": "Boots"
-               },
-               {
-                  "item_name": "Magic Resist Cloak"
-               }
-            ]
+               "item_name": "Boots"
+            }]
          }]
       },
       {
-         "item_name": "Warrior Boots",
-         "id": "mo008",
-         "icon": "warrior-boots.png",
+         "item_name": "Demon Shoes",
+         "id": "mo007",
+         "icon": "demon-shoes.png",
          "item_tier": "2",
          "item_category": "Movement",
          "data": [{
             "cost": "720",
-            "summary": "null",
+            "summary": "Quick Mana Regen",
             "modifiers": [{
-               "physical_defense": "22"
+               "mana_regen_rate": "6",
+               "movement_speed": "40"
             }],
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [{
-                  "movement_speed": "40"
-               }]
+               "modifiers": [{}]
             }],
             "passive": [{
                "passive_name": "null",
                "description": "null",
-               "modifiers": []
+               "modifiers": [{
+
+               }]
             }],
             "unique_passive": [{
-               "unique_passive_name": "Valor",
-               "description": " Physical Defense will be increased by 5 for 25s for each basic attack received, capped at 25",
+               "unique_passive_name": "Mysticism",
+               "description": "Restores 10% Max Mana on hero kills or assists and 4% on minion kills.",
                "modifiers": [{}]
             }],
             "build_path": [{
                   "item_name": "Boots"
                },
                {
-                  "item_name": "Leather Jerkin"
+                  "item_name": "Magic Necklace"
+               },
+               {
+                  "item_name": "Magic Necklace"
                }
             ]
          }]
