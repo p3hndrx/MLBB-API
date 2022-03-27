@@ -1321,12 +1321,12 @@
          "item_tier": "0",
          "item_category": "Jungling",
          "data": [{
-            "cost": "null",
-            "summary": "null",
+            "cost": "n/a",
+            "summary": "Equipment Blessing",
             "modifiers": [{}],
             "active": [{
-               "active_name": "null",
-               "description": "null",
+               "active_name": "Flame Retribution",
+               "description": "Retribution damage dealt to creeps or minions is inceased to 150%. Can be used against heroes, dealing 100 True Damage and absorbing 52-80 Physical Attack and Magic Power from the target over 5s (scales with level). Only when total creep kills, hero kills, or hero kill assists reach 5 can Retribution be upgraded.",
                "modifiers": []
             }],
             "passive": [{
@@ -1370,23 +1370,23 @@
          "item_tier": "0",
          "item_category": "Jungling",
          "data": [{
-            "cost": "null",
-            "summary": "null",
+            "cost": "n/a",
+            "summary": "Equipment Blessing",
             "modifiers": [{}],
             "active": [{
-               "active_name": "null",
-               "description": "null",
+               "active_name": "Ice Retribution",
+               "description": "Retribution damage dealt to creeps or minions is increased to 150%. Can be used against heroes, dealing 100 True Damage and absorbing 72-100 Movement Speed from the target over 5s (scales with level). Only when total creep kills, hero kills, or hero kill assists reach 5 can Retribution be upgraded.",
                "modifiers": []
             }],
             "passive": [{
                   "passive_name": "null",
-                  "description": "null",
-                  "modifiers": []
+                  "description": "",
+                  "modifiers": [{}]
                },
                {
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": []
+                  "modifiers": [{}]
                }
             ],
             "unique_passive": [{
@@ -1419,12 +1419,12 @@
          "item_tier": "0",
          "item_category": "Jungling",
          "data": [{
-            "cost": "null",
-            "summary": "null",
+            "cost": "n/a",
+            "summary": "Equipment Blessing",
             "modifiers": [{}],
             "active": [{
-               "active_name": "null",
-               "description": "null",
+               "active_name": "Bloody Retribution",
+               "description": "Damage against minions or creeps is increased to 150%. Can be cast on enemy heroes, dealing 100 True Damage and absorbing HP equal to 250 plus 25% of the caster's extra HP from the target over 5s. Only when total creep kills, hero kills, or hero kill assists reach 5 can Retribution be upgraded.",
                "modifiers": []
             }],
             "passive": [{
