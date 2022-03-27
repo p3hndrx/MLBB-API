@@ -22,6 +22,7 @@
                "mana_regen_rate":"null",
                "critical_strike_chance":"null",
                "critical_damage":"null",
+               "critical_damage_reduction":"null",
                "cd_reduction":"null",
                "bs_cd_reduction":"null",
                "healing_effect":"null",
