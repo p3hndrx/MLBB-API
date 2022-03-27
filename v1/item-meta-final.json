@@ -2445,22 +2445,22 @@
       },
       {
          "item_name": "Conceal",
-         "id": "r005",
+         "id": "r001",
          "icon": "conceal.png",
          "item_tier": "0",
          "item_category": "Roaming",
          "data": [{
-            "cost": "null",
-            "summary": "null",
+            "cost": "n/a",
+            "summary": "Equipment Blessing",
             "modifiers": [{}],
             "active": [{
-               "active_name": "null",
-               "description": "null",
+               "active_name": "Conceal",
+               "description": "Conceals nearby allied heroes and increases their Movement Speed by 30%-75% (scales with Gold from Thriving) for 5s or until they deal or take damage.",
                "modifiers": []
             }],
             "passive": [{
-                  "passive_name": "null",
-                  "description": "null",
+                  "passive_name": "Thriving",
+                  "description": "After purchase, you can no longer gain Gold and EXP from minions and creeps and must collect 600 Gold from Roaming Equipment to unlock this skill (up to 1500 Gold).",
                   "modifiers": []
                },
                {
@@ -2494,13 +2494,13 @@
       },
       {
          "item_name": "Encourage",
-         "id": "r006",
+         "id": "r002",
          "icon": "encourage.png",
          "item_tier": "0",
          "item_category": "Roaming",
          "data": [{
-            "cost": "null",
-            "summary": "null",
+            "cost": "n/a",
+            "summary": "Equipment Blessing",
             "modifiers": [{}],
             "active": [{
                "active_name": "null",
@@ -2508,13 +2508,13 @@
                "modifiers": []
             }],
             "passive": [{
-                  "passive_name": "null",
-                  "description": "null",
+                  "passive_name": "Encourage",
+                  "description": "Increases nearby allied heroes' Physical Attack and Magic Power by 12-30 (scales with Gold from Thriving) and Attack and Movement Speed by 15%.",
                   "modifiers": []
                },
                {
-                  "passive_name": "null",
-                  "description": "null",
+                  "passive_name": "Thriving",
+                  "description": "After purchase, you can no longer gain Gold and EXP from minions and creeps and must collect 600 Gold from Roaming Equipment to unlock this skill (up to 1500 Gold).",
                   "modifiers": []
                }
             ],
@@ -2543,13 +2543,13 @@
       },
       {
          "item_name": "Favor",
-         "id": "r007",
+         "id": "r003",
          "icon": "favor.png",
          "item_tier": "0",
          "item_category": "Roaming",
          "data": [{
-            "cost": "null",
-            "summary": "null",
+            "cost": "n/a",
+            "summary": "Equipment Blessing",
             "modifiers": [{}],
             "active": [{
                "active_name": "null",
@@ -2557,13 +2557,13 @@
                "modifiers": []
             }],
             "passive": [{
-                  "passive_name": "null",
-                  "description": "null",
+                  "passive_name": "Favor",
+                  "description": "Every 10s, the next healing or shield skill restores an extra 300-750 HP (scales with Gold from Thriving) for the allied hero with the lowest HP within 5 yards. Skills that only take effect on self cannot trigger this effect.",
                   "modifiers": []
                },
                {
-                  "passive_name": "null",
-                  "description": "null",
+                  "passive_name": "Thriving",
+                  "description": "After purchase, you can no longer gain Gold and EXP from minions and creeps and must collect 600 Gold from Roaming Equipment to unlock this skill (up to 1500 Gold).",
                   "modifiers": []
                }
             ],
@@ -2592,13 +2592,13 @@
       },
       {
          "item_name": "Dire Hit",
-         "id": "r008",
+         "id": "r004",
          "icon": "dire-hit.png",
          "item_tier": "0",
          "item_category": "Roaming",
          "data": [{
-            "cost": "null",
-            "summary": "null",
+            "cost": "n/a",
+            "summary": "Equipment Blessing",
             "modifiers": [{}],
             "active": [{
                "active_name": "null",
@@ -2606,13 +2606,13 @@
                "modifiers": []
             }],
             "passive": [{
-                  "passive_name": "null",
-                  "description": "null",
+                  "passive_name": "Dire Hit",
+                  "description": "Every 30s, the next damage that will make an enemy hero's HP drop below 35% deals extra damage equal to 7%-18% of the target's Max HP (hybrid damage, scales with Gold from Thriving",
                   "modifiers": []
                },
                {
-                  "passive_name": "null",
-                  "description": "null",
+                  "passive_name": "Thriving",
+                  "description": "After purchase, you can no longer gain Gold and EXP from minions and creeps and must collect 600 Gold from Roaming Equipment to unlock this skill (up to 1500 Gold).",
                   "modifiers": []
                }
             ],
