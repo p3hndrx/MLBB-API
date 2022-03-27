@@ -1,196 +1,328 @@
 {
    "title": "item-schema",
-   "revdate": "20220314",
+   "revdate": "20220327",
    "author": "p3hndrx",
    "source": "https://github.com/p3hndrx/MLBB-API",
    "data": [{
-         "item_name": "Antique Cuirass",
-         "id": "d001",
-         "icon": "antique-cuirass.png",
-         "item_tier": "3",
-         "item_category": "Defense",
-         "data": [{
-            "cost": "2170",
-            "summary": "Decrease Enemy Physical ATK",
-            "modifiers": [{
-               "hp": "920",
-               "physical_defense": "54",
-               "hp_regen_rate": "2"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "unique_passive": [{
-                  "unique_passive_name": "Deter",
-                  "description": "When attacked by an enemy hero's skill, reduces their Physical ATK by 8% for 2s (up to 3 stacks).",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{
-
-                  }]
-               }
-            ],
-            "build_path": [{
-                  "item_name": "Ares Belt"
-               },
-               {
-                  "item_name": "Dreadnaught Armor"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Sea Halberd",
-         "id": "a029",
-         "icon": "sea-halberd.png",
+         "item_name": "Demon Hunter Sword",
+         "id": "a001",
+         "icon": "demon-hunter-sword.png",
          "item_tier": "3",
          "item_category": "Attack",
          "data": [{
-            "cost": "2050",
-            "summary": "Healing Reduction",
+            "cost": "2180",
+            "summary": "Tank Killer",
             "modifiers": [{
-               "physical_attack": "70",
+               "physical_attack": "35",
                "attack_speed": "25%"
             }],
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "unique_passive": [{
-                  "unique_passive_name": "Life Drain",
-                  "description": "Upon dealing damage to the target, reduces Shield and HP Regen of the target by 50% for 3s.",
-                  "modifiers": [{
-
-                  }]
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
                },
                {
-                  "unique_passive_name": "null",
+                  "passive_name": "null",
                   "description": "null",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": []
+               }
+            ],
+            "unique_passive": [{
+                  "unique_passive_name": "Devour",
+                  "description": "Basic attacks will deal 9% of the target's current HP as additional physical damage (up to 60 against creeps and minions).",
+                  "modifiers": [{}]
+               },
+               {
+                  "unique_passive_name": "Devour",
+                  "description": "Each Basic Attack grants 3% Physical Lifesteal for 3s. Stack up to 5 times.",
+                  "modifiers": [{}]
                }
             ],
             "build_path": [{
                   "item_name": "Regular Spear"
                },
                {
-                  "item_name": "Legion Sword"
+                  "item_name": "Knife"
+               },
+               {
+                  "item_name": "Vampire Mallet"
                }
             ]
          }]
       },
       {
-         "item_name": "Arcane Boots",
-         "id": "mo001",
-         "icon": "arcane-boots.png",
-         "item_tier": "2",
-         "item_category": "Movement",
+         "item_name": "Corrosion Scythe",
+         "id": "a002",
+         "icon": "corrosion-scythe.png",
+         "item_tier": "3",
+         "item_category": "Attack",
          "data": [{
-            "cost": "690",
-            "summary": "Magic PEN",
+            "cost": "2050",
+            "summary": "Slow by Basic ATK",
             "modifiers": [{
-               "magic_penetration": "10"
+               "physical_attack": "50",
+               "attack_speed": "25%",
+               "movement_speed": "5%"
             }],
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
+            }],
+            "passive": [{
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               },
+               {
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               }
+            ],
+            "unique_passive": [{
+                  "unique_passive_name": "Corrosive",
+                  "description": " Each time a Basic Attack deals damage to enemies, reduces the target's Movement Speed by 8% (halved for ranged Basic Attacks) for 1.5s. Stacking up to 5 times.",
+                  "modifiers": [{}]
+               },
+               {
+                  "unique_passive_name": "Impulse",
+                  "description": "When each Basic Attack deals damage to enemies, increase Attack Speed by 8%. Stacks up to 5 times. Lasts 3s.",
+                  "modifiers": [{}]
+               }
+            ],
+            "build_path": [{
+                  "item_name": "Regular Spear"
+               },
+               {
+                  "item_name": "Regular Spear"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Golden Staff",
+         "id": "a003",
+         "icon": "golden-staff.png",
+         "item_tier": "3",
+         "item_category": "Attack",
+         "data": [{
+            "cost": "2000",
+            "summary": "Enhance Basic ATK",
+            "modifiers": [{
+               "physical_attack": "65",
+               "attack_speed": "15%"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               },
+               {
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               }
+            ],
+            "unique_passive": [{
+                  "unique_passive_name": "Swift",
+                  "description": "Unable to increase critical chance. Every 1% of critical chance gained will increase attack speed by 1%.",
+                  "modifiers": [{}]
+               },
+               {
+                  "unique_passive_name": "Endless Strike",
+                  "description": "After every 2 non-critical Basic Attacks. Attack Speed of the next Basic Attack is increased by 100% and its effects is triggered an extra 2 time(s).",
+                  "modifiers": [{}]
+               }
+            ],
+            "build_path": [{
+                  "item_name": "Dagger"
+               },
+               {
+                  "item_name": "Regular Spear"
+               },
+               {
+                  "item_name": "Dagger"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Wind of Nature",
+         "id": "a004",
+         "icon": "wind-of-nature.png",
+         "item_tier": "3",
+         "item_category": "Attack",
+         "data": [{
+            "cost": "1910",
+            "summary": "Immune to Physical ATK",
+            "modifiers": [{
+               "physical_attack": "30",
+               "attack_speed": "20%",
+               "physical_lifesteal": "10%"
+            }],
+            "active": [{
+               "active_name": "Wind Chant",
+               "description": "Immune to all Physical Damage. Last 2s. (Duration becomes half when used by non-marksmen). CD 70s.",
+               "modifiers": []
+            }],
+            "passive": [{
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               },
+               {
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               }
+            ],
+            "unique_passive": [{
+                  "unique_passive_name": "null",
+                  "description": "null",
+                  "modifiers": [{}]
+               },
+               {
+                  "unique_passive_name": "null",
+                  "description": "null",
+                  "modifiers": [{}]
+               }
+            ],
+            "build_path": [{
+                  "item_name": "Regular Spear"
+               },
+               {
+                  "item_name": "Vampire Mallet"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "War Axe",
+         "id": "a005",
+         "icon": "war-axe.png",
+         "item_tier": "2",
+         "item_category": "Attack",
+         "data": [{
+            "cost": "2100",
+            "summary": "The longer it fights, the stronger it gets.",
+            "modifiers": [{
+               "physical_attack": "35",
+               "hp": "550",
+               "cd_reduction": "10%"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": [{}]
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Fighting Spirit",
+               "description": "Dealing damage to enemies grants 9 Physical Attack and 3 Physical Penetration per second for 3s, to a max of 8 stacks (Marksmen/Mages/Supports only receive 33% of these stacked effects); also grants 15% Movement Speed at full stacks.",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Hero's Ring"
+               },
+               {
+                  "item_name": "Iron Hunting Bow"
+               },
+               {
+                  "item_name": "Dagger"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Malefic Roar",
+         "id": "a006",
+         "icon": "malefic-roar.png",
+         "item_tier": "3",
+         "item_category": "Attack",
+         "data": [{
+            "cost": "2060",
+            "summary": "Physical PEN",
+            "modifiers": [{
+               "physical_attack": "60"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
             }],
             "passive": [{
                "passive_name": "null",
                "description": "null",
                "modifiers": [{
-                  "movement_speed": "40"
+                  "physical_penetration": "35%"
                }]
             }],
             "unique_passive": [{
-               "unique_passive_name": "null",
-               "description": "null",
-               "modifiers": [{
-
-               }]
+               "unique_passive_name": "Armor Buster",
+               "description": "Each point of the enemy's Physical Defense increases Physical Penetration by 0.05% when dealing damage to it, capped at 20%",
+               "modifiers": [{}]
             }],
             "build_path": [{
-               "item_name": "Boots"
+               "item_name": "Legion Sword"
             }]
          }]
       },
       {
-         "item_name": "Athena's Shield",
-         "id": "d003",
-         "icon": "athena-s-shield.png",
+         "item_name": "Haas's Claws",
+         "id": "a007",
+         "icon": "haas-s-claws.png",
          "item_tier": "3",
-         "item_category": "Defense",
+         "item_category": "Attack",
          "data": [{
-            "cost": "2150",
-            "summary": "Provide Shield",
+            "cost": "1810",
+            "summary": "Physical Lifesteal",
             "modifiers": [{
-               "hp": "900",
-               "hp_regen_rate": "2",
-               "magic_resistance": "62"
+               "physical_attack": "70"
             }],
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": [{
+                  "physical_lifesteal": "25%"
+               }]
             }],
             "passive": [{
                "passive_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "unique_passive": [{
-               "unique_passive_name": "Shield",
-               "description": "Can be triggered when taking Magic Damage. Reduces Magic Damage taken by 25% for 5s (including the Magic Damage that triggers this effect). You will be able to trigger this effect again only after leaving combat for 10s.",
-               "modifiers": [{
-
-               }]
+               "unique_passive_name": "Insanity",
+               "description": "When HP drops below 40%, the hero will receive an extra 15% Physical Lifesteal.",
+               "modifiers": [{}]
             }],
             "build_path": [{
-                  "item_name": "Silence Robe"
+                  "item_name": "Legion Sword"
                },
                {
-                  "item_name": "Vitality Crystal"
+                  "item_name": "Vampire Mallet"
                }
             ]
          }]
       },
       {
          "item_name": "Berserker's Fury",
-         "id": "a001",
+         "id": "a008",
          "icon": "berserker-s-fury.png",
          "item_tier": "3",
          "item_category": "Attack",
@@ -204,9 +336,7 @@
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                "passive_name": "null",
@@ -217,10 +347,8 @@
             }],
             "unique_passive": [{
                "unique_passive_name": "Doom",
-               "description": "Generating a critical attack will increase the user's physical attack by 5% for 2 seconds.",
-               "modifiers": [{
-
-               }]
+               "description": "Crit hit will increase the hero's Physical Attack by 5% for 2s.",
+               "modifiers": [{}]
             }],
             "build_path": [{
                   "item_name": "Legion Sword"
@@ -235,51 +363,140 @@
          }]
       },
       {
-         "item_name": "Blade of Despair",
-         "id": "a002",
-         "icon": "blade-of-despair.png",
+         "item_name": "Endless Battle",
+         "id": "a009",
+         "icon": "endless-battle.png",
          "item_tier": "3",
          "item_category": "Attack",
          "data": [{
-            "cost": "3010",
-            "summary": "Highest Physical ATK",
+            "cost": "2470",
+            "summary": "Enhance Basic ATK",
             "modifiers": [{
-               "physical_attack": "160",
-               "movement_speed": "5%"
+               "hp": "250",
+               "physical_attack": "65",
+               "mana_regen_rate": "5",
+               "cd_reduction": "10%",
+               "movement_speed": "5%",
+               "physical_lifesteal": "10%"
             }],
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                "passive_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "unique_passive": [{
-               "unique_passive_name": "Despair",
-               "description": "Attacking enemy units that have HP below 50% will raise hero's physical damage by 25%. Lasts 2 seconds. (Takes affect before damage is dealt)",
-               "modifiers": [{
-
-               }]
-            }],
-            "build_path": [{
-                  "item_name": "Legion Sword"
+                  "unique_passive_name": "Divine Justice",
+                  "description": "In 3s after using the skill, the caster's next Basic Attack will deal additional True Damage as much as 60% of Physical Attack with a cooldown of 1.5s.",
+                  "modifiers": [{}]
                },
                {
-                  "item_name": "Legion Sword"
+                  "unique_passive_name": "Chase Fate",
+                  "description": "When Divine Justice's effect is triggered, it will increase the hero's movement speed 10%.",
+                  "modifiers": [{}]
+               }
+            ],
+            "build_path": [{
+                  "item_name": "Ogre Tomahawk"
+               },
+               {
+                  "item_name": "Vampire Mallet"
+               },
+               {
+                  "item_name": "Azure Blade"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Windtalker",
+         "id": "a010",
+         "icon": "windtalker.png",
+         "item_tier": "3",
+         "item_category": "Attack",
+         "data": [{
+            "cost": "1820",
+            "summary": "Basic ATK triggers splash",
+            "modifiers": [{
+               "attack_speed": "40%",
+               "movement_speed": "20",
+               "critical_strike_chance": "10%"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "unique_passive": [{
+                  "unique_passive_name": "Typhoon",
+                  "description": "Every 5-3s (decreases as Attack Speed increases), the next Basic Attack deals 150-362 Magic Damage to up to 3 enemies (can critically strike and deals 200% damage against minions).",
+                  "modifiers": [{}]
+               },
+               {
+                  "unique_passive_name": "Activate",
+                  "description": "Each time Typhoon is cast, one's movement speed will be increased 5% for a short time.",
+                  "modifiers": [{}]
+               }
+            ],
+            "build_path": [{
+                  "item_name": "Rogue Meteor"
+               },
+               {
+                  "item_name": "Knife"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Scarlet Phantom",
+         "id": "a011",
+         "icon": "scarlet-phantom.png",
+         "item_tier": "3",
+         "item_category": "Attack",
+         "data": [{
+            "cost": "2020",
+            "summary": "Crit Chance & ATK Speed",
+            "modifiers": [{
+               "physical_attack": "30",
+               "attack_speed": "20%",
+               "critical_strike_chance": "25%"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Frenzy",
+               "description": "Crit hits increase the hero's ATK Speed by 30% and Crit Chance by 5%. Lasts 2s.",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Rogue Meteor"
+               },
+               {
+                  "item_name": "Javelin"
                }
             ]
          }]
       },
       {
          "item_name": "Blade of the Heptaseas",
-         "id": "a003",
+         "id": "a012",
          "icon": "blade-of-the-heptaseas.png",
          "item_tier": "3",
          "item_category": "Attack",
@@ -293,9 +510,7 @@
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                "passive_name": "null",
@@ -306,10 +521,8 @@
             }],
             "unique_passive": [{
                "unique_passive_name": "Ambush",
-               "description": "If no damage was dealt or taken in 5 seconds, next Basic Attack will deal 100% Physical Damage or Physical Attack.",
-               "modifiers": [{
-
-               }]
+               "description": "If no damage is taken or dealt within 5s, next Basic Attack will deal extra Physical Damage equal to 160 plus 40% of Physical Attack and inflict 40% slow effects upon the target for 1.5s.",
+               "modifiers": [{}]
             }],
             "build_path": [{
                   "item_name": "Fury Hammer"
@@ -324,54 +537,124 @@
          }]
       },
       {
+         "item_name": "Blade of Despair",
+         "id": "a013",
+         "icon": "blade-of-despair.png",
+         "item_tier": "3",
+         "item_category": "Attack",
+         "data": [{
+            "cost": "3010",
+            "summary": "Highest Physical ATK",
+            "modifiers": [{
+               "physical_attack": "160",
+               "movement_speed": "5%"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Despair",
+               "description": "Attacking enemy units that have HP below 50% will increase hero's Physical Attack by 25%. Lasts 2s. (Takes affect before damage is dealt)",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Legion Sword"
+               },
+               {
+                  "item_name": "Legion Sword"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Hunter Strike",
+         "id": "a014",
+         "icon": "hunter-strike.png",
+         "item_tier": "3",
+         "item_category": "Attack",
+         "data": [{
+            "cost": "2010",
+            "summary": "Speed up shortly",
+            "modifiers": [{
+               "physical_attack": "80",
+               "cd_reduction": "10%"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": [{}]
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": [{
+                  "physical_penetration": "15"
+               }]
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Retribution",
+               "description": "Deals damage to an enemy hero or creep 5 times in a row and increases Movement Speed by 50% that decays rapidly over 3s. This efect has a 8s cooldown.",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Legion Sword"
+               },
+               {
+                  "item_name": "Iron Hunting Bow"
+               },
+               {
+                  "item_name": "Dagger (Physical Attack)"
+               }
+            ]
+         }]
+      },
+      {
          "item_name": "Bloodlust Axe",
          "id": "a015",
          "icon": "bloodlust-axe.png",
          "item_tier": "3",
-         "item_category": "attack",
+         "item_category": "Attack",
          "data": [{
             "cost": "1970",
             "summary": "Spell Vamp",
             "modifiers": [{
                "physical_attack": "70",
-               "cd_reduction": "10%",
-               "spell_vamp": "20%"
+               "cd_reduction": "10%"
             }],
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": [{
+                     "spell_vamp": "20%"
+                  }]
                },
                {
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": []
                }
             ],
             "unique_passive": [{
                   "unique_passive_name": "null",
                   "description": "null",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                },
                {
                   "unique_passive_name": "null",
                   "description": "null",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                }
             ],
             "build_path": [{
@@ -382,6 +665,798 @@
                },
                {
                   "item_name": "Iron Hunting Bow"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Rose Gold Meteor",
+         "id": "a016",
+         "icon": "rose-gold-meteor.png",
+         "item_tier": "3",
+         "item_category": "Attack",
+         "data": [{
+            "cost": "2120",
+            "summary": "Generate shield with low HP",
+            "modifiers": [{
+               "physical_attack": "60",
+               "physical_lifesteal": "5%",
+               "magic_defense": "30"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Lifeline",
+               "description": "Once the hero's HP falls below 30%, gains a 510~1350 shield (scales with level) and 25 extra Magic Defense for 3s. Cooldown: 40s.",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Magic Blade"
+               },
+               {
+                  "item_name": "Dagger (Physical Attack)"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Sea Halberd",
+         "id": "a017",
+         "icon": "sea-halberd.png",
+         "item_tier": "3",
+         "item_category": "Attack",
+         "data": [{
+            "cost": "2050",
+            "summary": "Healing Reduction",
+            "modifiers": [{
+               "physical_attack": "80",
+               "attack_speed": "25%"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "unique_passive": [{
+                  "unique_passive_name": "Life Drain",
+                  "description": "Upon dealing damage to the target, reduces Shield and HP Regen of the target by 50% for 3s.",
+                  "modifiers": [{}]
+               },
+               {
+                  "unique_passive_name": "null",
+                  "description": "null",
+                  "modifiers": [{}]
+               }
+            ],
+            "build_path": [{
+                  "item_name": "Regular Spear"
+               },
+               {
+                  "item_name": "Legion Sword"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Blade Armor",
+         "id": "d001",
+         "icon": "blade-armor.png",
+         "item_tier": "3",
+         "item_category": "Defense",
+         "data": [{
+            "cost": "1960",
+            "summary": "Deflect Basic ATK",
+            "modifiers": [{
+               "physical_defense": "90"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": [{
+                     "critical_damage_reduction": "20%"
+                  }]
+               },
+               {
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               }
+            ],
+            "unique_passive": [{
+                  "unique_passive_name": "Bladed Armor",
+                  "description": "When struck by a Basic Attack, deals Physical Damage equal to 25% of the incoming damage (calculated before Damage Reduction) plus 25% of the hero's Physical Defense to the attacker and slows them by 15% for 1s.",
+                  "modifiers": [{}]
+               },
+               {
+                  "unique_passive_name": "null",
+                  "description": "null",
+                  "modifiers": [{}]
+               }
+            ],
+            "build_path": [{
+                  "item_name": "Leather Jerkin"
+               },
+               {
+                  "item_name": "Leather Jerkin"
+               },
+               {
+                  "item_name": "Steel Legplates"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Queen's Wings",
+         "id": "d002",
+         "icon": "queen-s-wings.png",
+         "item_tier": "3",
+         "item_category": "Defense",
+         "data": [{
+            "cost": "2250",
+            "summary": "null",
+            "modifiers": [{
+               "hp": "900",
+               "physical_attack": "15",
+               "cd_reduction": "10%"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               },
+               {
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               }
+            ],
+            "unique_passive": [{
+                  "unique_passive_name": "Demonize",
+                  "description": "Reduces damage taken 20% when health is less than 40% and increases your Spell Vamp by 35% for 5s. This effect has a cooldown of 60s.",
+                  "modifiers": [{}]
+               },
+               {
+                  "unique_passive_name": "null",
+                  "description": "null",
+                  "modifiers": [{}]
+               }
+            ],
+            "build_path": [{
+                  "item_name": "Ares Belt"
+               },
+               {
+                  "item_name": "Iron Hunting Bow"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Thunder Belt",
+         "id": "d003",
+         "icon": "thunder-belt.png",
+         "item_tier": "3",
+         "item_category": "Defense",
+         "data": [{
+            "cost": "2290",
+            "summary": "Ranged Slowing Effect",
+            "modifiers": [{
+               "hp": "800",
+               "physical_defense": "40",
+               "mana_regen_rate": "6",
+               "cd_reduction": "10%"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               },
+               {
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               }
+            ],
+            "unique_passive": [{
+                  "unique_passive_name": "Thunderbolt",
+                  "description": " In 3s after using the skill, the caster's next Basic Attack will deal True Damage as much as 50 plus 5% of the caster's Extra Max HP to the enemy target and surrounding units and slow them by 40-80% (increases with the caster's Extra Max HP) for 1s. This effect has a 1.5s cooldown.",
+                  "modifiers": [{}]
+               },
+               {
+                  "unique_passive_name": "null",
+                  "description": "null",
+                  "modifiers": [{}]
+               }
+            ],
+            "build_path": [{
+                  "item_name": "Ares Belt"
+               },
+               {
+                  "item_name": "Azure Blade"
+               },
+               {
+                  "item_name": "Leather Jerkin"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Cursed Helmet",
+         "id": "d004",
+         "icon": "cursed-helmet.png",
+         "item_tier": "3",
+         "item_category": "Defense",
+         "data": [{
+            "cost": "1760",
+            "summary": "For Tank to clear lanes",
+            "modifiers": [{
+               "hp": "1200",
+               "magic_resistance": "25"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Burning Soul",
+               "description": "Deals Magic Damage equal to 1.5% of hero's Max HP per second to nearby enemies. This damage is increased by 100% against minions.",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Molten Essence"
+               },
+               {
+                  "item_name": "Magic Resist Cloak"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Guardian Helmet",
+         "id": "d005",
+         "icon": "guardian-helmet.png",
+         "item_tier": "3",
+         "item_category": "Defense",
+         "data": [{
+            "cost": "2200",
+            "summary": "Recover HP on leaving combat",
+            "modifiers": [{
+               "hp": "1550",
+               "hp_regen_rate": "20"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Recovery",
+               "description": " Regenerates 2.5% Max HP per second (reduced to 0.5% Max HP per second over 5s after taking damage).",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Ares Belt"
+               },
+               {
+                  "item_name": "Ares Belt"
+               },
+               {
+                  "item_name": "Healing Necklace"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Antique Cuirass",
+         "id": "d006",
+         "icon": "antique-cuirass.png",
+         "item_tier": "3",
+         "item_category": "Defense",
+         "data": [{
+            "cost": "2170",
+            "summary": "Decrease Enemy Physical ATK",
+            "modifiers": [{
+               "hp": "920",
+               "physical_defense": "54",
+               "hp_regen_rate": "4"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "unique_passive": [{
+                  "unique_passive_name": "Deter",
+                  "description": "When hit by an enemy hero's skill, reduces their Physical ATK by 8% for 2s (up to 3 stacks).",
+                  "modifiers": [{}]
+               },
+               {
+                  "unique_passive_name": "null",
+                  "description": "null",
+                  "modifiers": [{}]
+               }
+            ],
+            "build_path": [{
+                  "item_name": "Ares Belt"
+               },
+               {
+                  "item_name": "Dreadnaught Armor"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Oracle",
+         "id": "d007",
+         "icon": "oracle.png",
+         "item_tier": "3",
+         "item_category": "Defense",
+         "data": [{
+            "cost": "2060",
+            "summary": "Enhance regen effects",
+            "modifiers": [{
+               "hp": "850",
+               "cd_reduction": "10%",
+               "magic_resistance": "42"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Bless",
+               "description": "Raises shield abosorption and HP regeneration effect by 30%.",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Hero's Ring"
+               },
+               {
+                  "item_name": "Silence Robe"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Athena's Shield",
+         "id": "d008",
+         "icon": "athena-s-shield.png",
+         "item_tier": "3",
+         "item_category": "Defense",
+         "data": [{
+            "cost": "2150",
+            "summary": "Resist Burst Magic Damage",
+            "modifiers": [{
+               "hp": "900",
+               "hp_regen_rate": "2",
+               "magic_resistance": "62"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Shield",
+               "description": "Can be triggered when taking Magic Damage. Reduces Magic Damage taken by 25% for 5s (including the Magic Damage that triggers this effect). You will be able to trigger this effect again after leaving combat for 10s.",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Silence Robe"
+               },
+               {
+                  "item_name": "Vitality Crystal"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Dominance Ice",
+         "id": "d009",
+         "icon": "dominance-ice.png",
+         "item_tier": "3",
+         "item_category": "Defense",
+         "data": [{
+            "cost": "2010",
+            "summary": "Reduces healing and Attack Speed.",
+            "modifiers": [{
+               "mana": "500",
+               "physical_defense": "70",
+               "movement_speed": "5%"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": [{
+                  "cd_reduction": "10%"
+               }]
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Arctic Cold",
+               "description": "Reduces the Shield and HP Regen of nearby enemy heroes by 50% (excluding those affected by 'Life Drain'), and their Attack Speed by 30%.",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Black Ice Shield"
+               },
+               {
+                  "item_name": "Steel Legplates"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Immortality",
+         "id": "d010",
+         "icon": "immortality.png",
+         "item_tier": "3",
+         "item_category": "Defense",
+         "data": [{
+            "cost": "2120",
+            "summary": "Resurrect",
+            "modifiers": [{
+               "hp": "800",
+               "physical_defense": "30"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Immortal",
+               "description": "Resurrect in 2.5s after death and gets 16% HP and 220-1200 shield that lasts for 3s. (Scales with hero level). This effect has a CD of 210s.",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Ares Belt"
+               },
+               {
+                  "item_name": "Leather Jerkin"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Brute Force Breastplate",
+         "id": "d011",
+         "icon": "brute-force-breastplate.png",
+         "item_tier": "3",
+         "item_category": "Defense",
+         "data": [{
+            "cost": "1870",
+            "summary": "Stack DEF",
+            "modifiers": [{
+               "hp": "770",
+               "physical_defense": "45"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Brute Force",
+               "description": "Casting a skill or using Basic Attacks will increase Movement Speed by 2%, Physical & Magic Defense by 4. Lasts 4s. Stacks up to 5 times.",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Leather Jerkin"
+               },
+               {
+                  "item_name": "Ares Belt"
+               },
+               {
+                  "item_name": "Leather Jerkin"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Twilight Armor",
+         "id": "d012",
+         "icon": "twilight-armor.png",
+         "item_tier": "3",
+         "item_category": "Defense",
+         "data": [{
+            "cost": "2100",
+            "summary": "Sustained Damage",
+            "modifiers": [{
+               "hp": "1200",
+               "physical_defense": "20"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Twilight",
+               "description": "Every 2s, the next attack deals extra Magic Damage equal to 20 plus 5% of the hero's Extra HP",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Ares Belt"
+               },
+               {
+                  "item_name": "Leather Jerkin"
+               },
+               {
+                  "item_name": "Vitality Crystal"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Radiant Armor",
+         "id": "d013",
+         "icon": "radiant-armor.png",
+         "item_tier": "3",
+         "item_category": "Defense",
+         "data": [{
+            "cost": "1980",
+            "summary": "Resist Continuous Magic Damage",
+            "modifiers": [{
+               "hp": "950",
+               "hp_regen_rate": "12",
+               "magic_defense": "52"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               },
+               {
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               }
+            ],
+            "unique_passive": [{
+                  "unique_passive_name": "Holy Blessing",
+                  "description": " Increases own Magic Damage Reduction by 3-10 upon taking Magic Damage (scales with level), lasting for 3s and stacking up to 6 times.",
+                  "modifiers": [{}]
+               },
+               {
+                  "unique_passive_name": "null",
+                  "description": "null",
+                  "modifiers": [{}]
+               }
+            ],
+            "build_path": [{
+                  "item_name": "Magic Resist Cloak"
+               },
+               {
+                  "item_name": "Healing Necklace"
+               },
+               {
+                  "item_name": "Ares Belt"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Flame Retribution",
+         "id": "j007",
+         "icon": "flame-retribution.png",
+         "item_tier": "0",
+         "item_category": "Jungling",
+         "data": [{
+            "cost": "null",
+            "summary": "null",
+            "modifiers": [{}],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               },
+               {
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               }
+            ],
+            "unique_passive": [{
+                  "unique_passive_name": "null",
+                  "description": "null",
+                  "modifiers": [{}]
+               },
+               {
+                  "unique_passive_name": "null",
+                  "description": "null",
+                  "modifiers": [{}]
+               }
+            ],
+            "build_path": [{
+                  "item_name": "null"
+               },
+               {
+                  "item_name": "null"
+               },
+               {
+                  "item_name": "null"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Ice Retribution",
+         "id": "j008",
+         "icon": "ice-retribution.png",
+         "item_tier": "0",
+         "item_category": "Jungling",
+         "data": [{
+            "cost": "null",
+            "summary": "null",
+            "modifiers": [{}],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               },
+               {
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               }
+            ],
+            "unique_passive": [{
+                  "unique_passive_name": "null",
+                  "description": "null",
+                  "modifiers": [{}]
+               },
+               {
+                  "unique_passive_name": "null",
+                  "description": "null",
+                  "modifiers": [{}]
+               }
+            ],
+            "build_path": [{
+                  "item_name": "null"
+               },
+               {
+                  "item_name": "null"
+               },
+               {
+                  "item_name": "null"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Bloody Retribution",
+         "id": "j009",
+         "icon": "bloody-retribution.png",
+         "item_tier": "0",
+         "item_category": "Jungling",
+         "data": [{
+            "cost": "null",
+            "summary": "null",
+            "modifiers": [{}],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               },
+               {
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               }
+            ],
+            "unique_passive": [{
+                  "unique_passive_name": "null",
+                  "description": "null",
+                  "modifiers": [{}]
+               },
+               {
+                  "unique_passive_name": "null",
+                  "description": "null",
+                  "modifiers": [{}]
+               }
+            ],
+            "build_path": [{
+                  "item_name": "null"
+               },
+               {
+                  "item_name": "null"
+               },
+               {
+                  "item_name": "null"
                }
             ]
          }]
@@ -402,72 +1477,23 @@
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                "passive_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "unique_passive": [{
                "unique_passive_name": "Guard",
                "description": "Gain a Shield equal to 200% Magic Power. Gain another after 30s when it breaks.",
-               "modifiers": [{
-
-               }]
+               "modifiers": [{}]
             }],
             "build_path": [{
                   "item_name": "Magic Wand"
                },
                {
                   "item_name": "Magic Wand"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Brute Force Breastplate",
-         "id": "d006",
-         "icon": "brute-force-breastplate.png",
-         "item_tier": "3",
-         "item_category": "Defense",
-         "data": [{
-            "cost": "1870",
-            "summary": "null",
-            "modifiers": [{
-               "hp": "770",
-               "physical_defense": "45"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Brute Force",
-               "description": "Casting a skill or using Basic Attacks will increase Movement Speed by 2%, Physical & Magic Defense by 4. Lasts 4s. Stacks up to 5 times.",
-               "modifiers": [{
-
-               }]
-            }],
-            "build_path": [{
-                  "item_name": "Leather Jerkin"
-               },
-               {
-                  "item_name": "Ares Belt"
                }
             ]
          }]
@@ -490,23 +1516,17 @@
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                "passive_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "unique_passive": [{
                "unique_passive_name": "Calamity",
                "description": " In 3s after using the skill, the casters next Basic Attack deals additional True Damage as much as 120% of Magic Power with a cooldown of 1.5s. Then briefly gains 10% Movement Speed",
-               "modifiers": [{
-
-               }]
+               "modifiers": [{}]
             }],
             "build_path": [{
                   "item_name": "Azure Blade"
@@ -534,30 +1554,22 @@
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                "passive_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "unique_passive": [{
                   "unique_passive_name": "Time",
                   "description": "Time: Adds 25 HP and 4 Magic Power every 20s. Up to 12 times",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                },
                {
                   "unique_passive_name": "Reincarnate",
                   "description": "If Time reaches Max, then the hero will receive extra 5% Magic Power and 300 Mana",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                }
             ],
             "build_path": [{
@@ -585,9 +1597,7 @@
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                "passive_name": "null",
@@ -599,9 +1609,7 @@
             "unique_passive": [{
                "unique_passive_name": "Rechage",
                "description": "Killing enemy heroes restore 10% Max HP.",
-               "modifiers": [{
-
-               }]
+               "modifiers": [{}]
             }],
             "build_path": [{
                   "item_name": "Magic Wand"
@@ -611,217 +1619,6 @@
                },
                {
                   "item_name": "Vitality Crystal"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Corrosion Scythe",
-         "id": "a005",
-         "icon": "corrosion-scythe.png",
-         "item_tier": "3",
-         "item_category": "attack",
-         "data": [{
-            "cost": "2050",
-            "summary": "Slow by Basic ATK",
-            "modifiers": [{
-               "physical_attack": "50",
-               "attack_speed": "25%",
-               "movement_speed": "5%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [
-
-                  ]
-               },
-               {
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [
-
-                  ]
-               }
-            ],
-            "unique_passive": [{
-                  "unique_passive_name": "Corrosive",
-                  "description": " Each time a Basic Attack deals damage to enemies, reduces the target's Movement Speed by 8% (halved for ranged Basic Attacks) for 1.5s. Stacking up to 5 times.",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "Impulse",
-                  "description": "When each Basic Attack deals damage to enemies, increase Attack Speed by 8%. Stacks up to 5 times. Lasts 3s.",
-                  "modifiers": [{
-
-                  }]
-               }
-            ],
-            "build_path": [{
-                  "item_name": "Regular Spear"
-               },
-               {
-                  "item_name": "Regular Spear"
-               }
-            ]
-         }]
-      },
-      
-      {
-         "item_name": "Cursed Helmet",
-         "id": "d007",
-         "icon": "cursed-helmet.png",
-         "item_tier": "3",
-         "item_category": "Defense",
-         "data": [{
-            "cost": "1760",
-            "summary": "null",
-            "modifiers": [{
-               "hp": "1200",
-               "magic_resistance": "25"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Burning Soul",
-               "description": "Deals 1.5% Magic Damage equal to the Max HP to nearby enemies per second. The damage will increase 50% to Minions.",
-               "modifiers": [{
-
-               }]
-            }],
-            "build_path": [{
-                  "item_name": "Molten Essence"
-               },
-               {
-                  "item_name": "Magic Resist Cloak"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Demon Hunter Sword",
-         "id": "a007",
-         "icon": "demon-hunter-sword.png",
-         "item_tier": "3",
-         "item_category": "attack",
-         "data": [{
-            "cost": "2180",
-            "summary": "Tank Killer",
-            "modifiers": [{
-               "physical_attack": "35",
-               "attack_speed": "25%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [
-
-                  ]
-               },
-               {
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [
-
-                  ]
-               }
-            ],
-            "unique_passive": [{
-                  "unique_passive_name": "Devour",
-                  "description": "Basic attacks will deal 9% of the target's current HP as additional physical damage (up to 60 against creeps and minions).",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "Devour",
-                  "description": "Each Basic Attack grants 3% Physical Lifesteal for 3s. Stack up to 5 times.",
-                  "modifiers": [{
-
-                  }]
-               }
-            ],
-            "build_path": [{
-                  "item_name": "Regular Spear"
-               },
-               {
-                  "item_name": "Knife"
-               },
-               {
-                  "item_name": "Vampire Mallet"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Demon Shoes",
-         "id": "mo003",
-         "icon": "demon-shoes.png",
-         "item_tier": "2",
-         "item_category": "Movement",
-         "data": [{
-            "cost": "720",
-            "summary": "Quick Mana Regen",
-            "modifiers": [{
-               "mana_regen_rate": "6"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [{
-                  "movement_speed": "40"
-               }]
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Mysticism",
-               "description": "Eliminations of enemy heroes and assists regenerates hero's mana by 10%, while eliminating minions regenerates 4% of the hero's mana.",
-               "modifiers": [{
-
-               }]
-            }],
-            "build_path": [{
-                  "item_name": "Boots"
-               },
-               {
-                  "item_name": "Magic Necklace"
-               },
-               {
-                  "item_name": "Magic Necklace"
                }
             ]
          }]
@@ -841,9 +1638,7 @@
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                "passive_name": "null",
@@ -855,115 +1650,11 @@
             "unique_passive": [{
                "unique_passive_name": "Spellbreaker",
                "description": "Each point of the enemy's Magic Defense increases Magic Penetration by 0.1% when dealing damage to it, capped at 20%.",
-               "modifiers": [{
-
-               }]
+               "modifiers": [{}]
             }],
             "build_path": [{
                "item_name": "Magic Wand"
             }]
-         }]
-      },
-      {
-         "item_name": "Dominance Ice",
-         "id": "d008",
-         "icon": "dominance-ice.png",
-         "item_tier": "3",
-         "item_category": "Defense",
-         "data": [{
-            "cost": "2010",
-            "summary": "null",
-            "modifiers": [{
-               "mana": "500",
-               "physical_defense": "70",
-               "movement_speed": "5%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [{
-                  "cd_reduction": "10%"
-               }]
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Arctic Cold",
-               "description": "Reduces the Shield and HP Regen of nearby enemy heroes by 50% (excluding those affected by 'Life Drain'), and their Attack Speed by 30%.",
-               "modifiers": [{
-
-               }]
-            }],
-            "build_path": [{
-                  "item_name": "Black Ice Shield"
-               },
-               {
-                  "item_name": "Leather Jerkin"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Endless Battle",
-         "id": "a010",
-         "icon": "endless-battle.png",
-         "item_tier": "3",
-         "item_category": "Attack",
-         "data": [{
-            "cost": "2470",
-            "summary": "Enhance Basic ATK",
-            "modifiers": [{
-               "hp": "250",
-               "physical_attack": "65",
-               "mana_regen_rate": "5",
-               "cd_reduction": "10%",
-               "movement_speed": "5%",
-               "physical_lifesteal": "10%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "unique_passive": [{
-                  "unique_passive_name": "Divine Justice",
-                  "description": "After using a skill, the next Basic Attack will deal an extra 85% of Physical Attack as True Damage. This effect has a CD of 1.5s.",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "Chase Fate",
-                  "description": "When Divine Justice's effect is triggered, it will increase the hero's movement speed by 10%.",
-                  "modifiers": [{
-
-                  }]
-               }
-            ],
-            "build_path": [{
-                  "item_name": "Ogre Tomahawk"
-               },
-               {
-                  "item_name": "Vampire Mallet"
-               },
-               {
-                  "item_name": "Azure Blade"
-               }
-            ]
          }]
       },
       {
@@ -983,23 +1674,17 @@
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                "passive_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "unique_passive": [{
                "unique_passive_name": "Scorch",
                "description": "Skill Damage will burn the targets for 3s, dealing 1% of the target's Max HP as Magic Damage per second (damaging the same target multiple times within a short duration can increase this damage to 2% at most), 10 damage minimum",
-               "modifiers": [{
-
-               }]
+               "modifiers": [{}]
             }],
             "build_path": [{
                   "item_name": "Exotic Veil"
@@ -1009,110 +1694,6 @@
                },
                {
                   "item_name": "Vitality Crystal"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Golden Staff",
-         "id": "a011",
-         "icon": "golden-staff.png",
-         "item_tier": "3",
-         "item_category": "attack",
-         "data": [{
-            "cost": "2000",
-            "summary": "Enhance Basic ATK",
-            "modifiers": [{
-               "physical_attack": "65",
-               "attack_speed": "15%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [
-
-                  ]
-               },
-               {
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [
-
-                  ]
-               }
-            ],
-            "unique_passive": [{
-                  "unique_passive_name": "Swift",
-                  "description": "Unable to increase critical chance. Every 1% of critical chance gained will increase attack speed by 1%.",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "Endless Strike",
-                  "description": "After every 2 non-critical Basic Attacks. Attack Speed of the next Basic Attack is increased by 100% and its effects is triggered an extra 2 time(s).",
-                  "modifiers": [{
-
-                  }]
-               }
-            ],
-            "build_path": [{
-                  "item_name": "Dagger"
-               },
-               {
-                  "item_name": "Regular Spear"
-               },
-               {
-                  "item_name": "Dagger"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Haas's Claws",
-         "id": "a013",
-         "icon": "haas-s-claws.png",
-         "item_tier": "3",
-         "item_category": "Attack",
-         "data": [{
-            "cost": "1810",
-            "summary": "Physical Lifesteal",
-            "modifiers": [{
-               "physical_attack": "70"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [{
-                  "physical_lifesteal": "20%"
-               }]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Insanity",
-               "description": "When HP drops below 40%, the hero will receive an extra 10% physical lifesteal.",
-               "modifiers": [{
-
-               }]
-            }],
-            "build_path": [{
-                  "item_name": "Legion Sword"
-               },
-               {
-                  "item_name": "Vampire Mallet"
                }
             ]
          }]
@@ -1132,75 +1713,23 @@
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                "passive_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "unique_passive": [{
                "unique_passive_name": "Mystery",
                "description": "Increase magic attack by 21%-35% (Scales with level)",
-               "modifiers": [{
-
-               }]
+               "modifiers": [{}]
             }],
             "build_path": [{
                   "item_name": "Magic Wand"
                },
                {
                   "item_name": "Magic Wand"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Hunter Strike",
-         "id": "a014",
-         "icon": "hunter-strike.png",
-         "item_tier": "3",
-         "item_category": "Attack",
-         "data": [{
-            "cost": "2010",
-            "summary": "Speed up shortly",
-            "modifiers": [{
-               "physical_attack": "80",
-               "cd_reduction": "10%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [{
-
-               }]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [{
-                  "physical_penetration": "15"
-               }]
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Retribution",
-               "description": "Attacks enemy heroes or Creeps for 5 times in a row and improves Movement Speed by 30% for 3s. This effect has a CD of 15s.",
-               "modifiers": [{
-
-               }]
-            }],
-            "build_path": [{
-                  "item_name": "Legion Sword"
-               },
-               {
-                  "item_name": "Iron Hunting Bow"
-               },
-               {
-                  "item_name": "Dagger (Physical Attack)"
                }
             ]
          }]
@@ -1223,72 +1752,23 @@
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                "passive_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "unique_passive": [{
                "unique_passive_name": "Ice Bound",
                "description": "Skills that deal damage to an enemy hero will slow them by 15%. This effect lasts 3s. Stacks up to 2 times.",
-               "modifiers": [{
-
-               }]
+               "modifiers": [{}]
             }],
             "build_path": [{
                   "item_name": "Magic Wand"
                },
                {
                   "item_name": "Mystic Container"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Immortality",
-         "id": "d011",
-         "icon": "immortality.png",
-         "item_tier": "3",
-         "item_category": "Defense",
-         "data": [{
-            "cost": "2120",
-            "summary": "null",
-            "modifiers": [{
-               "hp": "800",
-               "physical_defense": "40"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Immortal",
-               "description": "Resurrect 2.5s upon death and gets 16% Max HP and 220-1200 shield that lasts for 3s. (Scales with level) This effect has a CD of 210s.",
-               "modifiers": [{
-
-               }]
-            }],
-            "build_path": [{
-                  "item_name": "Ares Belt"
-               },
-               {
-                  "item_name": "Leather Jerkin"
                }
             ]
          }]
@@ -1310,23 +1790,17 @@
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                "passive_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "unique_passive": [{
                "unique_passive_name": "Resonate",
                "description": " Every 6s, the next skill echoes, dealing 20-1000 Magic Damage (scales with the hero's Max Mana) to up to 3 enemies",
-               "modifiers": [{
-
-               }]
+               "modifiers": [{}]
             }],
             "build_path": [{
                   "item_name": "Book of Sages"
@@ -1336,838 +1810,6 @@
                },
                {
                   "item_name": "Magic Wand"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Magic Shoes",
-         "id": "mo004",
-         "icon": "magic-shoes.png",
-         "item_tier": "2",
-         "item_category": "Movement",
-         "data": [{
-            "cost": "710",
-            "summary": "Reduce CD",
-            "modifiers": [{
-               "cd_reduction": "10%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [{
-                  "movement_speed": "40"
-               }]
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "null",
-               "description": "null",
-               "modifiers": [{
-
-               }]
-            }],
-            "build_path": [{
-                  "item_name": "Boots"
-               },
-               {
-                  "item_name": "Magic Necklace"
-               },
-               {
-                  "item_name": "Magic Necklace"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Malefic Roar",
-         "id": "a019",
-         "icon": "malefic-roar.png",
-         "item_tier": "3",
-         "item_category": "Attack",
-         "data": [{
-            "cost": "2060",
-            "summary": "Physical PEN",
-            "modifiers": [{
-               "physical_attack": "60"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [{
-                  "physical_penetration": "35%"
-               }]
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Armor Buster",
-               "description": "Each point of the enemy's Physical Defense increases Physical Penetration by 0.05% when dealing damage to it, capped at 20%",
-               "modifiers": [{
-
-               }]
-            }],
-            "build_path": [{
-               "item_name": "Legion Sword"
-            }]
-         }]
-      },
-      {
-         "item_name": "Oracle",
-         "id": "d016",
-         "icon": "oracle.png",
-         "item_tier": "3",
-         "item_category": "Defense",
-         "data": [{
-            "cost": "2060",
-            "summary": "Enhance regen effects",
-            "modifiers": [{
-               "hp": "850",
-               "cd_reduction": "10%",
-               "magic_resistance": "42"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Bless",
-               "description": "Raises shield abosorption and HP regeneration effect by 30%.",
-               "modifiers": [{
-
-               }]
-            }],
-            "build_path": [{
-                  "item_name": "Hero's Ring"
-               },
-               {
-                  "item_name": "Silence Robe"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Rapid Boots",
-         "id": "mo005",
-         "icon": "rapid-boots.png",
-         "item_tier": "2",
-         "item_category": "Movement",
-         "data": [{
-            "cost": "850",
-            "summary": "null",
-            "modifiers": [{
-
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [{
-                  "movement_speed": "80"
-               }]
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Side Effect",
-               "description": " Dealing or taking damage slows hero's movement speed by 40 for 5s",
-               "modifiers": [{
-
-               }]
-            }],
-            "build_path": [{
-               "item_name": "Boots"
-            }]
-         }]
-      },
-      {
-         "item_name": "Rose Gold Meteor",
-         "id": "a024",
-         "icon": "rose-gold-meteor.png",
-         "item_tier": "3",
-         "item_category": "Attack",
-         "data": [{
-            "cost": "null",
-            "summary": "Generate shield with low HP",
-            "modifiers": [{
-               "physical_attack": "60",
-               "physical_lifesteal": "5%",
-               "magic_defense": "30"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Lifeline",
-               "description": "Once the hero's HP falls below 30% they generate a shield that absorbs 510~1350 points of damage (increases with level) that lasts for 3 seconds. CD is 40 seconds.",
-               "modifiers": [{
-
-               }]
-            }],
-            "build_path": [{
-                  "item_name": "Magic Blade"
-               },
-               {
-                  "item_name": "Dagger (Physical Attack)"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Scarlet Phantom",
-         "id": "a025",
-         "icon": "scarlet-phantom.png",
-         "item_tier": "3",
-         "item_category": "Attack",
-         "data": [{
-            "cost": "2020",
-            "summary": "null",
-            "modifiers": [{
-               "physical_attack": "30",
-               "attack_speed": "20%",
-               "critical_strike_chance": "25%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Frenzy",
-               "description": "Crit hits increase the hero's attack speed by 30% and Crit Chance by 5%. Lasting 2s.",
-               "modifiers": [{
-
-               }]
-            }],
-            "build_path": [{
-                  "item_name": "Rogue Meteor"
-               },
-               {
-                  "item_name": "Javelin"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Radiant Armor",
-         "id": "d018",
-         "icon": "radiant-armor.png",
-         "item_tier": "3",
-         "item_category": "Defense",
-         "data": [{
-            "cost": "1980",
-            "summary": "null",
-            "modifiers": [{
-               "hp": "950",
-               "hp_regen_rate": "12",
-               "magic_defense": "52"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [
-
-                  ]
-               },
-               {
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [
-
-                  ]
-               }
-            ],
-            "unique_passive": [{
-                  "unique_passive_name": "Holy Blessing",
-                  "description": " Increases own Magic Damage Reduction by 3-10 upon taking Magic Damage (scales with level), lasting for 3s and stacking up to 6 times.",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{
-
-                  }]
-               }
-            ],
-            "build_path": [{
-                  "item_name": "Magic Resist Cloak"
-               },
-               {
-                  "item_name": "Healing Necklace"
-               },
-               {
-                  "item_name": "Ares Belt"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Thunder Belt",
-         "id": "d036",
-         "icon": "thunder-belt.png",
-         "item_tier": "3",
-         "item_category": "Defense",
-         "data": [{
-            "cost": "2290",
-            "summary": "null",
-            "modifiers": [{
-               "hp": "800",
-               "physical_defense": "40",
-               "mana_regen_rate": "30",
-               "cd_reduction": "10%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [
-
-                  ]
-               },
-               {
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [
-
-                  ]
-               }
-            ],
-            "unique_passive": [{
-                  "unique_passive_name": "Thunderbolt",
-                  "description": " In 3s after using the skill, the caster's next Basic Attack will deal True Damage as much as 50 plus 5% of the caster's Extra Max HP to the enemy target and surrounding units and slow them by 40-80% (increases with the caster's Extra Max HP) for 1s. This effect has a 1.5s cooldown.",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{
-
-                  }]
-               }
-            ],
-            "build_path": [{
-                  "item_name": "Ares Belt"
-               },
-               {
-                  "item_name": "Azure Blade"
-               },
-               {
-                  "item_name": "Leather Jerkin"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Guardian Helmet",
-         "id": "d020",
-         "icon": "guardian-helmet.png",
-         "item_tier": "3",
-         "item_category": "Defense",
-         "data": [{
-            "cost": "2200",
-            "summary": "Recover HP on leaving combat",
-            "modifiers": [{
-               "hp": "1550",
-               "hp_regen_rate": "20"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Recovery",
-               "description": " Regenerates 1.5%-3.5% of the hero's Max HP per second. (Each kill or assist increases it by 0.25%, including kills and assists prior to purchase.) This effect wears off within 5s after taking damage.",
-               "modifiers": [{
-
-               }]
-            }],
-            "build_path": [{
-                  "item_name": "Ares Belt"
-               },
-               {
-                  "item_name": "Ares Belt"
-               },
-               {
-                  "item_name": "Healing Necklace"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Swift Boots",
-         "id": "mo006",
-         "icon": "swift-boots.png",
-         "item_tier": "2",
-         "item_category": "Movement",
-         "data": [{
-            "cost": "710",
-            "summary": "ATK SPD",
-            "modifiers": [{
-               "attack_speed": "15%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [{
-                  "movement_speed": "40"
-               }]
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "null",
-               "description": "null",
-               "modifiers": [{
-
-               }]
-            }],
-            "build_path": [{
-                  "item_name": "Boots"
-               },
-               {
-                  "item_name": "Knife"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Tough Boots",
-         "id": "mo007",
-         "icon": "tough-boots.png",
-         "item_tier": "2",
-         "item_category": "Movement",
-         "data": [{
-            "cost": "700",
-            "summary": "Control Time Reduction",
-            "modifiers": [{
-               "magic_resistance": "22"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [{
-                  "movement_speed": "40"
-               }]
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Fortitude",
-               "description": "Reduces time controlled 30%.",
-               "modifiers": [{
-
-               }]
-            }],
-            "build_path": [{
-                  "item_name": "Boots"
-               },
-               {
-                  "item_name": "Magic Resist Cloak"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Twilight Armor",
-         "id": "m029",
-         "icon": "twilight-armor.png",
-         "item_tier": "3",
-         "item_category": "Defense",
-         "data": [{
-            "cost": "2100",
-            "summary": "null",
-            "modifiers": [{
-               "hp": "1200",
-               "mana": "400",
-               "critical_damage": "20%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Defiance",
-               "description": " Triggers after taking over 600 Physical Damage, to reduce Physical Damage taken by 20%, dealing True Damage equal to 20 + 5% of the hero's Max HP to nearby enemies every second. Lasts for 3s. Has a 6s Cooldown",
-               "modifiers": [{
-
-               }]
-            }],
-            "build_path": [{
-                  "item_name": "Ares Belt"
-               },
-               {
-                  "item_name": "Power Crystal"
-               },
-               {
-                  "item_name": "Vitality Crystal"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Warrior Boots",
-         "id": "mo008",
-         "icon": "warrior-boots.png",
-         "item_tier": "2",
-         "item_category": "Movement",
-         "data": [{
-            "cost": "720",
-            "summary": "null",
-            "modifiers": [{
-               "physical_defense": "22"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [{
-                  "movement_speed": "40"
-               }]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Valor",
-               "description": " Physical Defense will be increased by 5 for 25s for each basic attack received, capped at 25",
-               "modifiers": [{
-
-               }]
-            }],
-            "build_path": [{
-                  "item_name": "Boots"
-               },
-               {
-                  "item_name": "Leather Jerkin"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Wind of Nature",
-         "id": "a027",
-         "icon": "wind-of-nature.png",
-         "item_tier": "3",
-         "item_category": "attack",
-         "data": [{
-            "cost": "1910",
-            "summary": "Immune to Physical ATK",
-            "modifiers": [{
-               "physical_attack": "30",
-               "attack_speed": "20%",
-               "physical_lifesteal": "10%"
-            }],
-            "active": [{
-               "active_name": "Wind Chant",
-               "description": "Immune to all Physical Damage. Last 2s. (Duration becomes half when used by non-marksmen). CD 70s.",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [
-
-                  ]
-               },
-               {
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [
-
-                  ]
-               }
-            ],
-            "unique_passive": [{
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{
-
-                  }]
-               }
-            ],
-            "build_path": [{
-                  "item_name": "Regular Spear"
-               },
-               {
-                  "item_name": "Vampire Mallet"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Windtalker",
-         "id": "a028",
-         "icon": "windtalker.png",
-         "item_tier": "3",
-         "item_category": "Attack",
-         "data": [{
-            "cost": "1820",
-            "summary": "Basic ATK triggers splash",
-            "modifiers": [{
-               "attack_speed": "40%",
-               "movement_speed": "20",
-               "critical_strike_chance": "10%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "unique_passive": [{
-                  "unique_passive_name": "Typhoon",
-                  "description": "Every 5s, Basic Attack hits 3 enemy units and deals 150 points of Magic Damage. This effect's CD drops as your Crit Chance rises, while damage rises as Attack Speed rises. (Deal 100% more Damage to Minions.)",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "Activate",
-                  "description": "Each time Typhoon is cast, one's movement speed will be increased by 5% for a short time.",
-                  "modifiers": [{
-
-                  }]
-               }
-            ],
-            "build_path": [{
-                  "item_name": "Rogue Meteor"
-               },
-               {
-                  "item_name": "Knife"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Queen's Wings",
-         "id": "d021",
-         "icon": "queen-s-wings.png",
-         "item_tier": "3",
-         "item_category": "Defense",
-         "data": [{
-            "cost": "2250",
-            "summary": "null",
-            "modifiers": [{
-               "hp": "900",
-               "physical_attack": "25",
-               "cd_reduction": "10%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [
-
-                  ]
-               },
-               {
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [
-
-                  ]
-               }
-            ],
-            "unique_passive": [{
-                  "unique_passive_name": "Demonize",
-                  "description": "Reduces damage taken 20% when health is less than 40% and increases your Spell Vamp by 25% for 5s. This effect has a cooldown of 60s.",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{
-
-                  }]
-               }
-            ],
-            "build_path": [{
-                  "item_name": "Ares Belt"
-               },
-               {
-                  "item_name": "Iron Hunting Bow"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Blade Armor",
-         "id": "d022",
-         "icon": "blade-armor.png",
-         "item_tier": "3",
-         "item_category": "Defense",
-         "data": [{
-            "cost": "1660",
-            "summary": "null",
-            "modifiers": [{
-               "physical_defense": "90"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": [
-
-               ]
-            }],
-            "passive": [{
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [
-
-                  ]
-               },
-               {
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [
-
-                  ]
-               }
-            ],
-            "unique_passive": [{
-                  "unique_passive_name": "Bladed Armor",
-                  "description": "When receiving Basic Attacks, reflects 25% of the damage taken (excluding damage reduction) to the attackers, slowing them down by 15% for 1s.",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{
-
-                  }]
-               }
-            ],
-            "build_path": [{
-                  "item_name": "Leather Jerkin"
-               },
-               {
-                  "item_name": "Leather Jerkin"
-               },
-               {
-                  "item_name": "Leather Jerkin"
                }
             ]
          }]
@@ -2188,9 +1830,7 @@
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                   "passive_name": "null",
@@ -2202,24 +1842,18 @@
                {
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": []
                }
             ],
             "unique_passive": [{
                   "unique_passive_name": "Magic",
                   "description": "Dealing damage to enemy heroes will reduce their Magic Defense by 2~9 for 2s (the Defense reduction scales with level). Stacks up to 3 times",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                },
                {
                   "unique_passive_name": "null",
                   "description": "null",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                }
             ],
             "build_path": [{
@@ -2248,38 +1882,28 @@
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": []
                },
                {
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": []
                }
             ],
             "unique_passive": [{
                   "unique_passive_name": "Timestream",
                   "description": " Hero kills or assists reduce Ultimate's current cooldown by 30%.",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                },
                {
                   "unique_passive_name": "null",
                   "description": "null",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                }
             ],
             "build_path": [{
@@ -2311,38 +1935,28 @@
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": []
                },
                {
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": []
                }
             ],
             "unique_passive": [{
                   "unique_passive_name": "Assassination",
                   "description": " If no damage is taken or dealt within 5s, the next Basic Attack will deal extra Magic Damage equal to 200 plus 50% Magic Power, and inflict 60% slow effects upon the target for 1.5s.",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                },
                {
                   "unique_passive_name": "null",
                   "description": "null",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                }
             ],
             "build_path": [{
@@ -2374,38 +1988,28 @@
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": []
                },
                {
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": []
                }
             ],
             "unique_passive": [{
                   "unique_passive_name": "Life Drain",
                   "description": "Upon dealing damage to the target, reduces Shield and HP Regen of the target by 50% for 3s.",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                },
                {
                   "unique_passive_name": "null",
                   "description": "null",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                }
             ],
             "build_path": [{
@@ -2437,38 +2041,28 @@
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": []
                },
                {
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": []
                }
             ],
             "unique_passive": [{
                   "unique_passive_name": "Affliction",
                   "description": "Basic Attacks deal extra Magic Damage equal to 50 plus 30% Magic Power.",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                },
                {
                   "unique_passive_name": "null",
                   "description": "null",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                }
             ],
             "build_path": [{
@@ -2500,38 +2094,28 @@
             "active": [{
                "active_name": "Frozen",
                "description": "Freeze upon using. The hero can't do anything but will be immune to all DMG and debuff. Last 2s, CD 100s",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": []
                },
                {
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": []
                }
             ],
             "unique_passive": [{
                   "unique_passive_name": "null",
                   "description": "null",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                },
                {
                   "unique_passive_name": "null",
                   "description": "null",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                }
             ],
             "build_path": [{
@@ -2563,38 +2147,28 @@
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": []
                },
                {
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": []
                }
             ],
             "unique_passive": [{
                   "unique_passive_name": "Mana Spring",
                   "description": "Regenerates 15% of Max Mana every 10s in total.",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                },
                {
                   "unique_passive_name": "Magic Mastery",
                   "description": " Max CD Reduction increased by 5%.",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                }
             ],
             "build_path": [{
@@ -2610,184 +2184,263 @@
          }]
       },
       {
-         "item_name": "Flame Retribution",
-         "id": "j007",
-         "icon": "flame-retribution.png",
-         "item_tier": "0",
-         "item_category": "Jungling",
+         "item_name": "Arcane Boots",
+         "id": "mo001",
+         "icon": "arcane-boots.png",
+         "item_tier": "2",
+         "item_category": "Movement",
          "data": [{
-            "cost": "null",
-            "summary": "null",
+            "cost": "690",
+            "summary": "Magic PEN",
             "modifiers": [{
-
+               "magic_penetration": "10"
             }],
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [
-
-                  ]
-               },
-               {
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [
-
-                  ]
-               }
-            ],
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": [{
+                  "movement_speed": "40"
+               }]
+            }],
             "unique_passive": [{
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{
-
-                  }]
-               }
-            ],
+               "unique_passive_name": "null",
+               "description": "null",
+               "modifiers": [{}]
+            }],
             "build_path": [{
-                  "item_name": "null"
+               "item_name": "Boots"
+            }]
+         }]
+      },
+      {
+         "item_name": "Demon Shoes",
+         "id": "mo003",
+         "icon": "demon-shoes.png",
+         "item_tier": "2",
+         "item_category": "Movement",
+         "data": [{
+            "cost": "720",
+            "summary": "Quick Mana Regen",
+            "modifiers": [{
+               "mana_regen_rate": "6"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": [{
+                  "movement_speed": "40"
+               }]
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Mysticism",
+               "description": "Eliminations of enemy heroes and assists regenerates hero's mana by 10%, while eliminating minions regenerates 4% of the hero's mana.",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Boots"
                },
                {
-                  "item_name": "null"
+                  "item_name": "Magic Necklace"
                },
                {
-                  "item_name": "null"
+                  "item_name": "Magic Necklace"
                }
             ]
          }]
       },
       {
-         "item_name": "Ice Retribution",
-         "id": "j008",
-         "icon": "ice-retribution.png",
-         "item_tier": "0",
-         "item_category": "Jungling",
+         "item_name": "Magic Shoes",
+         "id": "mo004",
+         "icon": "magic-shoes.png",
+         "item_tier": "2",
+         "item_category": "Movement",
          "data": [{
-            "cost": "null",
-            "summary": "null",
+            "cost": "710",
+            "summary": "Reduce CD",
             "modifiers": [{
-
+               "cd_reduction": "10%"
             }],
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [
-
-                  ]
-               },
-               {
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [
-
-                  ]
-               }
-            ],
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": [{
+                  "movement_speed": "40"
+               }]
+            }],
             "unique_passive": [{
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{
-
-                  }]
-               }
-            ],
+               "unique_passive_name": "null",
+               "description": "null",
+               "modifiers": [{}]
+            }],
             "build_path": [{
-                  "item_name": "null"
+                  "item_name": "Boots"
                },
                {
-                  "item_name": "null"
+                  "item_name": "Magic Necklace"
                },
                {
-                  "item_name": "null"
+                  "item_name": "Magic Necklace"
                }
             ]
          }]
       },
       {
-         "item_name": "Bloody Retribution",
-         "id": "j009",
-         "icon": "bloody-retribution.png",
-         "item_tier": "0",
-         "item_category": "Jungling",
+         "item_name": "Rapid Boots",
+         "id": "mo005",
+         "icon": "rapid-boots.png",
+         "item_tier": "2",
+         "item_category": "Movement",
          "data": [{
-            "cost": "null",
+            "cost": "850",
             "summary": "null",
+            "modifiers": [{}],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": [{
+                  "movement_speed": "80"
+               }]
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Side Effect",
+               "description": " Dealing or taking damage slows hero's movement speed by 40 for 5s",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+               "item_name": "Boots"
+            }]
+         }]
+      },
+      {
+         "item_name": "Swift Boots",
+         "id": "mo006",
+         "icon": "swift-boots.png",
+         "item_tier": "2",
+         "item_category": "Movement",
+         "data": [{
+            "cost": "710",
+            "summary": "ATK SPD",
             "modifiers": [{
-
+               "attack_speed": "15%"
             }],
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [
-
-                  ]
-               },
-               {
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [
-
-                  ]
-               }
-            ],
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": [{
+                  "movement_speed": "40"
+               }]
+            }],
             "unique_passive": [{
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{
-
-                  }]
-               },
-               {
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{
-
-                  }]
-               }
-            ],
+               "unique_passive_name": "null",
+               "description": "null",
+               "modifiers": [{}]
+            }],
             "build_path": [{
-                  "item_name": "null"
+                  "item_name": "Boots"
                },
                {
-                  "item_name": "null"
+                  "item_name": "Knife"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Tough Boots",
+         "id": "mo007",
+         "icon": "tough-boots.png",
+         "item_tier": "2",
+         "item_category": "Movement",
+         "data": [{
+            "cost": "700",
+            "summary": "Control Time Reduction",
+            "modifiers": [{
+               "magic_resistance": "22"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": [{
+                  "movement_speed": "40"
+               }]
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Fortitude",
+               "description": "Reduces time controlled 30%.",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Boots"
                },
                {
-                  "item_name": "null"
+                  "item_name": "Magic Resist Cloak"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Warrior Boots",
+         "id": "mo008",
+         "icon": "warrior-boots.png",
+         "item_tier": "2",
+         "item_category": "Movement",
+         "data": [{
+            "cost": "720",
+            "summary": "null",
+            "modifiers": [{
+               "physical_defense": "22"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": [{
+                  "movement_speed": "40"
+               }]
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Valor",
+               "description": " Physical Defense will be increased by 5 for 25s for each basic attack received, capped at 25",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Boots"
+               },
+               {
+                  "item_name": "Leather Jerkin"
                }
             ]
          }]
@@ -2801,44 +2454,32 @@
          "data": [{
             "cost": "null",
             "summary": "null",
-            "modifiers": [{
-
-            }],
+            "modifiers": [{}],
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": []
                },
                {
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": []
                }
             ],
             "unique_passive": [{
                   "unique_passive_name": "null",
                   "description": "null",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                },
                {
                   "unique_passive_name": "null",
                   "description": "null",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                }
             ],
             "build_path": [{
@@ -2862,44 +2503,32 @@
          "data": [{
             "cost": "null",
             "summary": "null",
-            "modifiers": [{
-
-            }],
+            "modifiers": [{}],
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": []
                },
                {
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": []
                }
             ],
             "unique_passive": [{
                   "unique_passive_name": "null",
                   "description": "null",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                },
                {
                   "unique_passive_name": "null",
                   "description": "null",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                }
             ],
             "build_path": [{
@@ -2923,44 +2552,32 @@
          "data": [{
             "cost": "null",
             "summary": "null",
-            "modifiers": [{
-
-            }],
+            "modifiers": [{}],
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": []
                },
                {
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": []
                }
             ],
             "unique_passive": [{
                   "unique_passive_name": "null",
                   "description": "null",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                },
                {
                   "unique_passive_name": "null",
                   "description": "null",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                }
             ],
             "build_path": [{
@@ -2984,44 +2601,32 @@
          "data": [{
             "cost": "null",
             "summary": "null",
-            "modifiers": [{
-
-            }],
+            "modifiers": [{}],
             "active": [{
                "active_name": "null",
                "description": "null",
-               "modifiers": [
-
-               ]
+               "modifiers": []
             }],
             "passive": [{
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": []
                },
                {
                   "passive_name": "null",
                   "description": "null",
-                  "modifiers": [
-
-                  ]
+                  "modifiers": []
                }
             ],
             "unique_passive": [{
                   "unique_passive_name": "null",
                   "description": "null",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                },
                {
                   "unique_passive_name": "null",
                   "description": "null",
-                  "modifiers": [{
-
-                  }]
+                  "modifiers": [{}]
                }
             ],
             "build_path": [{
