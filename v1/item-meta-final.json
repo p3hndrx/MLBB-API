@@ -2459,27 +2459,15 @@
                "modifiers": []
             }],
             "passive": [{
-                  "passive_name": "Thriving",
-                  "description": "After purchase, you can no longer gain Gold and EXP from minions and creeps and must collect 600 Gold from Roaming Equipment to unlock this skill (up to 1500 Gold).",
-                  "modifiers": []
-               },
-               {
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": []
-               }
-            ],
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
             "unique_passive": [{
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{}]
-               },
-               {
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{}]
-               }
-            ],
+               "unique_passive_name": "Thriving",
+               "description": "After purchase, you can no longer gain Gold and EXP from minions and creeps and must collect 600 Gold from Roaming Equipment to unlock this skill (up to 1500 Gold).",
+               "modifiers": []
+            }],
             "build_path": [{
                   "item_name": "null"
                },
@@ -2507,26 +2495,16 @@
                "description": "null",
                "modifiers": []
             }],
-            "passive": [{
-                  "passive_name": "Encourage",
+            "passive": [{}],
+            "unique_passive": [{
+                  "unique_passive_name": "Encourage",
                   "description": "Increases nearby allied heroes' Physical Attack and Magic Power by 12-30 (scales with Gold from Thriving) and Attack and Movement Speed by 15%.",
                   "modifiers": []
                },
                {
-                  "passive_name": "Thriving",
+                  "unique_passive_name": "Thriving",
                   "description": "After purchase, you can no longer gain Gold and EXP from minions and creeps and must collect 600 Gold from Roaming Equipment to unlock this skill (up to 1500 Gold).",
                   "modifiers": []
-               }
-            ],
-            "unique_passive": [{
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{}]
-               },
-               {
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{}]
                }
             ],
             "build_path": [{
@@ -2556,26 +2534,16 @@
                "description": "null",
                "modifiers": []
             }],
-            "passive": [{
-                  "passive_name": "Favor",
+            "passive": [{}],
+            "unique_passive": [{
+                  "unique_passive_name": "Favor",
                   "description": "Every 10s, the next healing or shield skill restores an extra 300-750 HP (scales with Gold from Thriving) for the allied hero with the lowest HP within 5 yards. Skills that only take effect on self cannot trigger this effect.",
                   "modifiers": []
                },
                {
-                  "passive_name": "Thriving",
+                  "unique_passive_name": "Thriving",
                   "description": "After purchase, you can no longer gain Gold and EXP from minions and creeps and must collect 600 Gold from Roaming Equipment to unlock this skill (up to 1500 Gold).",
                   "modifiers": []
-               }
-            ],
-            "unique_passive": [{
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{}]
-               },
-               {
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{}]
                }
             ],
             "build_path": [{
@@ -2605,26 +2573,16 @@
                "description": "null",
                "modifiers": []
             }],
-            "passive": [{
-                  "passive_name": "Dire Hit",
+            "passive": [{}],
+            "unique_passive": [{
+                  "unique_passive_name": "Dire Hit",
                   "description": "Every 30s, the next damage that will make an enemy hero's HP drop below 35% deals extra damage equal to 7%-18% of the target's Max HP (hybrid damage, scales with Gold from Thriving",
                   "modifiers": []
                },
                {
-                  "passive_name": "Thriving",
+                  "unique_passive_name": "Thriving",
                   "description": "After purchase, you can no longer gain Gold and EXP from minions and creeps and must collect 600 Gold from Roaming Equipment to unlock this skill (up to 1500 Gold).",
                   "modifiers": []
-               }
-            ],
-            "unique_passive": [{
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{}]
-               },
-               {
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{}]
                }
             ],
             "build_path": [{
