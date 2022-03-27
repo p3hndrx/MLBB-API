@@ -1380,7 +1380,7 @@
             }],
             "passive": [{
                   "passive_name": "null",
-                  "description": "",
+                  "description": "null",
                   "modifiers": [{}]
                },
                {
