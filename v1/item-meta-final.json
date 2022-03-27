@@ -1462,475 +1462,18 @@
          }]
       },
       {
-         "item_name": "Blood Wings",
-         "id": "m002",
-         "icon": "blood-wings.png",
-         "item_tier": "3",
-         "item_category": "Magic",
-         "data": [{
-            "cost": "3000",
-            "summary": "Final Equipment for Mage",
-            "modifiers": [{
-               "hp": "500",
-               "magic_power": "150"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": []
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": []
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Guard",
-               "description": "Gain a Shield equal to 200% Magic Power. Gain another after 30s when it breaks.",
-               "modifiers": [{}]
-            }],
-            "build_path": [{
-                  "item_name": "Magic Wand"
-               },
-               {
-                  "item_name": "Magic Wand"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Calamity Reaper",
-         "id": "m004",
-         "icon": "calamity-reaper.png",
-         "item_tier": "3",
-         "item_category": "Magic",
-         "data": [{
-            "cost": "1950",
-            "summary": "Enhance basic ATK",
-            "modifiers": [{
-               "magic_power": "70",
-               "mana": "100",
-               "mana_regen_rate": "6",
-               "cd_reduction": "10%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": []
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": []
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Calamity",
-               "description": " In 3s after using the skill, the casters next Basic Attack deals additional True Damage as much as 120% of Magic Power with a cooldown of 1.5s. Then briefly gains 10% Movement Speed",
-               "modifiers": [{}]
-            }],
-            "build_path": [{
-                  "item_name": "Azure Blade"
-               },
-               {
-                  "item_name": "Magic Wand"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Clock of Destiny",
-         "id": "m005",
-         "icon": "clock-of-destiny.png",
-         "item_tier": "3",
-         "item_category": "Magic",
-         "data": [{
-            "cost": "1950",
-            "summary": "Attribute Growth",
-            "modifiers": [{
-               "hp": "615",
-               "mana": "600",
-               "magic_power": "60"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": []
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": []
-            }],
-            "unique_passive": [{
-                  "unique_passive_name": "Time",
-                  "description": "Time: Adds 25 HP and 4 Magic Power every 20s. Up to 12 times",
-                  "modifiers": [{}]
-               },
-               {
-                  "unique_passive_name": "Reincarnate",
-                  "description": "If Time reaches Max, then the hero will receive extra 5% Magic Power and 300 Mana",
-                  "modifiers": [{}]
-               }
-            ],
-            "build_path": [{
-                  "item_name": "Magic Wand"
-               },
-               {
-                  "item_name": "Elegant Gem"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Concentrated Energy",
-         "id": "m006",
-         "icon": "concentrated-energy.png",
-         "item_tier": "3",
-         "item_category": "Magic",
-         "data": [{
-            "cost": "2020",
-            "summary": "Spell Vamp",
-            "modifiers": [{
-               "hp": "700",
-               "magic_power": "70"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": []
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [{
-                  "magic_lifesteal": "25%"
-               }]
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Rechage",
-               "description": "Killing enemy heroes restore 10% Max HP.",
-               "modifiers": [{}]
-            }],
-            "build_path": [{
-                  "item_name": "Magic Wand"
-               },
-               {
-                  "item_name": "Mystic Container"
-               },
-               {
-                  "item_name": "Vitality Crystal"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Divine Glaive",
-         "id": "m007",
-         "icon": "divine-glaive.png",
-         "item_tier": "3",
-         "item_category": "Magic",
-         "data": [{
-            "cost": "1970",
-            "summary": "High Pen Magic",
-            "modifiers": [{
-               "magic_power": "65"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": []
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": [{
-                  "magic_penetration": "35%"
-               }]
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Spellbreaker",
-               "description": "Each point of the enemy's Magic Defense increases Magic Penetration by 0.1% when dealing damage to it, capped at 20%.",
-               "modifiers": [{}]
-            }],
-            "build_path": [{
-               "item_name": "Magic Wand"
-            }]
-         }]
-      },
-      {
-         "item_name": "Glowing Wand",
-         "id": "m015",
-         "icon": "glowing-wand.png",
-         "item_tier": "3",
-         "item_category": "Magic",
-         "data": [{
-            "cost": "2200",
-            "summary": "Continuous Damage",
-            "modifiers": [{
-               "hp": "400",
-               "magic_power": "75",
-               "movement_speed": "5%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": []
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": []
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Scorch",
-               "description": "Skill Damage will burn the targets for 3s, dealing 1% of the target's Max HP as Magic Damage per second (damaging the same target multiple times within a short duration can increase this damage to 2% at most), 10 damage minimum",
-               "modifiers": [{}]
-            }],
-            "build_path": [{
-                  "item_name": "Exotic Veil"
-               },
-               {
-                  "item_name": "Mystery Codex"
-               },
-               {
-                  "item_name": "Vitality Crystal"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Holy Crystal",
-         "id": "m016",
-         "icon": "holy-crystal.png",
-         "item_tier": "3",
-         "item_category": "Magic",
-         "data": [{
-            "cost": "2180",
-            "summary": "Percentile Magic Power",
-            "modifiers": [{
-               "magic_power": "100"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": []
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": []
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Mystery",
-               "description": "Increase magic attack by 21%-35% (Scales with level)",
-               "modifiers": [{}]
-            }],
-            "build_path": [{
-                  "item_name": "Magic Wand"
-               },
-               {
-                  "item_name": "Magic Wand"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Ice Queen Wand",
-         "id": "m017",
-         "icon": "ice-queen-wand.png",
-         "item_tier": "3",
-         "item_category": "Magic",
-         "data": [{
-            "cost": "2240",
-            "summary": "Slow By Damage",
-            "modifiers": [{
-               "magic_power": "75",
-               "magic_lifesteal": "10%",
-               "mana": "150",
-               "movement_speed": "7%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": []
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": []
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Ice Bound",
-               "description": "Skills that deal damage to an enemy hero will slow them by 15%. This effect lasts 3s. Stacks up to 2 times.",
-               "modifiers": [{}]
-            }],
-            "build_path": [{
-                  "item_name": "Magic Wand"
-               },
-               {
-                  "item_name": "Mystic Container"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Lightning Truncheon",
-         "id": "m018",
-         "icon": "lightning-truncheon.png",
-         "item_tier": "3",
-         "item_category": "Magic",
-         "data": [{
-            "cost": "2250",
-            "summary": "Skill AOE",
-            "modifiers": [{
-               "magic_power": "75",
-               "mana": "300",
-               "cd_reduction": "10%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": []
-            }],
-            "passive": [{
-               "passive_name": "null",
-               "description": "null",
-               "modifiers": []
-            }],
-            "unique_passive": [{
-               "unique_passive_name": "Resonate",
-               "description": " Every 6s, the next skill echoes, dealing 20-1000 Magic Damage (scales with the hero's Max Mana) to up to 3 enemies",
-               "modifiers": [{}]
-            }],
-            "build_path": [{
-                  "item_name": "Book of Sages"
-               },
-               {
-                  "item_name": "Power Crystal"
-               },
-               {
-                  "item_name": "Magic Wand"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Genius Wand",
-         "id": "m030",
-         "icon": "genius-wand.png",
-         "item_tier": "3",
-         "item_category": "Magic",
-         "data": [{
-            "cost": "2000",
-            "summary": "null",
-            "modifiers": [{
-               "magic_power": "75",
-               "movement_speed": "5%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": []
-            }],
-            "passive": [{
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{
-                     "magic_penetration": "10"
-                  }]
-               },
-               {
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": []
-               }
-            ],
-            "unique_passive": [{
-                  "unique_passive_name": "Magic",
-                  "description": "Dealing damage to enemy heroes will reduce their Magic Defense by 2~9 for 2s (the Defense reduction scales with level). Stacks up to 3 times",
-                  "modifiers": [{}]
-               },
-               {
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{}]
-               }
-            ],
-            "build_path": [{
-                  "item_name": "Exotic Veil"
-               },
-               {
-                  "item_name": "Magic Wand"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Fleeting Time",
-         "id": "m031",
-         "icon": "fleeting-time.png",
-         "item_tier": "3",
-         "item_category": "Magic",
-         "data": [{
-            "cost": "2050",
-            "summary": "null",
-            "modifiers": [{
-               "magic_power": "70",
-               "mana": "350",
-               "cd_reduction": "15%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": []
-            }],
-            "passive": [{
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": []
-               },
-               {
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": []
-               }
-            ],
-            "unique_passive": [{
-                  "unique_passive_name": "Timestream",
-                  "description": " Hero kills or assists reduce Ultimate's current cooldown by 30%.",
-                  "modifiers": [{}]
-               },
-               {
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{}]
-               }
-            ],
-            "build_path": [{
-                  "item_name": "Magic Wand"
-               },
-               {
-                  "item_name": "Book of Signs"
-               },
-               {
-                  "item_name": "Power Crystal"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Shadow Twinblades",
-         "id": "m032",
-         "icon": "shadow-twinblades.png",
+         "item_name": "Enchanted Talisman",
+         "id": "m001",
+         "icon": "enchanted-talisman.png",
          "item_tier": "2",
-         "item_category": "magic",
+         "item_category": "Magic",
          "data": [{
-            "cost": "1960",
-            "summary": "null",
+            "cost": "1870",
+            "summary": "Reduces Mana Regen cooldown",
             "modifiers": [{
-               "magic_power": "75",
-               "magic_lifesteal": "15%",
-               "movement_speed": "5%"
+               "hp": "250",
+               "magic_power": "50",
+               "cd_reduction": "20%"
             }],
             "active": [{
                "active_name": "null",
@@ -1949,143 +1492,37 @@
                }
             ],
             "unique_passive": [{
-                  "unique_passive_name": "Assassination",
-                  "description": " If no damage is taken or dealt within 5s, the next Basic Attack will deal extra Magic Damage equal to 200 plus 50% Magic Power, and inflict 60% slow effects upon the target for 1.5s.",
+                  "unique_passive_name": "Mana Spring",
+                  "description": "Regenerates 15% of Max Mana every 10s in total.",
                   "modifiers": [{}]
                },
                {
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{}]
-               }
-            ],
-            "build_path": [{
-                  "item_name": "Exotic Veil"
-               },
-               {
-                  "item_name": "Mystic Container"
-               },
-               {
-                  "item_name": "null"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Necklace of Durance",
-         "id": "m033",
-         "icon": "necklace-of-durance.png",
-         "item_tier": "2",
-         "item_category": "magic",
-         "data": [{
-            "cost": "2010",
-            "summary": "null",
-            "modifiers": [{
-               "magic_power": "60",
-               "magic_lifesteal": "10%",
-               "cd_reduction": "5%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": []
-            }],
-            "passive": [{
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": []
-               },
-               {
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": []
-               }
-            ],
-            "unique_passive": [{
-                  "unique_passive_name": "Life Drain",
-                  "description": "Upon dealing damage to the target, reduces Shield and HP Regen of the target by 50% for 3s.",
-                  "modifiers": [{}]
-               },
-               {
-                  "unique_passive_name": "null",
-                  "description": "null",
+                  "unique_passive_name": "Magic Mastery",
+                  "description": " Max CD Reduction increased by 5%.",
                   "modifiers": [{}]
                }
             ],
             "build_path": [{
-                  "item_name": "Mystery Codex"
+                  "item_name": "Magic Necklace"
                },
                {
                   "item_name": "Book of Sages"
                },
                {
-                  "item_name": "Mystic Container"
-               }
-            ]
-         }]
-      },
-      {
-         "item_name": "Feather of Heaven",
-         "id": "m034",
-         "icon": "feather-of-heaven.png",
-         "item_tier": "2",
-         "item_category": "magic",
-         "data": [{
-            "cost": "2030",
-            "summary": "null",
-            "modifiers": [{
-               "attack_speed": "30%",
-               "magic_power": "55",
-               "cd_reduction": "5%"
-            }],
-            "active": [{
-               "active_name": "null",
-               "description": "null",
-               "modifiers": []
-            }],
-            "passive": [{
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": []
-               },
-               {
-                  "passive_name": "null",
-                  "description": "null",
-                  "modifiers": []
-               }
-            ],
-            "unique_passive": [{
-                  "unique_passive_name": "Affliction",
-                  "description": "Basic Attacks deal extra Magic Damage equal to 50 plus 30% Magic Power.",
-                  "modifiers": [{}]
-               },
-               {
-                  "unique_passive_name": "null",
-                  "description": "null",
-                  "modifiers": [{}]
-               }
-            ],
-            "build_path": [{
-                  "item_name": "Knife"
-               },
-               {
-                  "item_name": "Book of Sages"
-               },
-               {
-                  "item_name": "Knife"
+                  "item_name": "Tome of Evil"
                }
             ]
          }]
       },
       {
          "item_name": "Winter Truncheon",
-         "id": "m035",
+         "id": "m002",
          "icon": "winter-truncheon.png",
          "item_tier": "2",
-         "item_category": "magic",
+         "item_category": "Magic",
          "data": [{
             "cost": "1910",
-            "summary": "null",
+            "summary": "Shortly invincible",
             "modifiers": [{
                "hp": "400",
                "physical_defense": "25",
@@ -2131,18 +1568,18 @@
          }]
       },
       {
-         "item_name": "Enchanted Talisman",
-         "id": "m036",
-         "icon": "enchanted-talisman.png",
+         "item_name": "Feather of Heaven",
+         "id": "m003",
+         "icon": "feather-of-heaven.png",
          "item_tier": "2",
-         "item_category": "magic",
+         "item_category": "Magic",
          "data": [{
-            "cost": "1870",
-            "summary": "null",
+            "cost": "2030",
+            "summary": "Basic ATK with Magic Damage",
             "modifiers": [{
-               "hp": "250",
-               "magic_power": "50",
-               "cd_reduction": "20%"
+               "attack_speed": "30%",
+               "magic_power": "55",
+               "cd_reduction": "5%"
             }],
             "active": [{
                "active_name": "null",
@@ -2161,24 +1598,584 @@
                }
             ],
             "unique_passive": [{
-                  "unique_passive_name": "Mana Spring",
-                  "description": "Regenerates 15% of Max Mana every 10s in total.",
+                  "unique_passive_name": "Affliction",
+                  "description": "Basic Attacks deal extra Magic Damage equal to 50 plus 30% Magic Power.",
                   "modifiers": [{}]
                },
                {
-                  "unique_passive_name": "Magic Mastery",
-                  "description": " Max CD Reduction increased by 5%.",
+                  "unique_passive_name": "null",
+                  "description": "null",
                   "modifiers": [{}]
                }
             ],
             "build_path": [{
-                  "item_name": "Magic Necklace"
+                  "item_name": "Knife"
                },
                {
                   "item_name": "Book of Sages"
                },
                {
-                  "item_name": "Tome of Evil"
+                  "item_name": "Knife"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Necklace of Durance",
+         "id": "m004",
+         "icon": "necklace-of-durance.png",
+         "item_tier": "2",
+         "item_category": "Magic",
+         "data": [{
+            "cost": "2010",
+            "summary": "Healing Reduction",
+            "modifiers": [{
+               "magic_power": "60",
+               "magic_lifesteal": "10%",
+               "cd_reduction": "5%"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               },
+               {
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               }
+            ],
+            "unique_passive": [{
+                  "unique_passive_name": "Life Drain",
+                  "description": "Upon dealing damage to the target, reduces Shield and HP Regen of the target by 50% for 3s.",
+                  "modifiers": [{}]
+               },
+               {
+                  "unique_passive_name": "null",
+                  "description": "null",
+                  "modifiers": [{}]
+               }
+            ],
+            "build_path": [{
+                  "item_name": "Mystery Codex"
+               },
+               {
+                  "item_name": "Book of Sages"
+               },
+               {
+                  "item_name": "Mystic Container"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Shadow Twinblades",
+         "id": "m005",
+         "icon": "shadow-twinblades.png",
+         "item_tier": "2",
+         "item_category": "Magic",
+         "data": [{
+            "cost": "1960",
+            "summary": "Mage/Assassin exclusive",
+            "modifiers": [{
+               "magic_power": "75",
+               "magic_lifesteal": "15%",
+               "movement_speed": "5%"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               },
+               {
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               }
+            ],
+            "unique_passive": [{
+                  "unique_passive_name": "Assassination",
+                  "description": " If no damage is taken or dealt within 5s, the next Basic Attack will deal extra Magic Damage equal to 200 plus 50% Magic Power, and inflict 60% slow effects upon the target for 1.5s.",
+                  "modifiers": [{}]
+               },
+               {
+                  "unique_passive_name": "null",
+                  "description": "null",
+                  "modifiers": [{}]
+               }
+            ],
+            "build_path": [{
+                  "item_name": "Exotic Veil"
+               },
+               {
+                  "item_name": "Mystic Container"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Divine Glaive",
+         "id": "m006",
+         "icon": "divine-glaive.png",
+         "item_tier": "3",
+         "item_category": "Magic",
+         "data": [{
+            "cost": "1970",
+            "summary": "High Magic PEN",
+            "modifiers": [{
+               "magic_power": "65"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": [{
+                  "magic_penetration": "35%"
+               }]
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Spellbreaker",
+               "description": "Each point of the enemy's Magic Defense increases Magic Penetration by 0.1% when dealing damage to it, capped at 20%.",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+               "item_name": "Magic Wand"
+            }]
+         }]
+      },
+      {
+         "item_name": "Holy Crystal",
+         "id": "m007",
+         "icon": "holy-crystal.png",
+         "item_tier": "3",
+         "item_category": "Magic",
+         "data": [{
+            "cost": "2180",
+            "summary": "Percentile Magic Power",
+            "modifiers": [{
+               "magic_power": "100"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Mystery",
+               "description": "Increase magic attack by 21%-35% (Scales with level).",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Magic Wand"
+               },
+               {
+                  "item_name": "Magic Wand"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Concentrated Energy",
+         "id": "m008",
+         "icon": "concentrated-energy.png",
+         "item_tier": "3",
+         "item_category": "Magic",
+         "data": [{
+            "cost": "2020",
+            "summary": "Spell Vamp",
+            "modifiers": [{
+               "hp": "700",
+               "magic_power": "70"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": [{
+                  "magic_lifesteal": "25%"
+               }]
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Recharge",
+               "description": "Kill enemy hero to recover HP by 10%.",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Magic Wand"
+               },
+               {
+                  "item_name": "Mystic Container"
+               },
+               {
+                  "item_name": "Vitality Crystal"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Ice Queen Wand",
+         "id": "m009",
+         "icon": "ice-queen-wand.png",
+         "item_tier": "3",
+         "item_category": "Magic",
+         "data": [{
+            "cost": "2240",
+            "summary": "Slow by Damage",
+            "modifiers": [{
+               "magic_power": "75",
+               "magic_lifesteal": "10%",
+               "mana": "150",
+               "movement_speed": "7%"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Ice Bound",
+               "description": "Skills that deal damage to an enemy hero will slow them by 15%. This effect lasts 3s. Stacks up to 2 times.",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Magic Wand"
+               },
+               {
+                  "item_name": "Mystic Container"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Glowing Wand",
+         "id": "m010",
+         "icon": "glowing-wand.png",
+         "item_tier": "3",
+         "item_category": "Magic",
+         "data": [{
+            "cost": "2200",
+            "summary": "Continuous Damage",
+            "modifiers": [{
+               "hp": "400",
+               "magic_power": "75",
+               "movement_speed": "5%"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Scorch",
+               "description": "Skill Damage will burn the targets for 3s, dealing 1% of the target's Max HP as Magic Damage per second (damaging the same target multiple times within a short duration can increase this damage to 2% at most), 10 damage minimum",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Exotic Veil"
+               },
+               {
+                  "item_name": "Mystery Codex"
+               },
+               {
+                  "item_name": "Vitality Crystal"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Calamity Reaper",
+         "id": "m011",
+         "icon": "calamity-reaper.png",
+         "item_tier": "3",
+         "item_category": "Magic",
+         "data": [{
+            "cost": "1950",
+            "summary": "Enhance basic ATK",
+            "modifiers": [{
+               "magic_power": "70",
+               "mana": "100",
+               "mana_regen_rate": "6",
+               "cd_reduction": "10%"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Calamity",
+               "description": " In 3s after using the skill, the casters next Basic Attack will deal additional True Damage as much as 120% of Magic Power with a cooldown of 1.5s. Then briefly gains 10% Movement Speed",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Azure Blade"
+               },
+               {
+                  "item_name": "Magic Wand"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Clock of Destiny",
+         "id": "m012",
+         "icon": "clock-of-destiny.png",
+         "item_tier": "3",
+         "item_category": "Magic",
+         "data": [{
+            "cost": "1950",
+            "summary": "Attribute Growth",
+            "modifiers": [{
+               "hp": "615",
+               "mana": "600",
+               "magic_power": "60"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "unique_passive": [{
+                  "unique_passive_name": "Time",
+                  "description": "Time: Adds 25 HP and 4 Magic Power every 20s. Up to 12 times",
+                  "modifiers": [{}]
+               },
+               {
+                  "unique_passive_name": "Reincarnate",
+                  "description": "If Time reaches Max, then the hero will receive extra 5% Magic Power and 300 Mana.",
+                  "modifiers": [{}]
+               }
+            ],
+            "build_path": [{
+                  "item_name": "Magic Wand"
+               },
+               {
+                  "item_name": "Elegant Gem"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Blood Wings",
+         "id": "m013",
+         "icon": "blood-wings.png",
+         "item_tier": "3",
+         "item_category": "Magic",
+         "data": [{
+            "cost": "3000",
+            "summary": "Final Equipment for Mage",
+            "modifiers": [{
+               "hp": "500",
+               "magic_power": "150"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Guard",
+               "description": "Gain a Shield equal to 200% Magic Power. Gain another after 30s when it breaks.",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Magic Wand"
+               },
+               {
+                  "item_name": "Magic Wand"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Fleeting Time",
+         "id": "m014",
+         "icon": "fleeting-time.png",
+         "item_tier": "3",
+         "item_category": "Magic",
+         "data": [{
+            "cost": "2050",
+            "summary": "Ultimate CD Reduction",
+            "modifiers": [{
+               "magic_power": "70",
+               "mana": "350",
+               "cd_reduction": "15%"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               },
+               {
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               }
+            ],
+            "unique_passive": [{
+                  "unique_passive_name": "Timestream",
+                  "description": " Hero kills or assists reduce Ultimate's current cooldown by 30%.",
+                  "modifiers": [{}]
+               },
+               {
+                  "unique_passive_name": "null",
+                  "description": "null",
+                  "modifiers": [{}]
+               }
+            ],
+            "build_path": [{
+                  "item_name": "Magic Wand"
+               },
+               {
+                  "item_name": "Book of Signs"
+               },
+               {
+                  "item_name": "Power Crystal"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Lightning Truncheon",
+         "id": "m015",
+         "icon": "lightning-truncheon.png",
+         "item_tier": "3",
+         "item_category": "Magic",
+         "data": [{
+            "cost": "2250",
+            "summary": "Skill AOE",
+            "modifiers": [{
+               "magic_power": "75",
+               "mana": "300",
+               "cd_reduction": "10%"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+               "passive_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "unique_passive": [{
+               "unique_passive_name": "Resonate",
+               "description": " Every 6s, the next skill echoes, dealing 20-1000 Magic Damage (scales with the hero's Max Mana) to up to 3 enemies",
+               "modifiers": [{}]
+            }],
+            "build_path": [{
+                  "item_name": "Book of Sages"
+               },
+               {
+                  "item_name": "Power Crystal"
+               },
+               {
+                  "item_name": "Magic Wand"
+               }
+            ]
+         }]
+      },
+      {
+         "item_name": "Genius Wand",
+         "id": "m016",
+         "icon": "genius-wand.png",
+         "item_tier": "3",
+         "item_category": "Magic",
+         "data": [{
+            "cost": "2000",
+            "summary": "Reduce Magic Defense",
+            "modifiers": [{
+               "magic_power": "75",
+               "movement_speed": "5%"
+            }],
+            "active": [{
+               "active_name": "null",
+               "description": "null",
+               "modifiers": []
+            }],
+            "passive": [{
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": [{
+                     "magic_penetration": "10"
+                  }]
+               },
+               {
+                  "passive_name": "null",
+                  "description": "null",
+                  "modifiers": []
+               }
+            ],
+            "unique_passive": [{
+                  "unique_passive_name": "Magic",
+                  "description": "Dealing damage to enemy heroes will reduce their Magic Defense by 2~9 for 2s (the Defense reduction scales with level). Stacks up to 3 times",
+                  "modifiers": [{}]
+               },
+               {
+                  "unique_passive_name": "null",
+                  "description": "null",
+                  "modifiers": [{}]
+               }
+            ],
+            "build_path": [{
+                  "item_name": "Exotic Veil"
+               },
+               {
+                  "item_name": "Magic Wand"
                }
             ]
          }]
