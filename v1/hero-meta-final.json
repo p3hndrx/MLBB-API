@@ -7212,6 +7212,21 @@
          ],
          "class": "Mage",
          "skills": []
+      },
+      {
+         "hero_name": "Julian",
+         "mlid": "116",
+         "uid": "julian",
+         "id": "h116",
+         "hero_icon": "julian.png",
+         "discordmoji": "<:julian:965394494335897640>",
+         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/7/77/Julian.png/revision/latest/scale-to-width-down/177?cb=20220317095222",
+         "release_year": "",
+         "laning": [
+            "exp"
+         ],
+         "class": "Fighter",
+         "skills": []
       }
    ]
 }
