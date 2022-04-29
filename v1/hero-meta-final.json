@@ -4365,7 +4365,7 @@
          }]
       },
       {
-         "hero_name": "Chang-e",
+         "hero_name": "Chang\'e",
          "mlid": "61",
          "uid": "change",
          "id": "h061",
@@ -6004,7 +6004,7 @@
          }]
       },
       {
-         "hero_name": "X-Borg",
+         "hero_name": "X.Borg",
          "mlid": "83",
          "uid": "xborg",
          "id": "h083",
