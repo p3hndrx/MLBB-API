@@ -1,6 +1,7 @@
 {
    "title": "item-schema",
-   "revdate": "20220327",
+   "revdate": "20220720",
+   "patch":"1.6.97.759.4",
    "author": "p3hndrx",
    "source": "https://github.com/p3hndrx/MLBB-API",
    "data": [{
@@ -86,8 +87,8 @@
                }
             ],
             "unique_passive": [{
-                  "unique_passive_name": "Corrosive",
-                  "description": " Each time a Basic Attack deals damage to enemies, reduces the target's Movement Speed by 8% (halved for ranged Basic Attacks) for 1.5s. Stacking up to 5 times.",
+                  "unique_passive_name": "Corrosion",
+                  "description": " Each time a Basic Attack deals damage to enemies, reduces the target's Movement Speed by 8% (halved for ranged Basic Attacks) for 1.5s. Stacks up to 5 times.",
                   "modifiers": [{}]
                },
                {
@@ -141,7 +142,7 @@
                },
                {
                   "unique_passive_name": "Endless Strike",
-                  "description": "After every 2 non-critical Basic Attacks. Attack Speed of the next Basic Attack is increased by 100% and its effects is triggered an extra 2 time(s).",
+                  "description": "After every 2 non-critical Basic Attacks, Attack Speed of the next Basic Attack is increased by 100% and its effects is triggered an extra 2 time(s).",
                   "modifiers": [{}]
                }
             ],
@@ -173,7 +174,7 @@
             }],
             "active": [{
                "active_name": "Wind Chant",
-               "description": "Immune to all Physical Damage. Last 2s. (Duration becomes half when used by non-marksmen). CD 70s.",
+               "description": "Immune to all Phy.DMG. Last 2s. (Duration becomes half when used by non-marksmen). CD 70s.",
                "modifiers": []
             }],
             "passive": [{
@@ -233,7 +234,7 @@
             }],
             "unique_passive": [{
                "unique_passive_name": "Fighting Spirit",
-               "description": "Dealing damage to enemies grants 9 Physical Attack and 3 Physical Penetration per second for 3s, to a max of 8 stacks (Marksmen/Mages/Supports only receive 33% of these stacked effects); also grants 15% Movement Speed at full stacks.",
+               "description": "Dealing damage to enemies grants 10 Physical Attack and 2 Physical Penetration per second for 3s, to a max of 8 stacks (Marksmen/Mages/Supports only receive 3/1 of these stacked effects); also grants 15% Movement Speed at full stacks.",
                "modifiers": [{}]
             }],
             "build_path": [{
@@ -308,7 +309,7 @@
             }],
             "unique_passive": [{
                "unique_passive_name": "Insanity",
-               "description": "When HP drops below 40%, the hero will receive an extra 15% Physical Lifesteal.",
+               "description": "When HP drops below 50%, the hero will receive an extra 15% Physical Lifesteal.",
                "modifiers": [{}]
             }],
             "build_path": [{
@@ -328,7 +329,7 @@
          "item_category": "Attack",
          "data": [{
             "cost": "2250",
-            "summary": "null",
+            "summary": "Critical Effects",
             "modifiers": [{
                "physical_attack": "65",
                "critical_strike_chance": "25%"
@@ -351,10 +352,10 @@
                "modifiers": [{}]
             }],
             "build_path": [{
-                  "item_name": "Legion Sword"
+                  "item_name": "Javelin"
                },
                {
-                  "item_name": "Javelin"
+                  "item_name": "Legion Sword"
                },
                {
                   "item_name": "Javelin"
@@ -521,14 +522,14 @@
             }],
             "unique_passive": [{
                "unique_passive_name": "Ambush",
-               "description": "If no damage is taken or dealt within 5s, next Basic Attack will deal extra Physical Damage equal to 160 plus 40% of Physical Attack and inflict 40% slow effects upon the target for 1.5s.",
+               "description": "If no damage is dealt or taken from enemy heroes within 5s, the next Basic Attack deals 160 plus 40% Physical Attack as extra Physical Damage and slows the target by 40% for 1.5s.",
                "modifiers": [{}]
             }],
             "build_path": [{
                   "item_name": "Fury Hammer"
                },
                {
-                  "item_name": "Dagger (Attack Speed)"
+                  "item_name": "Dagger"
                },
                {
                   "item_name": "Vitality Crystal"
@@ -561,7 +562,7 @@
             }],
             "unique_passive": [{
                "unique_passive_name": "Despair",
-               "description": "Attacking enemy units that have HP below 50% will increase hero's Physical Attack by 25%. Lasts 2s. (Takes affect before damage is dealt)",
+               "description": "Attacking enemy units that have HP below 50% will increase hero's Physical Attack by 25%. Lasts 2s. (Takes effect before damage is dealt)",
                "modifiers": [{}]
             }],
             "build_path": [{
@@ -610,7 +611,7 @@
                   "item_name": "Iron Hunting Bow"
                },
                {
-                  "item_name": "Dagger (Physical Attack)"
+                  "item_name": "Dagger"
                }
             ]
          }]
@@ -695,14 +696,14 @@
             }],
             "unique_passive": [{
                "unique_passive_name": "Lifeline",
-               "description": "Once the hero's HP falls below 30%, gains a 510~1350 shield (scales with level) and 25 extra Magic Defense for 3s. Cooldown: 40s.",
+               "description": "When HP is about to drop below 30%, gains a 510~1350 shield (scales with level) and 25 extra Magic Defense for 3s. Cooldown: 40s.",
                "modifiers": [{}]
             }],
             "build_path": [{
                   "item_name": "Magic Blade"
                },
                {
-                  "item_name": "Dagger (Physical Attack)"
+                  "item_name": "Dagger"
                }
             ]
          }]
@@ -757,7 +758,7 @@
          "item_tier": "3",
          "item_category": "Defense",
          "data": [{
-            "cost": "1960",
+            "cost": "1910",
             "summary": "Deflect Basic ATK",
             "modifiers": [{
                "physical_defense": "90"
@@ -782,7 +783,7 @@
             ],
             "unique_passive": [{
                   "unique_passive_name": "Bladed Armor",
-                  "description": "When struck by a Basic Attack, deals Physical Damage equal to 25% of the incoming damage (calculated before Damage Reduction) plus 25% of the hero's Physical Defense to the attacker and slows them by 15% for 1s.",
+                  "description": "When struck by a Basic Attack, deals Physical Damage equal to 20% of the incoming damage (calculated before Damage Reduction) plus 20% of the hero's Physical Defense to the attacker and slows them by 15% for 1s.",
                   "modifiers": [{}]
                },
                {
@@ -811,7 +812,7 @@
          "item_category": "Defense",
          "data": [{
             "cost": "2250",
-            "summary": "null",
+            "summary": "Damage Reduction",
             "modifiers": [{
                "hp": "900",
                "physical_attack": "15",
@@ -835,7 +836,7 @@
             ],
             "unique_passive": [{
                   "unique_passive_name": "Demonize",
-                  "description": "Reduces damage taken 20% when health is less than 40% and increases your Spell Vamp by 35% for 5s. This effect has a cooldown of 60s.",
+                  "description": "Reduces damage taken by 20% when health is less than 40% and increases your Spell Vamp by 35% for 5s. This effect has a cooldown of 60s.",
                   "modifiers": [{}]
                },
                {
@@ -932,7 +933,7 @@
             }],
             "unique_passive": [{
                "unique_passive_name": "Burning Soul",
-               "description": "Deals Magic Damage equal to 1.5% of hero's Max HP per second to nearby enemies. This damage is increased by 100% against minions.",
+               "description": "Deals Magic Damage equal to 1.2% of hero's Max HP per second to nearby enemies. This damage is increased by 150% against minions.",
                "modifiers": [{}]
             }],
             "build_path": [{
@@ -992,7 +993,7 @@
          "item_category": "Defense",
          "data": [{
             "cost": "2170",
-            "summary": "Decrease Enemy Physical ATK",
+            "summary": "Decrease Enemy's Physical ATK",
             "modifiers": [{
                "hp": "920",
                "physical_defense": "54",
@@ -1092,7 +1093,7 @@
             }],
             "unique_passive": [{
                "unique_passive_name": "Shield",
-               "description": "Can be triggered when taking Magic Damage. Reduces Magic Damage taken by 25% for 5s (including the Magic Damage that triggers this effect). You will be able to trigger this effect again after leaving combat for 10s.",
+               "description": "Can be triggered when taking Magic Damage. Reduces Magic Damage taken by 25% for 3s (including the Magic Damage that triggers this effect). You will be able to trigger this effect again after leaving combat for 10s.",
                "modifiers": [{}]
             }],
             "build_path": [{
@@ -1155,7 +1156,7 @@
             "summary": "Resurrect",
             "modifiers": [{
                "hp": "800",
-               "physical_defense": "30"
+               "physical_defense": "20"
             }],
             "active": [{
                "active_name": "null",
@@ -1246,7 +1247,7 @@
             }],
             "unique_passive": [{
                "unique_passive_name": "Twilight",
-               "description": "Every 2s, the next attack deals extra Magic Damage equal to 20 plus 5% of the hero's Extra HP",
+               "description": "Every 1.5s, the next attack deals extra Magic Damage equal to 35 plus 5% of the hero's Extra HP",
                "modifiers": [{}]
             }],
             "build_path": [{
@@ -1268,7 +1269,7 @@
          "item_tier": "3",
          "item_category": "Defense",
          "data": [{
-            "cost": "1980",
+            "cost": "1880",
             "summary": "Resist Continuous Magic Damage",
             "modifiers": [{
                "hp": "950",
@@ -1293,7 +1294,7 @@
             ],
             "unique_passive": [{
                   "unique_passive_name": "Holy Blessing",
-                  "description": " Increases own Magic Damage Reduction by 3-10 upon taking Magic Damage (scales with level), lasting for 3s and stacking up to 6 times.",
+                  "description": " Increases Magic Damage Reduction by 5-8 upon taking Magic Damage (scales with level), lasting for 3s and capped at 6 stacks.",
                   "modifiers": [{}]
                },
                {
@@ -1326,7 +1327,7 @@
             "modifiers": [{}],
             "active": [{
                "active_name": "Flame Retribution",
-               "description": "Retribution damage dealt to creeps or minions is inceased to 150%. Can be used against heroes, dealing 100 True Damage and absorbing 52-80 Physical Attack and Magic Power from the target over 5s (scales with level). Only when total creep kills, hero kills, or hero kill assists reach 5 can Retribution be upgraded.",
+               "description": "Retribution damage dealt to creeps or minions is inceased to 150%. Can be used against heroes, dealing 100 True Damage and absorbing 58-100 Physical Attack and Magic Power from the target over 5s (scales with level). Only when total creep kills, hero kills, or hero kill assists reach 5 can Retribution be upgraded.",
                "modifiers": []
             }],
             "passive": [{
@@ -1424,7 +1425,7 @@
             "modifiers": [{}],
             "active": [{
                "active_name": "Bloody Retribution",
-               "description": "Damage against minions or creeps is increased to 150%. Can be cast on enemy heroes, dealing 100 True Damage and absorbing HP equal to 250 plus 25% of the caster's extra HP from the target over 5s. Only when total creep kills, hero kills, or hero kill assists reach 5 can Retribution be upgraded.",
+               "description": "Damage against minions or creeps is increased to 150%. Can be cast on enemy heroes, dealing 100 True Damage and absorbing HP equal to 250 plus 20% of the caster's extra HP from the target over 5s. Only when total creep kills, hero kills, or hero kill assists reach 5 can Retribution be upgraded.",
                "modifiers": []
             }],
             "passive": [{
@@ -1705,7 +1706,7 @@
             ],
             "unique_passive": [{
                   "unique_passive_name": "Assassination",
-                  "description": " If no damage is taken or dealt within 5s, the next Basic Attack will deal extra Magic Damage equal to 200 plus 50% Magic Power, and inflict 60% slow effects upon the target for 1.5s.",
+                  "description": " If no damage is taken or dealt within 5s, the next Basic Attack deals 200 plus 50% Magic Power as extra Magic Damage and slows the target by 60% for 1.5s.",
                   "modifiers": [{}]
                },
                {
@@ -1900,7 +1901,7 @@
             }],
             "unique_passive": [{
                "unique_passive_name": "Scorch",
-               "description": "Skill Damage will burn the targets for 3s, dealing 1% of the target's Max HP as Magic Damage per second (damaging the same target multiple times within a short duration can increase this damage to 2% at most), 10 damage minimum",
+               "description": "Skill Damage will burn the targets for 3s, dealing 0.5% of the target's Max HP as Magic Damage per second (damaging the same target multiple times within a short duration can increase this damage to 2.5% at most), 10 damage minimum",
                "modifiers": [{}]
             }],
             "build_path": [{
@@ -2009,7 +2010,7 @@
             "summary": "Final Equipment for Mage",
             "modifiers": [{
                "hp": "500",
-               "magic_power": "150"
+               "magic_power": "175"
             }],
             "active": [{
                "active_name": "null",
@@ -2162,7 +2163,7 @@
             ],
             "unique_passive": [{
                   "unique_passive_name": "Magic",
-                  "description": "Dealing damage to enemy heroes will reduce their Magic Defense by 2~9 for 2s (the Defense reduction scales with level). Stacks up to 3 times",
+                  "description": "Dealing damage to enemy heroes will reduce their Magic Defense by 3-7 for 2s (the Defense reduction scales with level). Stacks up to 3 times",
                   "modifiers": [{}]
                },
                {
