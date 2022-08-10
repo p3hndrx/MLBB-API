@@ -7190,7 +7190,7 @@
          "id": "h114",
          "hero_icon": "melissa.png",
          "discordmoji": "<:melissa:946079024717910126>",
-         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/7/74/Melissa.png/revision/latest/scale-to-width-down/177?cb=20220218031300",
+         "portrait": "https://akmweb.youngjoygame.com/web/madmin/image/ade52e885298e4a35320d3ab5900892b.png?w=150-150-453f3b",
          "release_year": "",
          "laning": [
             ""
@@ -7205,7 +7205,7 @@
          "id": "h115",
          "hero_icon": "xavier.png",
          "discordmoji": "<:xavier:946079438372745226>",
-         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/7/7d/Xavier.png/revision/latest/scale-to-width-down/177?cb=20220203075727",
+         "portrait": "https://akmweb.youngjoygame.com/web/madmin/image/3773d63a9d3f37b16106ad6eb7d32a39.png?w=150-150-fffffe",
          "release_year": "",
          "laning": [
             "mid"
@@ -7226,6 +7226,21 @@
             "exp"
          ],
          "class": "Fighter",
+         "skills": []
+      },
+      {
+         "hero_name": "Fredrinn",
+         "mlid": "117",
+         "uid": "fredrinn",
+         "id": "h117",
+         "hero_icon": "fredrinn.png",
+         "discordmoji": "<:fredrinn:1006939064802480278>",
+         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/f/f4/Hero1171-icon.png/revision/latest?cb=20220807092625",
+         "release_year": "",
+         "laning": [
+            ""
+         ],
+         "class": "Tank",
          "skills": []
       }
    ]
