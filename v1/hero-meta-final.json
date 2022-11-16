@@ -7220,7 +7220,7 @@
          "id": "h116",
          "hero_icon": "julian.png",
          "discordmoji": "<:julian:965394494335897640>",
-         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/7/77/Julian.png/revision/latest/scale-to-width-down/177?cb=20220317095222",
+         "portrait": "https://akmweb.youngjoygame.com/web/madmin/image/7eb35b7780eaa94993aaada931b28adb.png?w=150-150-0d1318",
          "release_year": "",
          "laning": [
             "exp"
@@ -7235,12 +7235,27 @@
          "id": "h117",
          "hero_icon": "fredrinn.png",
          "discordmoji": "<:fredrinn:1006939064802480278>",
-         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/f/f4/Hero1171-icon.png/revision/latest?cb=20220807092625",
+         "portrait": "https://akmweb.youngjoygame.com/web/madmin/image/5157d0f32d6032a079d4437d3320dfe1.png",
          "release_year": "",
+         "laning": [
+            "exp"
+         ],
+         "class": "Tank",
+         "skills": []
+      },
+      {
+         "hero_name": "Joy",
+         "mlid": "118",
+         "uid": "joy",
+         "id": "h118",
+         "hero_icon": "joy.png",
+         "discordmoji": "<:fredrinn:1006939064802480278>",
+         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/c/c1/Hero1181-icon.png/revision/latest?cb=20221021124924",
+         "release_year": "2022",
          "laning": [
             ""
          ],
-         "class": "Tank",
+         "class": "Assassin",
          "skills": []
       }
    ]
