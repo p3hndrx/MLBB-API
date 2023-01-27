@@ -7250,12 +7250,27 @@
          "id": "h118",
          "hero_icon": "joy.png",
          "discordmoji": "<:joy1:1042490215056547961>",
-         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/c/c1/Hero1181-icon.png/revision/latest?cb=20221021124924",
+         "portrait": "https://akmweb.youngjoygame.com/web/madmin/image/41ea7c650a26473c193f21e20fd123d6.png",
          "release_year": "2022",
          "laning": [
             ""
          ],
          "class": "Assassin",
+         "skills": []
+      },
+      {
+         "hero_name": "Arlott",
+         "mlid": "119",
+         "uid": "arlott",
+         "id": "h119",
+         "hero_icon": "arlott.png",
+         "discordmoji": "<:arlott:1068591992935821364>",
+         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/2/22/Hero1201-icon.png/revision/latest?cb=20221202134645",
+         "release_year": "2023",
+         "laning": [
+            ""
+         ],
+         "class": "Fighter",
          "skills": []
       }
    ]
