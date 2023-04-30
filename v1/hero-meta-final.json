@@ -2997,7 +2997,7 @@
          "laning": [
             "jungle"
          ],
-         "class": "Mage",
+         "class": "Assassin",
          "skills": [{
                "skill_name": "Magic Master",
                "skill_icon": "/skills/harley/Magic_Master.png",
@@ -4450,7 +4450,7 @@
             "roam",
             "exp"
          ],
-         "class": "Fighter",
+         "class": "Support",
          "skills": [{
                "skill_name": "Wrath Sanction",
                "skill_icon": "/skills/kaja/Wrath_Sanction.png",
@@ -7240,7 +7240,7 @@
          "laning": [
             "exp"
          ],
-         "class": "Tank",
+         "class": "Fighter",
          "skills": []
       },
       {
