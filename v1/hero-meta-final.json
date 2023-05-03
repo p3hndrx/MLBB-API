@@ -7272,6 +7272,21 @@
          ],
          "class": "Fighter",
          "skills": []
+      },
+      {
+         "hero_name": "Novaria",
+         "mlid": "120",
+         "uid": "novaria",
+         "id": "h120",
+         "hero_icon": "novaria.png",
+         "discordmoji": "<:novaria:1103333861145976963>",
+         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/a/a1/Hero1191-icon.png/revision/latest?cb=20230224151427",
+         "release_year": "2023",
+         "laning": [
+            ""
+         ],
+         "class": "Mage",
+         "skills": []
       }
    ]
 }
