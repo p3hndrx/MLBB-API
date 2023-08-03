@@ -7265,7 +7265,7 @@
          "id": "h119",
          "hero_icon": "arlott.png",
          "discordmoji": "<:arlott:1068591992935821364>",
-         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/2/22/Hero1201-icon.png/revision/latest?cb=20221202134645",
+         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/2/22/Hero1201-icon.png",
          "release_year": "2023",
          "laning": [
             ""
@@ -7280,12 +7280,27 @@
          "id": "h120",
          "hero_icon": "novaria.png",
          "discordmoji": "<:novaria:1103333861145976963>",
-         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/a/a1/Hero1191-icon.png/revision/latest?cb=20230224151427",
+         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/a/a1/Hero1191-icon.png",
          "release_year": "2023",
          "laning": [
             ""
          ],
          "class": "Mage",
+         "skills": []
+      },
+      {
+         "hero_name": "Ixia",
+         "mlid": "121",
+         "uid": "ixia",
+         "id": "h121",
+         "hero_icon": "ixia.png",
+         "discordmoji": "",
+         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/a/a2/Hero1211-icon.png",
+         "release_year": "2023",
+         "laning": [
+            ""
+         ],
+         "class": "Marksman",
          "skills": []
       }
    ]
