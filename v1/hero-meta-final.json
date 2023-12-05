@@ -7302,6 +7302,21 @@
          ],
          "class": "Marksman",
          "skills": []
+      },
+      {
+         "hero_name": "Nolan",
+         "mlid": "122",
+         "uid": "nolan",
+         "id": "h122",
+         "hero_icon": "nolan.png",
+         "discordmoji": "<:nolan:1181613937339420782>",
+         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/e/e1/Hero1221-icon.png",
+         "release_year": "2023",
+         "laning": [
+            ""
+         ],
+         "class": "Assassin",
+         "skills": []
       }
    ]
 }
