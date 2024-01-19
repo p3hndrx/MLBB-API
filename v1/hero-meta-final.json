@@ -7330,7 +7330,7 @@
          "laning": [
             ""
          ],
-         "class": "Assassin",
+         "class": "Fighter",
          "skills": []
       },
       {
@@ -7345,7 +7345,7 @@
          "laning": [
             ""
          ],
-         "class": "Assassin",
+         "class": "Tank",
          "skills": []
       }
    ]
