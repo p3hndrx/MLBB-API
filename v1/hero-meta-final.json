@@ -7317,6 +7317,36 @@
          ],
          "class": "Assassin",
          "skills": []
+      },
+      {
+         "hero_name": "Cici",
+         "mlid": "123",
+         "uid": "cici",
+         "id": "h123",
+         "hero_icon": "cici.png",
+         "discordmoji": "<:cici:1197941715059888178>",
+         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/6/65/Hero1231-icon.png",
+         "release_year": "2023",
+         "laning": [
+            ""
+         ],
+         "class": "Assassin",
+         "skills": []
+      },
+      {
+         "hero_name": "Chip",
+         "mlid": "124",
+         "uid": "chip",
+         "id": "h124",
+         "hero_icon": "chip.png",
+         "discordmoji": ":chip:1197941713356992582>",
+         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/9/94/Hero1241-icon.png",
+         "release_year": "2024",
+         "laning": [
+            ""
+         ],
+         "class": "Assassin",
+         "skills": []
       }
    ]
 }
