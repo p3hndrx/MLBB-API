@@ -65,7 +65,8 @@
                "monster_damage_reduction":"null",
                "monster_damage":"null"
             }
-         ]
+         ],
+         "region": ""
       }
    ]
 }
