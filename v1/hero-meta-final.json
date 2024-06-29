@@ -7339,13 +7339,28 @@
          "uid": "chip",
          "id": "h124",
          "hero_icon": "chip.png",
-         "discordmoji": ":chip:1197941713356992582>",
+         "discordmoji": "<:chip:1197941713356992582>",
          "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/9/94/Hero1241-icon.png",
          "release_year": "2024",
          "laning": [
             ""
          ],
          "class": "Tank",
+         "skills": []
+      },
+	  {
+         "hero_name": "Zhuxin",
+         "mlid": "125",
+         "uid": "zhuxin",
+         "id": "h125",
+         "hero_icon": "zhuxin.png",
+         "discordmoji": "<:zhuxin:1256741282991181855>",
+         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/0/05/Hero1251-icon.png",
+         "release_year": "2024",
+         "laning": [
+            ""
+         ],
+         "class": "Mage",
          "skills": []
       }
    ]
