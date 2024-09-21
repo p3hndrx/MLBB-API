@@ -7362,6 +7362,36 @@
          ],
          "class": "Mage",
          "skills": []
+      },
+	  {
+         "hero_name": "Suyou",
+         "mlid": "126",
+         "uid": "suyou",
+         "id": "h126",
+         "hero_icon": "suyou.png",
+         "discordmoji": "\<:suyou:1287092354741702677>",
+         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/c/c4/Hero1261-icon.png",
+         "release_year": "2024",
+         "laning": [
+            ""
+         ],
+         "class": "Assassin",
+         "skills": []
+      },
+	  {
+         "hero_name": "Lukas",
+         "mlid": "127",
+         "uid": "lukas",
+         "id": "h127",
+         "hero_icon": "lukas.png",
+         "discordmoji": "<:lukas:1287093002346430597>",
+         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/1/1c/Hero1271-icon.png",
+         "release_year": "2024",
+         "laning": [
+            ""
+         ],
+         "class": "Fighter",
+         "skills": []
       }
    ]
 }
