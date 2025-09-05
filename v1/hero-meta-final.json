@@ -7392,6 +7392,51 @@
          ],
          "class": "Fighter",
          "skills": []
+      },
+	  {
+         "hero_name": "Kalea",
+         "mlid": "128",
+         "uid": "kalea",
+         "id": "h128",
+         "hero_icon": "kalea.png",
+         "discordmoji": "<:kalea:1413608327468023921>",
+         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/5/56/Hero1281-icon.png",
+         "release_year": "2024",
+         "laning": [
+            ""
+         ],
+         "class": "Support",
+         "skills": []
+      },
+	  {
+         "hero_name": "Zetian",
+         "mlid": "129",
+         "uid": "zetian",
+         "id": "h129",
+         "hero_icon": "zetian.png",
+         "discordmoji": "<:zetian:1413608538512560239>",
+         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/5/5c/Hero1291-icon.png",
+         "release_year": "2025",
+         "laning": [
+            ""
+         ],
+         "class": "Mage",
+         "skills": []
+      },
+	  {
+         "hero_name": "Obsidia",
+         "mlid": "130",
+         "uid": "obsidia",
+         "id": "h130",
+         "hero_icon": "obsidia.png",
+         "discordmoji": "<:obsidia:1413607691246370846>",
+         "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/9/9b/Hero1301-icon.png",
+         "release_year": "2025",
+         "laning": [
+            ""
+         ],
+         "class": "Marksman",
+         "skills": []
       }
    ]
 }
