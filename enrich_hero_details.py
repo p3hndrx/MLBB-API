@@ -223,11 +223,27 @@ def enrich_heroes(hero_meta: Dict, hero_details: Dict[str, Dict]) -> Dict:
                 transformed_skill = transform_skill_data(skill)
                 hero['skills'].append(transformed_skill)
 
-        # Optional: Add additional metadata (tier, statistics, etc.)
-        # This can be stored in a separate field or used for analytics
-        if 'tier' in detail_data:
-            # Could add a 'meta' field for tier info
-            pass
+        # Add speciality
+        if 'speciality' in detail_data and detail_data['speciality']:
+            hero['speciality'] = detail_data['speciality']
+
+        # Add counters (simplified to heroid and heroname)
+        if 'counters' in detail_data and detail_data['counters']:
+            hero['counters'] = []
+            for counter in detail_data['counters']:
+                hero['counters'].append({
+                    "heroid": counter.get('id'),
+                    "heroname": counter.get('hero_name')
+                })
+
+        # Add synergies (simplified to heroid and heroname)
+        if 'synergies' in detail_data and detail_data['synergies']:
+            hero['synergies'] = []
+            for synergy in detail_data['synergies']:
+                hero['synergies'].append({
+                    "heroid": synergy.get('id'),
+                    "heroname": synergy.get('hero_name')
+                })
 
         enriched_count += 1
 

@@ -875,6 +875,78 @@
                     "manacost": "100 / 150 / 200",
                     "description": "HeartguardAttach ShieldAngela begins channeling [for 2 seconds], applying a 1000–2000 (+200–300% Total Magic Power) shield that lasts 6 seconds to the target allied hero regardless of distance. After the channeling is complete, she attaches herself to the allied hero for 12 seconds, during which she can cast skills at zero Mana cost.  Angela can cast this skill again to cancel the channeling or detach herself from the allied hero. The attaching state will end early if the allied hero is killed.S"
                 }
+            ],
+            "speciality": [
+                "Guard",
+                "Support"
+            ],
+            "counters": [
+                {
+                    "heroid": 20,
+                    "heroname": "Lolita"
+                },
+                {
+                    "heroid": 113,
+                    "heroname": "Yin"
+                },
+                {
+                    "heroid": 16,
+                    "heroname": "Zilong"
+                },
+                {
+                    "heroid": 10,
+                    "heroname": "Franco"
+                },
+                {
+                    "heroid": 48,
+                    "heroname": "Diggie"
+                },
+                {
+                    "heroid": 90,
+                    "heroname": "Silvanna"
+                },
+                {
+                    "heroid": 74,
+                    "heroname": "Minsitthar"
+                },
+                {
+                    "heroid": 87,
+                    "heroname": "Baxia"
+                }
+            ],
+            "synergies": [
+                {
+                    "heroid": 99,
+                    "heroname": "Barats"
+                },
+                {
+                    "heroid": 117,
+                    "heroname": "Fredrinn"
+                },
+                {
+                    "heroid": 87,
+                    "heroname": "Baxia"
+                },
+                {
+                    "heroid": 47,
+                    "heroname": "Lancelot"
+                },
+                {
+                    "heroid": 59,
+                    "heroname": "Uranus"
+                },
+                {
+                    "heroid": 24,
+                    "heroname": "Natalia"
+                },
+                {
+                    "heroid": 75,
+                    "heroname": "Kadita"
+                },
+                {
+                    "heroid": 67,
+                    "heroname": "Leomord"
+                }
             ]
         },
         {
