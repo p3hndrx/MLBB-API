@@ -1,6 +1,6 @@
 {
     "title": "hero-schema",
-    "revdate": "20251130",
+    "revdate": "20251226",
     "author": "p3hndrx",
     "source": "https://github.com/p3hndrx/MLBB-API",
     "data": [
@@ -16391,7 +16391,7 @@
             "hero_icon": "suyou.png",
             "discordmoji": "",
             "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_20/100_5e4ca70172332dde18bb1dc158ccc5c8.png",
-            "release_year": "",
+            "release_year": "2024",
             "laning": [
                 "jungle"
             ],
@@ -16519,7 +16519,7 @@
             "hero_icon": "lukas.png",
             "discordmoji": "",
             "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_20/100_63040edd0cf15b815fcbbb8b2d08d7f7.png",
-            "release_year": "",
+            "release_year": "2024",
             "laning": [
                 "exp lane, jungle"
             ],
@@ -16655,7 +16655,7 @@
             "hero_icon": "kalea.png",
             "discordmoji": "",
             "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_64/100_4f3d4649e301c76daf20bd8811f3095c.png",
-            "release_year": "",
+            "release_year": "2025",
             "laning": [
                 "roam"
             ],
@@ -16787,7 +16787,7 @@
             "hero_icon": "zetian.png",
             "discordmoji": "",
             "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_90/100_8d965f05f84621a51f799aeb8fb5f4c4.png",
-            "release_year": "",
+            "release_year": "2025",
             "laning": [
                 "mid lane"
             ],
@@ -16915,7 +16915,7 @@
             "hero_icon": "obsidia.png",
             "discordmoji": "",
             "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18/100_9c3daef5625bfade5c4cb8a219845dd3.png",
-            "release_year": "",
+            "release_year": "2025",
             "laning": [
                 "gold lane"
             ],
@@ -17042,6 +17042,60 @@
                     "heroname": "Kadita"
                 }
             ]
+        },
+        {
+            "hero_name": "Sora",
+            "mlid": "131",
+            "uid": "cirrus",
+            "id": "h131",
+            "hero_icon": "sora.png",
+            "discordmoji": "",
+            "portrait": "",
+            "release_year": "2025",
+            "laning": [
+                "exp lane"
+            ],
+            "class": "Fighter, Assassin",
+            "skills": [
+                {
+                    "skill_name": "Mystic Surge",
+                    "skill_icon": "hero-skills-images/sora/passive.png",
+                    "type": "passive",
+                    "cooldown": "null",
+                    "manacost": "null",
+                    "description": "Mystic SurgeBuffSora ascends to Thunder or Torrent via Ultimate. Dealing damage to heroes grants Cloudstep stacks (5 = True Art unlock). Thunder Form: Converts 30% Max HP into Physical Attack at 10% ratio, adopting an assassin style. Torrent Form: Converts each point of Physical Attack into 10 Max HP, adopting a tank style."
+                },
+                {
+                    "skill_name": "Sundering Strike",
+                    "skill_icon": "hero-skills-images/sora/skill_1.png",
+                    "type": "active",
+                    "cooldown": "5.0",
+                    "manacost": "null",
+                    "description": "Sundering StrikeDamage MobilityDefault: Strikes twice (140-220 + 50% PA), lunges forward (240-440 + 5% HP). Can dash after. Thunder (Thunderflash): Strikes four times (140-220 + 50% PA), lunges forward (240-440 + 5% HP). Free movement during. Torrent (Overwhelm): Strikes twice with 40% slow (140-220 + 50% PA), lunges with 0.5s stun (240-440 + 5% HP)."
+                },
+                {
+                    "skill_name": "Windstride",
+                    "skill_icon": "hero-skills-images/sora/skill_2.png",
+                    "type": "active",
+                    "cooldown": "8.0",
+                    "manacost": "null",
+                    "description": "WindstrideMobility DamageDefault: Leaps forward (140-200 + 55% PA), slams ground with 40% slow 0.5s (140-200 + 8% HP). CD reduced 2s on hit. Thunder (Thunder Rush): Leaps forward (140-200 + 55% PA), summons storm with 50% slow 0.5s (140-200 + 8% HP). Recastable within 4s on hit. Torrent (Skyfall): Leaps with knockback (140-200 + 55% PA), smashes ground with 0.5s airborne (140-200 + 8% HP). CD reduced 2s on hit."
+                },
+                {
+                    "skill_name": "Shifting Skies",
+                    "skill_icon": "hero-skills-images/sora/ultimate.png",
+                    "type": "active",
+                    "cooldown": "24.0",
+                    "manacost": "null",
+                    "description": "Shifting SkiesTransformation DamageThunder Ascent: Becomes untargetable briefly, summons 3 lightning strikes (140-200 + 50% PA each). 10s duration. Torrent Ascent: Pulls nearby enemies after delay, deals damage (250-450 + 8% HP). 10s duration. Thunder True Art (Heaven's Wrath): Leaps and strikes area 15 times (60-100 + 40% PA per hit). Free movement. Torrent True Art (Stormbind): Leaps and strikes area 5 times (100-150 + 6% HP per hit) with stun. Free movement, ignores terrain."
+                }
+            ],
+            "speciality": [
+                "Charge",
+                "Burst"
+            ],
+            "counters": [],
+            "synergies": []
         }
     ]
 }
