@@ -1,916 +1,197 @@
 {
-   "title":"emblem-meta-final",
-   "revdate":"02-25-2020",
-   "author":"p3hndrx",
-   "source":"https://github.com/p3hndrx/MLBB-API",
-   "data":[
-      {
-         "emblem_name":"Physical",
-         "icon":"/emblems/physical.png",
-         "emblem_role":"physical",
-         "id":"001",
-         "modifiers":[
-            {
-               "physical_attack":"14.00",
-               "hp":"267",
-               "attack_speed":"3.00%",
-               "hp_regen_rate":"18.00",
-               "critical_strike_chance":"2.00%"
-            }
-         ],
-         "data":[
-            {
-               "tier1":[
-                  {
-                     "name":"Vitality",
-                     "icon":"/subtalents/vitality.png",
-                     "modifiers":[
+    "title": "emblem-meta-final",
+    "revdate": "20251130",
+    "author": "p3hndrx",
+    "source": "https://github.com/p3hndrx/MLBB-API",
+    "data": [
+        {
+            "emblem_name": "Common",
+            "icon": "/emblems/common.png",
+            "emblem_role": "common",
+            "id": "001",
+            "modifiers": [
+                {
+                    "hybrid_regen": "12.00",
+                    "hp": "275.00",
+                    "adaptive_attack": "22.00"
+                }
+            ],
+            "data": [
+                {
+                    "tier1": [],
+                    "tier2": [],
+                    "tier3": [
                         {
-                           "hp":"200"
+                            "name": "Talent 1",
+                            "icon": "/talents/placeholder.png",
+                            "modifiers": [],
+                            "passive_ability": ""
                         }
-                     ]
-                  },
-                  {
-                     "name":"Firmness",
-                     "icon":"/subtalents/firmness.png",
-                     "modifiers":[
+                    ]
+                }
+            ]
+        },
+        {
+            "emblem_name": "Tank",
+            "icon": "/emblems/tank.png",
+            "emblem_role": "tank",
+            "id": "002",
+            "modifiers": [
+                {
+                    "hp": "500",
+                    "hybrid_defens": "10.00",
+                    "hp_regen": "4.00"
+                }
+            ],
+            "data": [
+                {
+                    "tier1": [],
+                    "tier2": [],
+                    "tier3": [
                         {
-                           "physical_defense":"12.00"
+                            "name": "Talent 1",
+                            "icon": "/talents/placeholder.png",
+                            "modifiers": [],
+                            "passive_ability": ""
                         }
-                     ]
-                  },
-                  {
-                     "name":"Shield",
-                     "icon":"/subtalents/shield.png",
-                     "modifiers":[
+                    ]
+                }
+            ]
+        },
+        {
+            "emblem_name": "Assassin",
+            "icon": "/emblems/assassin.png",
+            "emblem_role": "assassin",
+            "id": "003",
+            "modifiers": [
+                {
+                    "adaptive_penetration": "14.00",
+                    "adaptive_attack": "10.00",
+                    "movement_speed": "3.00%"
+                }
+            ],
+            "data": [
+                {
+                    "tier1": [],
+                    "tier2": [],
+                    "tier3": [
                         {
-                           "magic_defense":"12.00"
+                            "name": "Talent 1",
+                            "icon": "/talents/placeholder.png",
+                            "modifiers": [],
+                            "passive_ability": ""
                         }
-                     ]
-                  }
-               ],
-               "tier2":[
-                  {
-                     "name":"Bravery",
-                     "icon":"/subtalents/bravery.png",
-                     "modifiers":[
+                    ]
+                }
+            ]
+        },
+        {
+            "emblem_name": "Mage",
+            "icon": "/emblems/mage.png",
+            "emblem_role": "mage",
+            "id": "004",
+            "modifiers": [
+                {
+                    "magic_power": "30.00",
+                    "cooldown_reduction": "5.00%",
+                    "magic_penetration": "8.00"
+                }
+            ],
+            "data": [
+                {
+                    "tier1": [],
+                    "tier2": [],
+                    "tier3": [
                         {
-                           "physical_attack":"12.00"
+                            "name": "Talent 1",
+                            "icon": "/talents/placeholder.png",
+                            "modifiers": [],
+                            "passive_ability": ""
                         }
-                     ]
-                  },
-                  {
-                     "name":"Swift",
-                     "icon":"/subtalents/swift.png",
-                     "modifiers":[
+                    ]
+                }
+            ]
+        },
+        {
+            "emblem_name": "Fighter",
+            "icon": "/emblems/fighter.png",
+            "emblem_role": "fighter",
+            "id": "005",
+            "modifiers": [
+                {
+                    "spell_vamp": "10.00%",
+                    "adaptive_attack": "22.00",
+                    "hybrid_defense": "6.00"
+                }
+            ],
+            "data": [
+                {
+                    "tier1": [],
+                    "tier2": [],
+                    "tier3": [
                         {
-                           "attack_speed":"6.00%"
+                            "name": "Talent 1",
+                            "icon": "/talents/placeholder.png",
+                            "modifiers": [],
+                            "passive_ability": ""
                         }
-                     ]
-                  },
-                  {
-                     "name":"Fatal",
-                     "icon":"/subtalents/fatal.png",
-                     "modifiers":[
+                    ]
+                }
+            ]
+        },
+        {
+            "emblem_name": "Support",
+            "icon": "/emblems/support.png",
+            "emblem_role": "support",
+            "id": "006",
+            "modifiers": [
+                {
+                    "healing_effect": "12.00%",
+                    "cooldown_reduction": "10.00%",
+                    "moevement_speed": "6.00%"
+                }
+            ],
+            "data": [
+                {
+                    "tier1": [],
+                    "tier2": [],
+                    "tier3": [
                         {
-                           "critical_strike_chance":"3.60%"
+                            "name": "Talent 1",
+                            "icon": "/talents/placeholder.png",
+                            "modifiers": [],
+                            "passive_ability": ""
                         }
-                     ]
-                  }
-               ],
-               "tier3":[
-                  {
-                     "name":"Life Drain",
-                     "icon":"/talents/life-drain.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Killing an enemy minion restores 3% of max HP."
-                  },
-                  {
-                     "name":"Open Fire",
-                     "icon":"/talents/open-fire.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Dealing damage with skills increases physical attack by 5% for 3 seconds. This skill has a 6 second cooldown."
-                  }
-               ]
-            }
-         ]
-      },
-      {
-         "emblem_name":"Magic",
-         "icon":"/emblems/magic.png",
-         "emblem_role":"magic",
-         "id":"002",
-         "modifiers":[
-            {
-               "magic_power":"14.00",
-               "hp":"267",
-               "mana":"180",
-               "hp_regen_rate":"18.00",
-               "cd_reduction":"2.00%"
-            }
-         ],
-         "data":[
-            {
-               "tier1":[
-                  {
-                     "name":"Energy",
-                     "icon":"/subtalents/energy.png",
-                     "modifiers":[
+                    ]
+                }
+            ]
+        },
+        {
+            "emblem_name": "Marksman",
+            "icon": "/emblems/marksman.png",
+            "emblem_role": "marksman",
+            "id": "007",
+            "modifiers": [
+                {
+                    "attack_speed": "15.00%",
+                    "adaptive_attack": "16.00",
+                    "lifesteal": "5.00%"
+                }
+            ],
+            "data": [
+                {
+                    "tier1": [],
+                    "tier2": [],
+                    "tier3": [
                         {
-                           "mana":"210.00"
+                            "name": "Talent 1",
+                            "icon": "/talents/placeholder.png",
+                            "modifiers": [],
+                            "passive_ability": ""
                         }
-                     ]
-                  },
-                  {
-                     "name":"Vitality",
-                     "icon":"/subtalents/vitality.png",
-                     "modifiers":[
-                        {
-                           "hp":"200.00"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Awaken",
-                     "icon":"/subtalents/awaken.png",
-                     "modifiers":[
-                        {
-                           "mana_regen_rate":"21.00"
-                        }
-                     ]
-                  }
-               ],
-               "tier2":[
-                  {
-                     "name":"Flow",
-                     "icon":"/subtalents/flow.png",
-                     "modifiers":[
-                        {
-                           "physical_attack":"12.00"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Desire",
-                     "icon":"/subtalents/desire.png",
-                     "modifiers":[
-                        {
-                           "spell_vamp":"4.50%",
-                           "cd_reduction":"3.00%"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Observation",
-                     "icon":"/subtalents/observation.png",
-                     "modifiers":[
-                        {
-                           "magic_penetration":"6.00"
-                        }
-                     ]
-                  }
-               ],
-               "tier3":[
-                  {
-                     "name":"Energy Absorption",
-                     "icon":"URL",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Killing an enemy minion restores 2% of max HP and 3% of max MP"
-                  },
-                  {
-                     "name":"Magic Power Surge",
-                     "icon":"URL",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Dealing damage with skills increases magic attack by 11~25 (increases with hero level) for 3 seconds. This effect has a 6 second cooldown."
-                  }
-               ]
-            }
-         ]
-      },
-      {
-         "emblem_name":"Tank",
-         "icon":"/emblems/tank.png",
-         "emblem_role":"tank",
-         "id":"003",
-         "modifiers":[
-            {
-               "physical_defense":"10",
-               "magic_resistance":"10",
-               "hp":"345",
-               "hp_regen_rate":"18",
-               "cd_reduction":"2.00%"
-            }
-         ],
-         "data":[
-            {
-               "tier1":[
-                  {
-                     "name":"Vitality",
-                     "icon":"/subtalents/vitality.png",
-                     "modifiers":[
-                        {
-                           "hp":"200.00"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Firmness",
-                     "icon":"/subtalents/firmness.png",
-                     "modifiers":[
-                        {
-                           "physical_defense":"12.00"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Shield",
-                     "icon":"/subtalents/shield.png",
-                     "modifiers":[
-                        {
-                           "magic_resistance":"12.00"
-                        }
-                     ]
-                  }
-               ],
-               "tier2":[
-                  {
-                     "name":"Inspire",
-                     "icon":"/subtalents/inspire.png",
-                     "modifiers":[
-                        {
-                           "cd_reduction":"8.00%"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Fortress",
-                     "icon":"/subtalents/fortress.png",
-                     "modifiers":[
-                        {
-                           "physical_defense":"8.00%"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Purity",
-                     "icon":"/subtalents/purity.png",
-                     "modifiers":[
-                        {
-                           "magic_resistance":"8.00%"
-                        }
-                     ]
-                  }
-               ],
-               "tier3":[
-                  {
-                     "name":"Tenacity",
-                     "icon":"/talents/tenacity.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Increase physical and magical defense by 35 points when health is less than 40%."
-                  },
-                  {
-                     "name":"Brave Smite",
-                     "icon":"/talents/brave-smite.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Crowd controlling an enemy restores 5% of max HP. This effect has a 10 second cooldown."
-                  },
-                  {
-                     "name":"Attack and Defense",
-                     "icon":"/talents/attack-and-defense.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Increase physical and magical attack by 0.4% of max HP."
-                  }
-               ]
-            }
-         ]
-      },
-      {
-         "emblem_name":"Jungle",
-         "icon":"/emblems/jungle.png",
-         "emblem_role":"jungle",
-         "id":"004",
-         "modifiers":[
-            {
-               "movement_speed":"6%",
-               "physical_attack":"13",
-               "physical_lifesteal":"2.5%",
-               "hp":"306",
-               "attack_speed":"4.50%"
-            }
-         ],
-         "data":[
-            {
-               "tier1":[
-                  {
-                     "name":"Thrill",
-                     "icon":"/subtalents/thrill.png",
-                     "modifiers":[
-                        {
-                           "physical_attack":"12.00",
-                           "magic_power":"12.00"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Brutal",
-                     "icon":"/subtalents/brutal.png",
-                     "modifiers":[
-                        {
-                           "monster_damage":"21.00%"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Balance",
-                     "icon":"/subtalents/balance.png",
-                     "modifiers":[
-                        {
-                           "physical_lifesteal":"5.00%",
-                           "magic_lifesteal":"5.00%"
-                        }
-                     ]
-                  }
-               ],
-               "tier2":[
-                  {
-                     "name":"Swift",
-                     "icon":"/subtalents/swift.png",
-                     "modifiers":[
-                        {
-                           "attack_speed":"5.00%"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Knowledge",
-                     "icon":"/subtalents/knowledge.png",
-                     "modifiers":[
-                        {
-                           "bs_cd_reduction":"6.00%"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Iron",
-                     "icon":"/subtalents/iron.png",
-                     "modifiers":[
-                        {
-                           "monster_damage_reduction":"21.00%"
-                        }
-                     ]
-                  }
-               ],
-               "tier3":[
-                  {
-                     "name":"Veteran Hunter",
-                     "icon":"/talents/veteran-hunter.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Killing jungle monsters hit by Retribution grants 50 extra gold."
-                  },
-                  {
-                     "name":"Wild Power",
-                     "icon":"/talents/wild-power.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Retribution’s slow effect increased by 20%. Gain 50 extra gold if an enemy dies under Retribution effect."
-                  },
-                  {
-                     "name":"Mage Killer",
-                     "icon":"/talents/mage-killer.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Increases damage dealt to the Lord, Turtle, and Turrets by 15%. Reduce damage taken from the Lord and Turtle by 20%."
-                  }
-               ]
-            }
-         ]
-      },
-      {
-         "emblem_name":"Assassin",
-         "icon":"/emblems/assassin.png",
-         "emblem_role":"assassin",
-         "id":"005",
-         "modifiers":[
-            {
-
-            }
-         ],
-         "data":[
-            {
-               "tier1":[
-                  {
-                     "name":"Bravery",
-                     "icon":"/subtalents/bravery.png",
-                     "modifiers":[
-                        {
-                           "physical_attack":"12.00"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Mastery",
-                     "icon":"/subtalents/mastery.png",
-                     "modifiers":[
-                        {
-                           "cd_reduction":"5.00%"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Agility",
-                     "icon":"/subtalents/agility.png",
-                     "modifiers":[
-                        {
-                           "movement_speed":"6.00%"
-                        }
-                     ]
-                  }
-               ],
-               "tier2":[
-                  {
-                     "name":"Invasion",
-                     "icon":"/subtalents/invasion.png",
-                     "modifiers":[
-                        {
-                           "physical_penetration":"6.00"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Fatal",
-                     "icon":"/subtalents/fatal.png",
-                     "modifiers":[
-                        {
-                           "critical_strike_chance":"3.60%"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Bloodthirst",
-                     "icon":"/subtalents/bloodthirst.png",
-                     "modifiers":[
-                        {
-                           "spell_vamp":"5.00%"
-                        }
-                     ]
-                  }
-               ],
-               "tier3":[
-                  {
-                     "name":"Bounty Hunter",
-                     "icon":"/talents/bounty-hunter.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Gain an extra 100 gold from killing enemy hero (Up to 1300 gold)."
-                  },
-                  {
-                     "name":"High and Dry",
-                     "icon":"/talents/high-and-dry.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Increases damage by 6% on the enemy hero when there is no other heroes nearby."
-                  },
-                  {
-                     "name":"Killing Spree",
-                     "icon":"/talents/killing-spree.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Killing an enemy hero restore 15% HP and increase movement speed by 20% for 5 second."
-                  }
-               ]
-            }
-         ]
-      },
-      {
-         "emblem_name":"Mage",
-         "icon":"/emblems/mage.png",
-         "emblem_role":"mage",
-         "id":"006",
-         "modifiers":[
-            {
-               "movement_speed":"2.00%",
-               "magic_power":"17.00",
-               "magic_penetration":"13.50",
-               "spell_vamp":"5.00%",
-               "cd_reduction":"5.00%"
-            }
-         ],
-         "data":[
-            {
-               "tier1":[
-                  {
-                     "name":"Flow",
-                     "icon":"/subtalents/flow.png",
-                     "modifiers":[
-                        {
-                           "magic_power":"12.00"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Mastery",
-                     "icon":"/subtalents/mastery.png",
-                     "modifiers":[
-                        {
-                           "cd_reduction":"5.00%"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Agility",
-                     "icon":"/subtalents/agility.png",
-                     "modifiers":[
-                        {
-                           "movement_speed":"6.00%"
-                        }
-                     ]
-                  }
-               ],
-               "tier2":[
-                  {
-                     "name":"Observation",
-                     "icon":"/subtalents/observation.png",
-                     "modifiers":[
-                        {
-                           "magic_penetration":"6.00"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Catastrophe",
-                     "icon":"/subtalents/catastrophe.png",
-                     "modifiers":[
-                        {
-                           "magic_power":"5.00%"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Contract",
-                     "icon":"/subtalents/contract.png",
-                     "modifiers":[
-                        {
-                           "spell_vamp":"5.00%"
-                        }
-                     ]
-                  }
-               ],
-               "tier3":[
-                  {
-                     "name":"Mystery Shop",
-                     "icon":"/talents/mystery-shop.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Reduce the gold cost of gears to 90%."
-                  },
-                  {
-                     "name":"Magic Worship",
-                     "icon":"/talents/magic-worship.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"When dealing damage that is more than 7% of target's max HP for 3 times in 5 seconds, burns the target 3 times, each burn dealing 82-250 magic damage. This effect has 12 second cooldown."
-                  },
-                  {
-                     "name":"Impure Rage",
-                     "icon":"/talents/impure-rage.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Damaging enemies with skills will deal an extra damage equal to 4% of the target's current HP as magic damage, and restore 3% of your Mana. This effect has 5 second cooldown."
-                  }
-               ]
-            }
-         ]
-      },
-      {
-         "emblem_name":"Fighter",
-         "icon":"/emblems/fighter.png",
-         "emblem_role":"fighter",
-         "id":"007",
-         "modifiers":[
-            {
-               "physical_attack":"16.00",
-               "physical_defense":"8.00",
-               "physical_penetration":"5.00",
-               "magic_resistance":"8.00",
-               "hp":"273.00"
-            }
-         ],
-         "data":[
-            {
-               "tier1":[
-                  {
-                     "name":"Bravery",
-                     "icon":"/subtalents/bravery.png",
-                     "modifiers":[
-                        {
-                           "physical_attack":"12.00"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Firmness",
-                     "icon":"/subtalents/firmness.png",
-                     "modifiers":[
-                        {
-                           "physical_defense":"12.00"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Shield",
-                     "icon":"/subtalents/shield.png",
-                     "modifiers":[
-                        {
-                           "magic_resistance":"12.00"
-                        }
-                     ]
-                  }
-               ],
-               "tier2":[
-                  {
-                     "name":"Invasion",
-                     "icon":"/subtalents/invasion.png",
-                     "modifiers":[
-                        {
-                           "physical_penetration":"6.00"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Persistence",
-                     "icon":"/subtalents/persistence.png",
-                     "modifiers":[
-                        {
-                           "hp":"300.00"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Swift",
-                     "icon":"/subtalents/swift.png",
-                     "modifiers":[
-                        {
-                           "attack_speed":"5.00%"
-                        }
-                     ]
-                  }
-               ],
-               "tier3":[
-                  {
-                     "name":"Unbending Will",
-                     "icon":"/talents/unbending-will.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Increases damage by 0.2% for every 1% HP lost (up to 12%)."
-                  },
-                  {
-                     "name":"Festival of Blood",
-                     "icon":"/talents/festival-of-blood.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Gains 8% Spell Vamp. Killing an enemy hero grants an extra 1% Spell Vamp (up to 12%). This effect has 10 second cooldown."
-                  },
-                  {
-                     "name":"Disabling Strike",
-                     "icon":"/talents/disabling-strike.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Slowing enemy by 20% or more in single instance will increase physical attact by 30%. The effect will end after dealing damage or after 3 second."
-                  }
-               ]
-            }
-         ]
-      },
-      {
-         "emblem_name":"Support",
-         "icon":"/emblems/support.png",
-         "emblem_role":"support",
-         "id":"008",
-         "modifiers":[
-            {
-
-            }
-         ],
-         "data":[
-            {
-               "tier1":[
-                  {
-                     "name":"Mastery",
-                     "icon":"/subtalents/mastery.png",
-                     "modifiers":[
-                        {
-                           "cd_reduction":"5.00%"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Vitality",
-                     "icon":"/subtalents/vitality.png",
-                     "modifiers":[
-                        {
-                           "hp":"200.00"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Agility",
-                     "icon":"/subtalents/agility.png",
-                     "modifiers":[
-                        {
-                           "movement_speed":"6.00%"
-                        }
-                     ]
-                  }
-               ],
-               "tier2":[
-                  {
-                     "name":"Gift",
-                     "icon":"/subtalents/gift.png",
-                     "modifiers":[
-                        {
-                           "healing_effect":"9.00%"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Rupture",
-                     "icon":"/subtalents/rupture.png",
-                     "modifiers":[
-                        {
-                           "physical_penetration":"6.00",
-                           "magic_penetration":"6.00"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Recovery",
-                     "icon":"/subtalents/recovery.png",
-                     "modifiers":[
-                        {
-                           "hp_regen_rate":"15.00",
-                           "mana_regen_rate":"15.00"
-                        }
-                     ]
-                  }
-               ],
-               "tier3":[
-                  {
-                     "name":"Focusing Mark",
-                     "icon":"/talents/focusing-mark.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"After dealing damage to an enemy hero, damage dealt by allies on the same enemy hero will be increased by 6% for 3 second. This effect has 6 second cooldown."
-                  },
-                  {
-                     "name":"Avarice",
-                     "icon":"/talents/avarice.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Gains an extra 10 gold after dealing damage to enemy heroes (up to 1200 gold). This effect has 4 second cooldown."
-                  },
-                  {
-                     "name":"Pull Yourself Together",
-                     "icon":"/talents/pull-yourself-together.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Resurrecting time and battle spell cooldown is reduced by 15%."
-                  }
-               ]
-            }
-         ]
-      },
-      {
-         "emblem_name":"Marksman",
-         "icon":"/emblems/marksman.png",
-         "emblem_role":"marksman",
-         "id":"009",
-         "modifiers":[
-            {
-               "physical_attack":"17.00",
-               "physical_lifesteal":"5.00%",
-               "physical_penetration":"6",
-               "attack_speed":"7.50%",
-               "critical_strike_chance":"5.00%"
-            }
-         ],
-         "data":[
-            {
-               "tier1":[
-                  {
-                     "name":"Bravery",
-                     "icon":"/subtalents/bravery.png",
-                     "modifiers":[
-                        {
-                           "physical_attack":"12.00"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Greed",
-                     "icon":"/subtalents/greed.png",
-                     "modifiers":[
-                        {
-                           "physical_lifesteal":"5.00%"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Fatal",
-                     "icon":"/subtalents/fatal.png",
-                     "modifiers":[
-                        {
-                           "critical_strike_chance":"3.60%"
-                        }
-                     ]
-                  }
-               ],
-               "tier2":[
-                  {
-                     "name":"Doom",
-                     "icon":"/subtalents/doom.png",
-                     "modifiers":[
-                        {
-                           "critical_damage":"13.50%"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Mastery",
-                     "icon":"/subtalents/mastery.png",
-                     "modifiers":[
-                        {
-                           "cd_reduction":"5.00%"
-                        }
-                     ]
-                  },
-                  {
-                     "name":"Swift",
-                     "icon":"/subtalents/swift.png",
-                     "modifiers":[
-                        {
-                           "attack_speed":"5.00%"
-                        }
-                     ]
-                  }
-               ],
-               "tier3":[
-                  {
-                     "name":"Weapon Master",
-                     "icon":"/talents/weapon-master.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Physical damage gained from equipment is increased by 10%"
-                  },
-                  {
-                     "name":"Electro Flash",
-                     "icon":"/talents/electro-flash.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Within 1.5s of dealing damage with Basic Attacks, increases movement speed by 40% and regenerates HP equal to 30% of hero's Physical Attack. This effect has 10s cooldown."
-                  },
-                  {
-                     "name":"Weakness Finder",
-                     "icon":"/talents/weakness-finder.png",
-                     "modifiers":[
-
-                     ],
-                     "passive_ability":"Basic Attack has a 20% chance of reducing target's movement speed by 90% and attack speed by 50%. This effect has a 2 second cooldown. (Not effective for melee heroes)"
-                  }
-               ]
-            }
-         ]
-      }
-   ]
+                    ]
+                }
+            ]
+        }
+    ]
 }
