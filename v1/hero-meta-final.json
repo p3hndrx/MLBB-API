@@ -24800,7 +24800,7 @@
         {
             "hero_name": "Sora",
             "mlid": "131",
-            "uid": "cirrus",
+            "uid": "sora",
             "id": "h131",
             "hero_icon": "sora.png",
             "discordmoji": "<:sora:1454317866026270974>",
@@ -24848,6 +24848,57 @@
                 "Charge",
                 "Burst"
             ],
+            "counters": [],
+            "synergies": []
+        },
+        {
+            "hero_name": "Marcel",
+            "mlid": "132",
+            "uid": "marcel",
+            "id": "h132",
+            "hero_icon": "marcel.png",
+            "discordmoji": "",
+            "portrait": "https://static.wikia.nocookie.net/mobile-legends/images/e/ee/Hero1321-icon.png/revision/latest",
+            "release_year": "",
+            "laning": [
+                "roam"
+            ],
+            "class": "Support",
+            "skills": [
+                {
+                    "skill_name": "Platinum Snap",
+                    "skill_icon": "hero-skills-images/marcel/passive.png",
+                    "type": "passive",
+                    "cooldown": "12.0",
+                    "manacost": "null",
+                    "description": "Marcel's split soul, Clemar, enters the camera to freeze the moment. Marcel's Basic Attacks deal 50 (+40% Total Physical Attack) (+40% Total Physical Defense) (+40% Total Magic Defense) Physical Damage but cannot Crit. He cannot benefit from extra Attack Speed. Extra HP is converted into 1.5% Hybrid Defense. Clemar automatically snaps photos of nearby enemy heroes, causing a brief Frozen Moment and dealing True Damage equal to 20 + 5% of their Max HP (can trigger attack effects). It also grants a shield of the same amount to Marcel and a nearby allied hero. This effect has a 12s cooldown per target; Marcel Basic Attacks reduce that target's cooldown by 1s."
+                },
+                {
+                    "skill_name": "Framed Moment",
+                    "skill_icon": "hero-skills-images/marcel/skill_1.png",
+                    "type": "active",
+                    "cooldown": "12.5",
+                    "manacost": "40",
+                    "description": "Clemar focuses on an area around Marcel, slowing enemy heroes in range by 20%. After 2.5s, he completes the shot, dealing 370–520 (+50% Total Physical Attack) (+100% Total Physical Defense) (+100% Total Magic Defense) Physical Damage to enemies within range and immobilizing them for 1s."
+                },
+                {
+                    "skill_name": "Tracking Shot",
+                    "skill_icon": "hero-skills-images/marcel/skill_2.png",
+                    "type": "active",
+                    "cooldown": "12.5",
+                    "manacost": "70",
+                    "description": "Marcel enters Tracking Haste for 3s, gaining 15%–27.5% Movement Speed (increases to 75%–112.5% when moving toward an enemy hero). Use again: Marcel dashes in the target direction, leaving a framing phantom behind. If Framed Moment is active, Clemar remains at the original location to continue shooting."
+                },
+                {
+                    "skill_name": "Golden Hour",
+                    "skill_icon": "hero-skills-images/marcel/ultimate.png",
+                    "type": "active",
+                    "cooldown": "74.0",
+                    "manacost": "150",
+                    "description": "Marcel and Clemar perform a joint shoot. After a short delay, Clemar takes a wide-angle shot of a designated area for 3s. During this time, Marcel enters Tracking Haste within the area. All other units are put into Frozen Moment and are immune to all effects except from Marcel. All ranged Basic Attacks and projectiles are also frozen and will resolve after a delay. Golden Hour resets the cooldown of Platinum Snap for each enemy hero."
+                }
+            ],
+            "speciality": [],
             "counters": [],
             "synergies": []
         }
