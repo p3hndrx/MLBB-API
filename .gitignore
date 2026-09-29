@@ -1,1 +1,4 @@
 .DS_Store
+
+# Browser network captures (may contain session cookies/tokens)
+*.har
