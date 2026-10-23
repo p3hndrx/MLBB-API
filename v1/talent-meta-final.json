@@ -1,0 +1,187 @@
+{
+  "title": "talent-meta-final",
+  "revdate": "2026-10-23",
+  "source": "https://mlbb.tools/emblems (manually verified)",
+  "data": {
+    "tier1": [
+      {
+        "id": "agility",
+        "name": "Agility",
+        "description": "+4% Movement Speed",
+        "icon": "/talents/agility.webp"
+      },
+      {
+        "id": "fatal",
+        "name": "Fatal",
+        "description": "+5% Crit Chance, +5% Crit Damage",
+        "icon": "/talents/fatal.webp"
+      },
+      {
+        "id": "firmness",
+        "name": "Firmness",
+        "description": "+8 Physical & Magic Defense",
+        "icon": "/talents/firmness.webp"
+      },
+      {
+        "id": "inspire-talent",
+        "name": "Inspire",
+        "description": "+5% CDR, +2 Mana Regen",
+        "icon": "/talents/inspire-talent.webp"
+      },
+      {
+        "id": "rupture",
+        "name": "Rupture",
+        "description": "+5 Adaptive Penetration",
+        "icon": "/talents/rupture.webp"
+      },
+      {
+        "id": "swift",
+        "name": "Swift",
+        "description": "+10% Attack Speed",
+        "icon": "/talents/swift.webp"
+      },
+      {
+        "id": "thrill",
+        "name": "Thrill",
+        "description": "+16 Adaptive Attack",
+        "icon": "/talents/thrill.webp"
+      },
+      {
+        "id": "vitality",
+        "name": "Vitality",
+        "description": "+225 max HP",
+        "icon": "/talents/vitality.webp"
+      }
+    ],
+    "tier2": [
+      {
+        "id": "bargain-hunter",
+        "name": "Bargain Hunter",
+        "description": "Equipment costs 95% of base price",
+        "cooldown": null,
+        "icon": "/talents/bargain-hunter.webp"
+      },
+      {
+        "id": "festival-of-blood",
+        "name": "Festival of Blood",
+        "description": "+6% Spell Vamp. +0.5%/kill (max 12 stacks)",
+        "cooldown": null,
+        "icon": "/talents/festival-of-blood.webp"
+      },
+      {
+        "id": "master-assassin",
+        "name": "Master Assassin",
+        "description": "+7% damage when only 1 enemy hero nearby",
+        "cooldown": null,
+        "icon": "/talents/master-assassin.webp"
+      },
+      {
+        "id": "pull-yourself-together",
+        "name": "Pull Yourself Together",
+        "description": "-12% spell/item active CD. -1%/kill (max 8 stacks)",
+        "cooldown": null,
+        "icon": "/talents/pull-yourself-together.webp"
+      },
+      {
+        "id": "seasoned-hunter",
+        "name": "Seasoned Hunter",
+        "description": "+15% damage to Lord/Turtle (halved vs creeps)",
+        "cooldown": null,
+        "icon": "/talents/seasoned-hunter.webp"
+      },
+      {
+        "id": "tenacity",
+        "name": "Tenacity",
+        "description": "+5% Damage Reduction when HP < 50%",
+        "cooldown": null,
+        "icon": "/talents/tenacity.webp"
+      },
+      {
+        "id": "weapon-master",
+        "name": "Weapon Master",
+        "description": "+8% to equipment/emblem/talent/skill attack",
+        "cooldown": null,
+        "icon": "/talents/weapon-master.webp"
+      },
+      {
+        "id": "wilderness-blessing",
+        "name": "Wilderness Blessing",
+        "description": "+10% move speed in jungle/river (halved in hero combat)",
+        "cooldown": null,
+        "icon": "/talents/wilderness-blessing.webp"
+      }
+    ],
+    "tier3": [
+      {
+        "id": "brave-smite",
+        "name": "Brave Smite",
+        "description": "Skill damage to hero: recover 5% Max HP",
+        "cooldown": 6,
+        "icon": "/talents/brave-smite.webp"
+      },
+      {
+        "id": "concussive-blast",
+        "name": "Concussive Blast",
+        "description": "Next basic attack: 100 (+7% Total HP) magic damage to nearby enemies",
+        "cooldown": 15,
+        "icon": "/talents/concussive-blast.webp"
+      },
+      {
+        "id": "focusing-mark",
+        "name": "Focusing Mark",
+        "description": "After damaging hero: allies deal +6% damage, +10% move speed, 3s",
+        "cooldown": 4,
+        "icon": "/talents/focusing-mark.webp"
+      },
+      {
+        "id": "impure-rage",
+        "name": "Impure Rage",
+        "description": "Skills deal 4% target max HP + restore 2% Mana. Max 120 vs non-heroes.",
+        "cooldown": 5,
+        "icon": "/talents/impure-rage.webp"
+      },
+      {
+        "id": "killing-spree",
+        "name": "Killing Spree",
+        "description": "Damage to heroes <30% HP: recover 15% Lost HP + 20% move speed. Reset on kill.",
+        "cooldown": 30,
+        "icon": "/talents/killing-spree.webp"
+      },
+      {
+        "id": "lethal-ignition",
+        "name": "Lethal Ignition",
+        "description": "3 hits dealing >7% max HP in 5s: scorch for 162-750 Adaptive Damage",
+        "cooldown": 15,
+        "icon": "/talents/lethal-ignition.webp"
+      },
+      {
+        "id": "quantum-charge",
+        "name": "Quantum Charge",
+        "description": "Basic attacks: +30% move speed 1.5s, restore 75-180 HP",
+        "cooldown": 10,
+        "icon": "/talents/quantum-charge.webp"
+      },
+      {
+        "id": "temporal-reign",
+        "name": "Temporal Reign",
+        "description": "Next ult reduces other skills' CD by 1.5x for 4s (+2s on kill/assist)",
+        "cooldown": 20,
+        "icon": "/talents/temporal-reign.webp"
+      },
+      {
+        "id": "war-cry",
+        "name": "War Cry",
+        "description": "After 3 hits on enemy hero, +8% all damage for 6s",
+        "cooldown": 6,
+        "icon": "/talents/war-cry.webp"
+      },
+      {
+        "id": "weakness-finder",
+        "name": "Weakness Finder",
+        "description": "Basic attacks: -50% slow, -30% attack speed, 1s",
+        "cooldown": 10,
+        "icon": "/talents/weakness-finder.webp"
+      }
+    ]
+  }
+}

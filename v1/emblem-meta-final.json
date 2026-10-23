@@ -1,197 +1,99 @@
 {
-    "title": "emblem-meta-final",
-    "revdate": "20251130",
-    "author": "p3hndrx",
-    "source": "https://github.com/p3hndrx/MLBB-API",
-    "data": [
+  "title": "emblem-meta-final",
+  "revdate": "2026-10-23",
+  "author": "p3hndrx",
+  "source": "https://github.com/p3hndrx/MLBB-API",
+  "data": [
+    {
+      "emblem_name": "Common",
+      "icon": "/emblems/basic-common.webp",
+      "emblem_role": "common",
+      "id": "001",
+      "modifiers": [
         {
-            "emblem_name": "Common",
-            "icon": "/emblems/common.png",
-            "emblem_role": "common",
-            "id": "001",
-            "modifiers": [
-                {
-                    "hybrid_regen": "12.00",
-                    "hp": "275.00",
-                    "adaptive_attack": "22.00"
-                }
-            ],
-            "data": [
-                {
-                    "tier1": [],
-                    "tier2": [],
-                    "tier3": [
-                        {
-                            "name": "Talent 1",
-                            "icon": "/talents/placeholder.png",
-                            "modifiers": [],
-                            "passive_ability": ""
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "emblem_name": "Tank",
-            "icon": "/emblems/tank.png",
-            "emblem_role": "tank",
-            "id": "002",
-            "modifiers": [
-                {
-                    "hp": "500",
-                    "hybrid_defens": "10.00",
-                    "hp_regen": "4.00"
-                }
-            ],
-            "data": [
-                {
-                    "tier1": [],
-                    "tier2": [],
-                    "tier3": [
-                        {
-                            "name": "Talent 1",
-                            "icon": "/talents/placeholder.png",
-                            "modifiers": [],
-                            "passive_ability": ""
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "emblem_name": "Assassin",
-            "icon": "/emblems/assassin.png",
-            "emblem_role": "assassin",
-            "id": "003",
-            "modifiers": [
-                {
-                    "adaptive_penetration": "14.00",
-                    "adaptive_attack": "10.00",
-                    "movement_speed": "3.00%"
-                }
-            ],
-            "data": [
-                {
-                    "tier1": [],
-                    "tier2": [],
-                    "tier3": [
-                        {
-                            "name": "Talent 1",
-                            "icon": "/talents/placeholder.png",
-                            "modifiers": [],
-                            "passive_ability": ""
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "emblem_name": "Mage",
-            "icon": "/emblems/mage.png",
-            "emblem_role": "mage",
-            "id": "004",
-            "modifiers": [
-                {
-                    "magic_power": "30.00",
-                    "cooldown_reduction": "5.00%",
-                    "magic_penetration": "8.00"
-                }
-            ],
-            "data": [
-                {
-                    "tier1": [],
-                    "tier2": [],
-                    "tier3": [
-                        {
-                            "name": "Talent 1",
-                            "icon": "/talents/placeholder.png",
-                            "modifiers": [],
-                            "passive_ability": ""
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "emblem_name": "Fighter",
-            "icon": "/emblems/fighter.png",
-            "emblem_role": "fighter",
-            "id": "005",
-            "modifiers": [
-                {
-                    "spell_vamp": "10.00%",
-                    "adaptive_attack": "22.00",
-                    "hybrid_defense": "6.00"
-                }
-            ],
-            "data": [
-                {
-                    "tier1": [],
-                    "tier2": [],
-                    "tier3": [
-                        {
-                            "name": "Talent 1",
-                            "icon": "/talents/placeholder.png",
-                            "modifiers": [],
-                            "passive_ability": ""
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "emblem_name": "Support",
-            "icon": "/emblems/support.png",
-            "emblem_role": "support",
-            "id": "006",
-            "modifiers": [
-                {
-                    "healing_effect": "12.00%",
-                    "cooldown_reduction": "10.00%",
-                    "moevement_speed": "6.00%"
-                }
-            ],
-            "data": [
-                {
-                    "tier1": [],
-                    "tier2": [],
-                    "tier3": [
-                        {
-                            "name": "Talent 1",
-                            "icon": "/talents/placeholder.png",
-                            "modifiers": [],
-                            "passive_ability": ""
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "emblem_name": "Marksman",
-            "icon": "/emblems/marksman.png",
-            "emblem_role": "marksman",
-            "id": "007",
-            "modifiers": [
-                {
-                    "attack_speed": "15.00%",
-                    "adaptive_attack": "16.00",
-                    "lifesteal": "5.00%"
-                }
-            ],
-            "data": [
-                {
-                    "tier1": [],
-                    "tier2": [],
-                    "tier3": [
-                        {
-                            "name": "Talent 1",
-                            "icon": "/talents/placeholder.png",
-                            "modifiers": [],
-                            "passive_ability": ""
-                        }
-                    ]
-                }
-            ]
+          "hybrid_regen": "12.00",
+          "hp": "275.00",
+          "adaptive_attack": "22.00"
         }
-    ]
+      ]
+    },
+    {
+      "emblem_name": "Tank",
+      "icon": "/emblems/custom-tank.webp",
+      "emblem_role": "tank",
+      "id": "002",
+      "modifiers": [
+        {
+          "hp": "500",
+          "hybrid_defens": "10.00",
+          "hp_regen": "4.00"
+        }
+      ]
+    },
+    {
+      "emblem_name": "Assassin",
+      "icon": "/emblems/custom-assassin.webp",
+      "emblem_role": "assassin",
+      "id": "003",
+      "modifiers": [
+        {
+          "adaptive_penetration": "14.00",
+          "adaptive_attack": "10.00",
+          "movement_speed": "3.00%"
+        }
+      ]
+    },
+    {
+      "emblem_name": "Mage",
+      "icon": "/emblems/custom-mage.webp",
+      "emblem_role": "mage",
+      "id": "004",
+      "modifiers": [
+        {
+          "magic_power": "30.00",
+          "cooldown_reduction": "5.00%",
+          "magic_penetration": "8.00"
+        }
+      ]
+    },
+    {
+      "emblem_name": "Fighter",
+      "icon": "/emblems/custom-fighter.webp",
+      "emblem_role": "fighter",
+      "id": "005",
+      "modifiers": [
+        {
+          "spell_vamp": "10.00%",
+          "adaptive_attack": "22.00",
+          "hybrid_defense": "6.00"
+        }
+      ]
+    },
+    {
+      "emblem_name": "Support",
+      "icon": "/emblems/custom-support.webp",
+      "emblem_role": "support",
+      "id": "006",
+      "modifiers": [
+        {
+          "healing_effect": "12.00%",
+          "cooldown_reduction": "10.00%",
+          "moevement_speed": "6.00%"
+        }
+      ]
+    },
+    {
+      "emblem_name": "Marksman",
+      "icon": "/emblems/custom-marksman.webp",
+      "emblem_role": "marksman",
+      "id": "007",
+      "modifiers": [
+        {
+          "attack_speed": "15.00%",
+          "adaptive_attack": "16.00",
+          "lifesteal": "5.00%"
+        }
+      ]
+    }
+  ]
 }
