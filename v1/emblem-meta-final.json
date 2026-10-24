@@ -25,8 +25,8 @@
       "modifiers": [
         {
           "hp": "500",
-          "hybrid_defens": "10.00",
-          "hp_regen": "4.00"
+          "hp_regen": "4.00",
+          "hybrid_defense": "10.00"
         }
       ]
     },
@@ -78,7 +78,7 @@
         {
           "healing_effect": "12.00%",
           "cooldown_reduction": "10.00%",
-          "moevement_speed": "6.00%"
+          "movement_speed": "6.00%"
         }
       ]
     },
